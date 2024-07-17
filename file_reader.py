@@ -1,6 +1,6 @@
 import os
-from Bio import pairwise2
-from Bio.pairwise2 import format_alignment
+from Bio import Align
+
 
 """
 parameters: 
@@ -29,7 +29,7 @@ returns:
 def directory_intersection(dir1, dir2):
     files1 = os.listdir(dir1)
     files2 = os.listdir(dir2)
-    return list(set(files1) & set(files2))
+    return list(sorted(set(files1)) & sorted(set(files2)))
 
 
 """
@@ -55,7 +55,6 @@ def same_file(file1, file2):
             return True
 
 
-
 """
 paremeters:
     file1: first file
@@ -68,22 +67,20 @@ returns:
 def allele_diff(file1, file2):
     dict1 = allele_dict(file1)
     dict2 = allele_dict(file2)
-    output = (set(dict1.keys()) - set(dict2.keys())), (set(dict2.keys()) - set(dict1.keys()))
+    output = (sorted(set(dict1.keys()) - set(dict2.keys()))), sorted((set(dict2.keys()) - set(dict1.keys())))
     return output
 
 
 """
 parameters:
-    file1: first file
-    file2: second file
+    dict1: first file
+    dict2: second file
 
 returns:
-    the intersection of alleles of the two files
+    the intersection of alleles of the two dictionaries
 """
-def allele_intersection(file1, file2):
-    dict1 = allele_dict(file1)
-    dict2 = allele_dict(file2)
-    return set(dict1.keys()) & set(dict2.keys())
+def allele_intersection(dict1, dict2):
+    return sorted(set(dict1.keys()) & set(dict2.keys()))
 
 
 """
@@ -100,20 +97,27 @@ def allele_comparison(file1, file2):
     dict1 = allele_dict(file1)
     dict2 = allele_dict(file2)
     with open('output_file.txt', 'w') as f:
-        different_alleles = set()
-        for allele in allele_intersection(file1, file2):
+        f.write("Results: \n")
+        for allele in allele_diff(file1, file2)[0]:
+            f.write("New " + str(allele) + "\n")
+        for allele in allele_diff(file1, file2)[1]:
+            f.write("Deleted " + str(allele) + "\n")
+        for allele in allele_intersection(dict1, dict2):
             sequence1 = ""
             for line in dict1[allele]:
                 sequence1 += line[:-1]
             sequence2 = ""
             for line in dict2[allele]:
                 sequence2 += line[:-1]
-            if sequence1 == sequence2:
-                print("The sequence of " + str(allele) + " is the same in both files\n")
+            if hash(sequence1) == hash(sequence2):
+                f.write("Unchanged " + str(allele) + "\n")
             else:
-                different_alleles.add(allele)
-                alignments = pairwise2.align.globalxx(sequence1, sequence2)
-                print(format_alignment(*alignments[0]))
+                f.write("Modified " + str(allele) + ": \n")
+                alignment = Align.PairwiseAligner().align(sequence1, sequence2)
+                sequences = format(alignment[0], 'fasta').split('\n')
+                sequence1 = sequences[1]
+                sequence2 = sequences[3]
+                f.write(f'{generate_cigar(sequence1, sequence2)}\n')
                 
 
 """
@@ -140,6 +144,49 @@ def allele_dict(file):
             else:
                 dict[name].append(line)
             line = f.readline()
-    return dict            
+    return dict       
 
 
+def generate_cigar(seq1, seq2):
+    cigar = []
+    count = 0
+    operation = ''
+
+    for i in range(len(seq1)):
+        if seq1[i] == seq2[i]:
+            if operation == 'M':
+                count += 1
+            else:
+                if count > 0:
+                    cigar.append(f"{count}{operation}")
+                operation = 'M'
+                count = 1
+        elif seq1[i] == '-':
+            if operation == 'I':
+                count += 1
+            else:
+                if count > 0:
+                    cigar.append(f"{count}{operation}")
+                operation = 'I'
+                count = 1
+        elif seq2[i] == '-':
+            if operation == 'D':
+                count += 1
+            else:
+                if count > 0:
+                    cigar.append(f"{count}{operation}")
+                operation = 'D'
+                count = 1
+        else:
+            if operation == 'M':
+                count += 1
+            else:
+                if count > 0:
+                    cigar.append(f"{count}{operation}")
+                operation = 'M'
+                count = 1
+
+    if count > 0:
+        cigar.append(f"{count}{operation}")
+
+    return ''.join(cigar)

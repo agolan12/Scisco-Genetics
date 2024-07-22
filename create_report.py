@@ -84,8 +84,9 @@ def allele_intersection(dict1, dict2):
 
 
 """
-compares every matching allele between two files and outputs the differences in there sequences
-into a text file
+prints every new allele and deleted allele in a text file.
+Compares the sequences of every allele that is in both files and 
+outputs the differences in there sequences into a text file
 parameters:
     file1: first file (new file)
     file2: second file (old file)
@@ -115,12 +116,11 @@ def allele_comparison(file1, file2, output_file):
                 sequences = format(alignment[0], 'fasta').split('\n')
                 sequence1 = sequences[1]
                 sequence2 = sequences[3]
-                f.write(f'{generate_cigar(sequence1, sequence2)}\n')
+                f.write(f'{generate_cigar(sequence2, sequence1)}\n')
                 
 
 """
 helper method to create dictionary of alleles and there sequences
-
 parameters:
     file: the file to read from
 
@@ -145,6 +145,14 @@ def allele_dict(file):
     return dict       
 
 
+"""
+parameters:
+    seq1: first sequence
+    seq2: second sequence
+
+returns:
+    the cigar string
+"""
 def generate_cigar(seq1, seq2):
     cigar = []
     count = 0

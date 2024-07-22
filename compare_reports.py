@@ -1,7 +1,20 @@
 from networkx import intersection
 import json
 
+"""
+compares the reports from gen + nuc files with the imgt version report
 
+parameters:
+    gen_file: gen report
+    nuc_file: nuc report
+    imgt_file: imgt version report
+
+returns:
+    matches: keys that are in both reports
+    key_mismatch: keys that are in both reports but have different values
+    missing_imgt_report: keys that are in scisco report but not in imgt
+    missing_scisco_report: keys that are in imgt report but not in scisco
+"""
 def compare_reports(gen_file, nuc_file, imgt_file):
     gen_dict = create_dict(gen_file)
     nuc_dict = create_dict(nuc_file)
@@ -24,8 +37,16 @@ def compare_reports(gen_file, nuc_file, imgt_file):
     return matches, key_mismatch, missing_imgt_report, missing_scisco_report
     
 
+"""
+creates a dictionary from the report file
+keys are allele names, values are: 'New', 'Modified', 'Deleted'
 
+parameters:
+    file: the file to read from
 
+returns:
+    a dictionary of the form {allele: ['New', 'Modified', 'Deleted']}
+"""
 def create_dict(file):
     with open(file, 'r') as f:
         line = f.readline()
@@ -50,8 +71,18 @@ def create_dict(file):
     return dict
 
 
+"""
+writes the comparison results to a file
+parameters:
+    gen_report: gen report
+    nuc_report: nuc report
+    imgt_report: imgt version report
+    output_file: the file to write to
+
+returns:
+    nothing"""
 def write_comparison(gen_report, nuc_report,imgt_report, output_file):
-    good, bad, missing_imgt, missing_scisco = compare_reports('gen_report_file.txt', 'nuc_report_file.txt', '/Users/Assaf/IMGTHLA/version_report.txt')
+    good, bad, missing_imgt, missing_scisco = compare_reports(gen_report, nuc_report, imgt_report)
     total_len = len(good) + len(bad) + len(missing_imgt) + len(missing_scisco)
     gen_dict = create_dict(f'{gen_report}')
     nuc_dict = create_dict(f'{nuc_report}')
@@ -84,6 +115,11 @@ def write_comparison(gen_report, nuc_report,imgt_report, output_file):
             f.write(f'{key}:\t\t{imgt_dict[key]}\n')
 
 
+"""
+parses through deleted values in the missing set and scisco dictionary.
+used to find alleles that have been split into two or more alleles
+i.e. A:3:01 -> A:3:01:01, A:3:01:02
+"""
 def parse_deleted(missing_set, scisco_dict):
     output = {}
     for key in missing_set:

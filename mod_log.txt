@@ -1,0 +1,4813 @@
+>>> A*01:408: 
+insertion at 1: 
+C
+Insertion from 3 to 14
+GGAGCAGAGGGG
+Insertion from 16 to 17
+CA
+insertion at 20: 
+G
+Insertion from 22 to 26
+GAAGT
+Insertion from 28 to 30
+CCA
+Insertion from 32 to 42
+GGCCCCAGGCG
+Insertion from 44 to 45
+GG
+Insertion from 47 to 50
+TCTC
+Insertion from 52 to 54
+GGG
+Insertion from 56 to 59
+CTCA
+Insertion from 63 to 65
+CCC
+Insertion from 67 to 70
+AAGG
+Insertion from 72 to 90
+GGTGTATGGATTGGGGAGT
+insertion at 94: 
+A
+Insertion from 96 to 103
+CCTTGGGG
+Insertion from 105 to 110
+TTCCCC
+insertion at 112: 
+A
+insertion at 114: 
+T
+Insertion from 117 to 120
+GCAG
+Insertion from 122 to 123
+TT
+Insertion from 125 to 128
+TTTT
+insertion at 133: 
+C
+Insertion from 135 to 146
+CTCCCAACCTAC
+Insertion from 148 to 153
+TAGGGT
+insertion at 155: 
+C
+Insertion from 157 to 158
+TC
+insertion at 160: 
+T
+insertion at 162: 
+C
+Insertion from 164 to 168
+GGATA
+Insertion from 172 to 173
+AC
+Insertion from 175 to 176
+AC
+insertion at 178: 
+C
+Insertion from 181 to 185
+ACCCA
+Insertion from 187 to 188
+TT
+insertion at 190: 
+T
+insertion at 192: 
+A
+Insertion from 195 to 200
+CCCATT
+Insertion from 203 to 206
+GTGT
+Insertion from 208 to 213
+GGGTTT
+Insertion from 216 to 226
+AGAGAAGCCAA
+Insertion from 228 to 229
+CA
+Insertion from 231 to 251
+TGTCGTCGCGGTCGCTGTTCT
+Insertion from 253 to 256
+AAGT
+insertion at 259: 
+G
+insertion at 262: 
+C
+insertion at 264: 
+C
+Insertion from 268 to 276
+CACCGGGAC
+Insertion from 278 to 279
+CA
+Insertion from 281 to 290
+ATTCTCCCCA
+Insertion from 292 to 293
+AC
+insertion at 296: 
+C
+insertion at 298: 
+A
+insertion at 301: 
+A
+Insertion from 304 to 309
+GCCGTC
+insertion at 311: 
+T
+Insertion from 313 to 325
+GCGCCCCGAACCC
+Insertion from 327 to 332
+CCTCCT
+Insertion from 335 to 341
+TACTCTC
+Insertion from 346 to 349
+GCCC
+Insertion from 351 to 352
+GG
+Insertion from 354 to 356
+CCT
+Insertion from 358 to 362
+ACCCA
+Insertion from 364 to 367
+ACCT
+Insertion from 369 to 376
+GGCGGGTG
+insertion at 379: 
+T
+insertion at 381: 
+C
+Insertion from 383 to 390
+GGGTCGGG
+Insertion from 392 to 394
+GGG
+insertion at 397: 
+A
+Insertion from 3204 to 3503
+GACAGCTGCCTTGTGTGGGACTGAGAGGCAAGAGTTGTTCCTGCCCTTCCCTTTGTGACTTGAAGAACCCTGACTTTGTTTCTGCAAAGGCACCTGCATGTGTCTGTGTTCGTGTAGGCATAATGTGAGGAGGTGGGGAGAGCACCCCACCCCCATGTCCACCATGACCCTCTTCCCACGCTGACCTGTGCTCCCTCTCCAATCATCTTTCCTGTTCCAGAGAGGTGGGGCTGAGGTGTCTCCATCTCTGTCTCAACTTCATGGTGCACTGAGCTGTAACTTCTTCCTTCCCTATTAAAA
+
+
+>>> A*02:01:01:206: 
+Insertion from 3389 to 3517
+CTTCCCACGCTGACCTGTGCTCCCTCCCCAATCATCTTTCCTGTTCCAGAGAGGTGGGGCTGAGGTGTCTCCATCTCTGTCTCAACTTCATGGTGCACTGAGCTGTAACTTCTTCCTTCCCTATTAAAA
+
+
+>>> A*02:01:01:239: 
+Insertion from 1 to 14
+CAGAAGCAGAGGGG
+Insertion from 17 to 20
+AGGG
+Insertion from 22 to 26
+GAAGT
+insertion at 29: 
+C
+Insertion from 32 to 37
+GGCCCC
+Insertion from 39 to 40
+GG
+Insertion from 43 to 45
+TGG
+insertion at 47: 
+T
+Insertion from 49 to 51
+TCA
+Insertion from 53 to 58
+GGTCTC
+Insertion from 62 to 66
+CCCCG
+Insertion from 68 to 73
+AGGCGG
+Insertion from 76 to 78
+TAT
+Insertion from 80 to 90
+GATTGGGGAGT
+Insertion from 93 to 94
+CA
+Insertion from 96 to 97
+CC
+Insertion from 99 to 106
+TGGGGATT
+Insertion from 108 to 110
+CCC
+Insertion from 112 to 113
+AC
+Insertion from 115 to 116
+CC
+Insertion from 118 to 119
+CA
+Insertion from 121 to 123
+TTT
+Insertion from 125 to 146
+TTTTCTCCCTCTCCCAACCTAT
+Insertion from 148 to 153
+TAGGGT
+Insertion from 156 to 157
+TT
+Insertion from 159 to 160
+TT
+Insertion from 162 to 163
+CT
+insertion at 165: 
+G
+insertion at 167: 
+T
+insertion at 170: 
+T
+insertion at 172: 
+A
+Insertion from 174 to 186
+GACGCGGACCCAG
+insertion at 188: 
+T
+Insertion from 190 to 200
+TCACTCCCATT
+Insertion from 202 to 203
+GG
+Insertion from 205 to 206
+GT
+Insertion from 208 to 213
+GGGTTT
+Insertion from 215 to 226
+CAGAGAAGCCAA
+Insertion from 228 to 229
+CA
+Insertion from 231 to 233
+TGT
+insertion at 235: 
+G
+Insertion from 237 to 251
+CGCGGTCGCGGTTCT
+Insertion from 253 to 256
+AAGT
+Insertion from 258 to 276
+CGCACGCACCCACCGGGAC
+Insertion from 279 to 281
+AGA
+insertion at 283: 
+T
+Insertion from 285 to 290
+TCCCCA
+Insertion from 292 to 293
+AC
+Insertion from 295 to 296
+CC
+insertion at 298: 
+A
+Insertion from 301 to 304
+ATGG
+Insertion from 306 to 307
+CG
+insertion at 310: 
+A
+insertion at 315: 
+G
+Insertion from 318 to 325
+CCGAACCC
+insertion at 327: 
+C
+Insertion from 329 to 335
+TCCTGCT
+insertion at 338: 
+T
+insertion at 340: 
+T
+Insertion from 342 to 357
+GGGGGCTCTGGCCCTG
+Insertion from 359 to 362
+CCCA
+Insertion from 3243 to 3517
+AGGCAAGAGTTGTTCCTGCCCTTCCCTTTGTGACTTGAAGAACCCTGACTTTGTTTCTGCAAAGGCACCTGCATGTGTCTGTGTTCGTGTAGGCATAATGTGAGGAGGTGGGGAGACCACCCCACCCCCATGTCCACCATGACCCTCTTCCCACGCTGACCTGTGCTCCCTCCCCAATCATCTTTCCTGTTCCAGAGAGGTGGGGCTGAGGTGTCTCCATCTCTGTCTCAACTTCATGGTGCACTGAGCTGTAACTTCTTCCTTCCCTATTAAAA
+
+
+>>> A*02:01:01:41: 
+Insertion from 3315 to 3517
+ATGTGTCTGTGTTCGTGTAGGCATAATGTGAGGAGGTGGGGAGACCACCCCACCCCCATGTCCACCATGACCCTCTTCCCACGCTGACCTGTGCTCCCTCCCCAATCATCTTTCCTGTTCCAGAGAGGTGGGGCTGAGGTGTCTCCATCTCTGTCTCAACTTCATGGTGCACTGAGCTGTAACTTCTTCCTTCCCTATTAAAA
+
+
+>>> A*02:01:01:96: 
+Insertion from 1 to 14
+CAGAAGCAGAGGGG
+Insertion from 17 to 20
+AGGG
+Insertion from 22 to 26
+GAAGT
+insertion at 29: 
+C
+Insertion from 32 to 37
+GGCCCC
+Insertion from 39 to 40
+GG
+Insertion from 43 to 45
+TGG
+insertion at 47: 
+T
+Insertion from 49 to 51
+TCA
+Insertion from 53 to 58
+GGTCTC
+Insertion from 62 to 66
+CCCCG
+Insertion from 68 to 73
+AGGCGG
+Insertion from 76 to 78
+TAT
+Insertion from 80 to 90
+GATTGGGGAGT
+Insertion from 93 to 94
+CA
+Insertion from 96 to 97
+CC
+Insertion from 99 to 106
+TGGGGATT
+Insertion from 108 to 110
+CCC
+Insertion from 112 to 113
+AC
+Insertion from 115 to 116
+CC
+Insertion from 118 to 119
+CA
+Insertion from 121 to 123
+TTT
+Insertion from 125 to 146
+TTTTCTCCCTCTCCCAACCTAT
+Insertion from 148 to 153
+TAGGGT
+Insertion from 156 to 157
+TT
+Insertion from 159 to 160
+TT
+Insertion from 162 to 163
+CT
+insertion at 165: 
+G
+insertion at 167: 
+T
+insertion at 170: 
+T
+insertion at 172: 
+A
+Insertion from 174 to 186
+GACGCGGACCCAG
+insertion at 188: 
+T
+Insertion from 190 to 200
+TCACTCCCATT
+Insertion from 202 to 203
+GG
+Insertion from 205 to 206
+GT
+Insertion from 208 to 213
+GGGTTT
+Insertion from 215 to 226
+CAGAGAAGCCAA
+Insertion from 228 to 229
+CA
+Insertion from 231 to 233
+TGT
+insertion at 235: 
+G
+Insertion from 237 to 251
+CGCGGTCGCGGTTCT
+Insertion from 253 to 256
+AAGT
+Insertion from 258 to 276
+CGCACGCACCCACCGGGAC
+Insertion from 279 to 281
+AGA
+insertion at 283: 
+T
+Insertion from 285 to 290
+TCCCCA
+Insertion from 292 to 293
+AC
+Insertion from 295 to 296
+CC
+insertion at 298: 
+A
+Insertion from 301 to 304
+ATGG
+Insertion from 306 to 307
+CG
+insertion at 310: 
+A
+insertion at 315: 
+G
+Insertion from 318 to 325
+CCGAACCC
+insertion at 327: 
+C
+Insertion from 329 to 335
+TCCTGCT
+insertion at 338: 
+T
+insertion at 340: 
+T
+Insertion from 342 to 357
+GGGGGCTCTGGCCCTG
+Insertion from 359 to 362
+CCCA
+Insertion from 3243 to 3517
+AGGCAAGAGTTGTTCCTGCCCTTCCCTTTGTGACTTGAAGAACCCTGACTTTGTTTCTGCAAAGGCACCTGCATGTGTCTGTGTTCGTGTAGGCATAATGTGAGGAGGTGGGGAGACCACCCCACCCCCATGTCCACCATGACCCTCTTCCCACGCTGACCTGTGCTCCCTCCCCAATCATCTTTCCTGTTCCAGAGAGGTGGGGCTGAGGTGTCTCCATCTCTGTCTCAACTTCATGGTGCACTGAGCTGTAACTTCTTCCTTCCCTATTAAAA
+
+
+>>> A*02:01:210: 
+Insertion from 2 to 14
+AGAAGCAGAGGGG
+Insertion from 17 to 20
+AGGG
+Insertion from 22 to 26
+GAAGT
+insertion at 29: 
+C
+Insertion from 32 to 37
+GGCCCC
+Insertion from 39 to 40
+GG
+Insertion from 43 to 45
+TGG
+insertion at 47: 
+T
+Insertion from 49 to 51
+TCA
+Insertion from 53 to 58
+GGTCTC
+Insertion from 62 to 66
+CCCCG
+Insertion from 68 to 73
+AGGCGG
+Insertion from 76 to 78
+TAT
+Insertion from 80 to 90
+GATTGGGGAGT
+Insertion from 93 to 94
+CA
+Insertion from 96 to 97
+CC
+Insertion from 99 to 106
+TGGGGATT
+Insertion from 108 to 110
+CCC
+Insertion from 112 to 113
+AC
+Insertion from 115 to 116
+CC
+Insertion from 118 to 119
+CA
+Insertion from 121 to 123
+TTT
+Insertion from 125 to 146
+TTTTCTCCCTCTCCCAACCTAT
+Insertion from 148 to 153
+TAGGGT
+Insertion from 156 to 157
+TT
+Insertion from 159 to 160
+TT
+Insertion from 162 to 163
+CT
+insertion at 165: 
+G
+insertion at 167: 
+T
+insertion at 170: 
+T
+insertion at 172: 
+A
+Insertion from 174 to 186
+GACGCGGACCCAG
+insertion at 188: 
+T
+Insertion from 190 to 200
+TCACTCCCATT
+Insertion from 202 to 203
+GG
+Insertion from 205 to 206
+GT
+Insertion from 208 to 213
+GGGTTT
+Insertion from 215 to 226
+CAGAGAAGCCAA
+Insertion from 228 to 229
+CA
+Insertion from 231 to 233
+TGT
+insertion at 235: 
+G
+Insertion from 237 to 251
+CGCGGTCGCGGTTCT
+Insertion from 253 to 256
+AAGT
+Insertion from 258 to 276
+CGCACGCACCCACCGGGAC
+Insertion from 279 to 281
+AGA
+insertion at 283: 
+T
+Insertion from 285 to 290
+TCCCCA
+Insertion from 292 to 293
+AC
+Insertion from 295 to 296
+CC
+insertion at 298: 
+A
+Insertion from 301 to 304
+ATGG
+Insertion from 306 to 307
+CG
+insertion at 310: 
+A
+insertion at 315: 
+G
+Insertion from 318 to 325
+CCGAACCC
+insertion at 327: 
+C
+Insertion from 329 to 335
+TCCTGCT
+insertion at 338: 
+T
+insertion at 340: 
+T
+Insertion from 342 to 357
+GGGGGCTCTGGCCCTG
+Insertion from 359 to 362
+CCCA
+Insertion from 3243 to 3517
+AGGCAAGAGTTGTTCCTGCCCTTCCCTTTGTGACTTGAAGAACCCTGACTTTGTTTCTGCAAAGGCACCTGCATGTGTCTGTGTTCGTGTAGGCATAATGTGAGGAGGTGGGGAGACCACCCCACCCCCATGTCCACCATGACCCTCTTCCCACGCTGACCTGTGCTCCCTCCCCAATCATCTTTCCTGTTCCAGAGAGGTGGGGCTGAGGTGTCTCCATCTCTGTCTCAACTTCATGGTGCACTGAGCTGTAACTTCTTCCTTCCCTATTAAAA
+
+
+>>> A*02:01:214: 
+Insertion from 2 to 14
+AGAAGCAGAGGGG
+Insertion from 17 to 20
+AGGG
+Insertion from 22 to 26
+GAAGT
+insertion at 29: 
+C
+Insertion from 32 to 37
+GGCCCC
+Insertion from 39 to 40
+GG
+Insertion from 43 to 45
+TGG
+insertion at 47: 
+T
+Insertion from 49 to 51
+TCA
+Insertion from 53 to 58
+GGTCTC
+Insertion from 62 to 66
+CCCCG
+Insertion from 68 to 73
+AGGCGG
+Insertion from 76 to 78
+TAT
+Insertion from 80 to 90
+GATTGGGGAGT
+Insertion from 93 to 94
+CA
+Insertion from 96 to 97
+CC
+Insertion from 99 to 106
+TGGGGATT
+Insertion from 108 to 110
+CCC
+Insertion from 112 to 113
+AC
+Insertion from 115 to 116
+CC
+Insertion from 118 to 119
+CA
+Insertion from 121 to 123
+TTT
+Insertion from 125 to 146
+TTTTCTCCCTCTCCCAACCTAT
+Insertion from 148 to 153
+TAGGGT
+Insertion from 156 to 157
+TT
+Insertion from 159 to 160
+TT
+Insertion from 162 to 163
+CT
+insertion at 165: 
+G
+insertion at 167: 
+T
+insertion at 170: 
+T
+insertion at 172: 
+A
+Insertion from 174 to 186
+GACGCGGACCCAG
+insertion at 188: 
+T
+Insertion from 190 to 200
+TCACTCCCATT
+Insertion from 202 to 203
+GG
+Insertion from 205 to 206
+GT
+Insertion from 208 to 213
+GGGTTT
+Insertion from 215 to 226
+CAGAGAAGCCAA
+Insertion from 228 to 229
+CA
+Insertion from 231 to 233
+TGT
+insertion at 235: 
+G
+Insertion from 237 to 251
+CGCGGTCGCGGTTCT
+Insertion from 253 to 256
+AAGT
+Insertion from 258 to 276
+CGCACGCACCCACCGGGAC
+Insertion from 279 to 281
+AGA
+insertion at 283: 
+T
+Insertion from 285 to 290
+TCCCCA
+Insertion from 292 to 293
+AC
+Insertion from 295 to 296
+CC
+insertion at 298: 
+A
+Insertion from 301 to 304
+ATGG
+Insertion from 306 to 307
+CG
+insertion at 310: 
+A
+insertion at 315: 
+G
+Insertion from 318 to 325
+CCGAACCC
+insertion at 327: 
+C
+Insertion from 329 to 335
+TCCTGCT
+insertion at 338: 
+T
+insertion at 340: 
+T
+Insertion from 342 to 357
+GGGGGCTCTGGCCCTG
+Insertion from 359 to 362
+CCCA
+Insertion from 3243 to 3517
+AGGCAAGAGTTGTTCCTGCCCTTCCCTTTGTGACTTGAAGAACCCTGACTTTGTTTCTGCAAAGGCACCTGCATGTGTCTGTGTTCGTGTAGGCATAATGTGAGGAGGTGGGGAGACCACCCCACCCCCATGTCCACCATGACCCTCTTCCCACGCTGACCTGTGCTCCCTCCCCAATCATCTTTCCTGTTCCAGAGAGGTGGGGCTGAGGTGTCTCCATCTCTGTCTCAACTTCATGGTGCACTGAGCTGTAACTTCTTCCTTCCCTATTAAAA
+
+
+>>> A*02:05:13: 
+Insertion from 2 to 14
+AGAAGCAGAGGGG
+Insertion from 17 to 20
+AGGG
+Insertion from 22 to 26
+GAAGT
+insertion at 29: 
+C
+Insertion from 32 to 37
+GGCCCC
+Insertion from 39 to 40
+GG
+Insertion from 43 to 45
+TGG
+insertion at 47: 
+T
+Insertion from 49 to 51
+TCA
+Insertion from 53 to 58
+GGTCTC
+Insertion from 62 to 66
+CCCCG
+Insertion from 68 to 73
+AGGCGG
+Insertion from 76 to 78
+TAT
+Insertion from 80 to 90
+GATTGGGGAGT
+Insertion from 93 to 94
+CA
+Insertion from 96 to 97
+CC
+Insertion from 99 to 106
+TGGGGATT
+Insertion from 108 to 110
+CCC
+Insertion from 112 to 113
+AC
+Insertion from 115 to 116
+CC
+Insertion from 118 to 119
+CA
+Insertion from 121 to 123
+TTT
+Insertion from 125 to 146
+TTTTCTCCCTCTCCCAACCTAT
+Insertion from 148 to 153
+TAGGGT
+Insertion from 156 to 157
+TT
+Insertion from 159 to 160
+TT
+Insertion from 162 to 163
+CT
+insertion at 165: 
+G
+insertion at 167: 
+T
+insertion at 170: 
+T
+insertion at 172: 
+A
+Insertion from 174 to 186
+GACGCGGACCCAG
+insertion at 188: 
+T
+Insertion from 190 to 200
+TCACTCCCATT
+Insertion from 202 to 203
+GG
+Insertion from 205 to 206
+GT
+Insertion from 208 to 213
+GGGTTT
+Insertion from 215 to 226
+CAGAGAAGCCAA
+Insertion from 228 to 229
+CA
+Insertion from 231 to 233
+TGT
+insertion at 235: 
+G
+Insertion from 237 to 251
+CGCGGTCGCGGTTCT
+Insertion from 253 to 256
+AAGT
+Insertion from 258 to 276
+CGCACGCACCCACCGGGAC
+Insertion from 279 to 281
+AGA
+insertion at 283: 
+T
+Insertion from 285 to 290
+TCCCCA
+Insertion from 292 to 293
+AC
+Insertion from 295 to 296
+CC
+insertion at 298: 
+A
+Insertion from 301 to 304
+ATGG
+Insertion from 306 to 307
+CG
+insertion at 310: 
+A
+insertion at 315: 
+G
+Insertion from 318 to 325
+CCGAACCC
+insertion at 327: 
+C
+Insertion from 329 to 335
+TCCTGCT
+insertion at 338: 
+T
+insertion at 340: 
+T
+Insertion from 342 to 357
+GGGGGCTCTGGCCCTG
+Insertion from 359 to 362
+CCCA
+Insertion from 3243 to 3517
+AGGCAAGAGTTGTTCCTGCCCTTCCCTTTGTGACTTGAAGAACCCTGACTTTGTTTCTGCAAAGGCACCTGCATGTGTCTGTGTTCGTGTAGGCATAATGTGAGGAGGTGGGGAGACCACCCCACCCCCATGTCCACCATGACCCTCTTCCCACGCTGACCTGTGCTCCCTCCCCAATCATCTTTCCTGTTCCAGAGAGGTGGGGCTGAGGTGTCTCCATCTCTGTCTCAACTTCATGGTGCACTGAGCTGTAACTTCTTCCTTCCCTATTAAAA
+
+
+>>> A*02:1065: 
+insertion at 1: 
+C
+Insertion from 3 to 14
+GAAGCAGAGGGG
+Insertion from 16 to 17
+CA
+insertion at 20: 
+G
+Insertion from 22 to 26
+GAAGT
+Insertion from 28 to 30
+CCA
+Insertion from 32 to 42
+GGCCCCAGGCG
+Insertion from 44 to 45
+GG
+Insertion from 47 to 50
+TCTC
+Insertion from 52 to 54
+GGG
+Insertion from 56 to 59
+CTCA
+Insertion from 63 to 65
+CCC
+Insertion from 67 to 70
+AAGG
+Insertion from 72 to 90
+GGTGTATGGATTGGGGAGT
+insertion at 94: 
+A
+Insertion from 96 to 103
+CCTTGGGG
+Insertion from 105 to 110
+TTCCCC
+insertion at 112: 
+A
+insertion at 114: 
+T
+Insertion from 117 to 120
+GCAG
+Insertion from 122 to 123
+TT
+Insertion from 125 to 146
+TTTTCTCCCTCTCCCAACCTAT
+Insertion from 149 to 153
+AGGGT
+Insertion from 157 to 163
+TCTTCCT
+Insertion from 165 to 168
+GATA
+insertion at 171: 
+C
+Insertion from 174 to 186
+GACGCGGACCCAG
+insertion at 188: 
+T
+Insertion from 192 to 200
+ACTCCCATT
+insertion at 204: 
+T
+Insertion from 206 to 207
+TC
+Insertion from 209 to 213
+GGTTT
+Insertion from 215 to 226
+CAGAGAAGCCAA
+Insertion from 229 to 230
+AG
+Insertion from 233 to 234
+TC
+insertion at 236: 
+T
+insertion at 238: 
+G
+Insertion from 240 to 242
+GGT
+Insertion from 244 to 247
+GCGG
+Insertion from 249 to 254
+TCTAAA
+Insertion from 256 to 260
+TCCGC
+insertion at 263: 
+G
+insertion at 265: 
+A
+Insertion from 267 to 268
+CC
+Insertion from 270 to 271
+CC
+Insertion from 273 to 274
+GG
+insertion at 277: 
+T
+Insertion from 279 to 281
+AGA
+Insertion from 283 to 290
+TCTCCCCA
+Insertion from 292 to 293
+AC
+Insertion from 295 to 296
+CC
+Insertion from 298 to 304
+AGGATGG
+insertion at 306: 
+C
+Insertion from 308 to 311
+TCAT
+Insertion from 314 to 325
+CGCCCCGAACCC
+insertion at 327: 
+C
+Insertion from 329 to 335
+TCCTGCT
+Insertion from 337 to 341
+CTCTC
+Insertion from 343 to 347
+GGGGC
+Insertion from 349 to 350
+CT
+insertion at 352: 
+G
+Insertion from 354 to 356
+CCT
+Insertion from 358 to 362
+ACCCA
+Insertion from 364 to 367
+ACCT
+Insertion from 370 to 374
+GCGGG
+Insertion from 376 to 380
+GAGTG
+Insertion from 385 to 390
+GTCGGG
+Insertion from 3218 to 3517
+GACAGCTGCCTTGTGTGGGACTGAGAGGCAAGAGTTGTTCCTGCCCTTCCCTTTGTGACTTGAAGAACCCTGACTTTGTTTCTGCAAAGGCACCTGCATGTGTCTGTGTTCGTGTAGGCATAATGTGAGGAGGTGGGGAGACCACCCCACCCCCATGTCCACCATGACCCTCTTCCCACGCTGACCTGTGCTCCCTCCCCAATCATCTTTCCTGTTCCAGAGAGGTGGGGCTGAGGTGTCTCCATCTCTGTCTCAACTTCATGGTGCACTGAGCTGTAACTTCTTCCTTCCCTATTAAAA
+
+
+>>> A*02:131:03: 
+Insertion from 2 to 14
+AGAAGCAGAGGGG
+Insertion from 17 to 20
+AGGG
+Insertion from 22 to 26
+GAAGT
+insertion at 29: 
+C
+Insertion from 32 to 37
+GGCCCC
+Insertion from 39 to 40
+GG
+Insertion from 43 to 45
+TGG
+insertion at 47: 
+T
+Insertion from 49 to 51
+TCA
+Insertion from 53 to 58
+GGTCTC
+Insertion from 62 to 66
+CCCCG
+Insertion from 68 to 73
+AGGCGG
+Insertion from 76 to 78
+TAT
+Insertion from 80 to 90
+GATTGGGGAGT
+Insertion from 93 to 94
+CA
+Insertion from 96 to 97
+CC
+Insertion from 99 to 106
+TGGGGATT
+Insertion from 108 to 110
+CCC
+Insertion from 112 to 113
+AC
+Insertion from 115 to 116
+CC
+Insertion from 118 to 119
+CA
+Insertion from 121 to 123
+TTT
+Insertion from 125 to 142
+TTTTCTCCCTCTCCCAAC
+Insertion from 144 to 153
+TATGTAGGGT
+Insertion from 156 to 157
+TT
+Insertion from 159 to 160
+TT
+Insertion from 162 to 163
+CT
+insertion at 165: 
+G
+insertion at 167: 
+T
+insertion at 170: 
+T
+insertion at 172: 
+A
+Insertion from 174 to 186
+GACGCGGACCCAG
+insertion at 188: 
+T
+Insertion from 190 to 200
+TCACTCCCATT
+Insertion from 202 to 203
+GG
+Insertion from 205 to 206
+GT
+Insertion from 208 to 213
+GGGTTT
+Insertion from 215 to 226
+CAGAGAAGCCAA
+Insertion from 228 to 229
+CA
+Insertion from 231 to 233
+TGT
+insertion at 235: 
+G
+Insertion from 237 to 251
+CGCGGTCGCGGTTCT
+Insertion from 253 to 256
+AAGT
+Insertion from 258 to 276
+CGCACGCACCCACCGGGAC
+Insertion from 279 to 281
+AGA
+insertion at 283: 
+T
+Insertion from 285 to 290
+TCCCCA
+Insertion from 292 to 293
+AC
+Insertion from 295 to 296
+CC
+insertion at 298: 
+A
+Insertion from 301 to 304
+ATGG
+Insertion from 306 to 307
+CG
+insertion at 310: 
+A
+insertion at 315: 
+G
+Insertion from 318 to 325
+CCGAACCC
+insertion at 327: 
+C
+Insertion from 329 to 335
+TCCTGCT
+insertion at 338: 
+T
+insertion at 340: 
+T
+Insertion from 342 to 357
+GGGGGCTCTGGCCCTG
+Insertion from 359 to 362
+CCCA
+Insertion from 3243 to 3517
+AGGCAAGAGTTGTTCCTGCCCTTCCCTTTGTGACTTGAAGAACCCTGACTTTGTTTCTGCAAAGGCACCTGCATGTGTCTGTGTTCGTGTAGGCATAATGTGAGGAGGTGGGGAGACCACCCCACCCCCATGTCCACCATGACCCTCTTCCCACGCTGACCTGTGCTCCCTCCCCAATCATCTTTCCTGTTCCAGAGAGGTGGGGCTGAGGTGTCTCCATCTCTGTCTCAACTTCATGGTGCACTGAGCTGTAACTTCTTCCTTCCCTATTAAAA
+
+
+>>> A*03:01:01:03: 
+Insertion from 2 to 6
+AGGAG
+Insertion from 10 to 14
+AGGGG
+Insertion from 16 to 25
+CAGGGCGAAG
+Insertion from 28 to 42
+CCAGGGCCCCAGGCG
+Insertion from 44 to 45
+GG
+Insertion from 47 to 50
+TCTC
+Insertion from 52 to 55
+GAGT
+Insertion from 59 to 61
+AGG
+Insertion from 64 to 66
+CCG
+Insertion from 68 to 73
+AGGCGG
+insertion at 75: 
+G
+Insertion from 77 to 78
+AT
+Insertion from 81 to 83
+ATT
+Insertion from 85 to 89
+GGGAG
+Insertion from 91 to 94
+CCCA
+Insertion from 96 to 97
+CC
+Insertion from 99 to 106
+TGGGGATT
+Insertion from 108 to 116
+CCCAACTCC
+Insertion from 118 to 119
+CA
+Insertion from 121 to 146
+TTTCTTTTCTCCCTCTCCCAACCTAC
+Insertion from 149 to 152
+AGGG
+Insertion from 154 to 155
+CC
+insertion at 157: 
+T
+Insertion from 159 to 160
+AT
+Insertion from 162 to 165
+CTGG
+Insertion from 167 to 173
+TACTCAC
+insertion at 176: 
+C
+Insertion from 178 to 180
+CGG
+Insertion from 182 to 184
+CCC
+Insertion from 187 to 188
+TT
+insertion at 190: 
+T
+Insertion from 193 to 197
+CTCCC
+Insertion from 200 to 206
+TGGGTGT
+Insertion from 208 to 215
+GGGTTTCC
+Insertion from 218 to 226
+AGAAGCCAA
+Insertion from 228 to 229
+CA
+Insertion from 232 to 233
+GT
+
+
+>>> A*03:392: 
+Insertion from 3203 to 3501
+GACAGCTGCCTTGTGTGGGACTGAGAGGCAAGAGTTGTTCCTGCCCTTCCCTTTGTGACTTGAAGAACCCTGACTTTGTTTCTGCAAAGGCACCTGCATGTGTCTGTGTTCGTGTAGGCATAATGTGAGGAGGTGGGGAGACCACCCCACCCCCATGTCCACCATGACCCTCTTCCCACGCTGACCTGTGCTCCCTCCCCAATCATCTTTCCTGTTCCAGAGAGGTGGGGCTGAGGTGTCTCCATCTCTGTCTCAACTTCATGGTGCACTGAGCTGTAACTTCTTCCTTCCCTATTAAA
+
+
+>>> A*11:439: 
+Insertion from 2 to 14
+AAGAGCAGAGGGG
+Insertion from 17 to 20
+AGGG
+Insertion from 22 to 26
+GAAGT
+insertion at 29: 
+C
+Insertion from 32 to 37
+GGCCCC
+Insertion from 39 to 40
+GG
+Insertion from 42 to 45
+GTGG
+insertion at 47: 
+T
+insertion at 49: 
+T
+insertion at 51: 
+A
+Insertion from 53 to 58
+GGTCTC
+Insertion from 62 to 66
+CCCCG
+Insertion from 68 to 73
+AGGCGG
+Insertion from 76 to 78
+TAT
+Insertion from 80 to 90
+GATTGGGGAGT
+Insertion from 93 to 94
+CA
+Insertion from 96 to 97
+CC
+Insertion from 99 to 106
+TGGGGATT
+Insertion from 108 to 110
+CCC
+Insertion from 112 to 113
+AC
+Insertion from 115 to 116
+CC
+Insertion from 118 to 119
+CA
+Insertion from 121 to 123
+TTT
+Insertion from 125 to 146
+TTTTCTCCCTCTCCCAACCTAC
+Insertion from 148 to 153
+TAGGGT
+Insertion from 156 to 157
+TT
+Insertion from 159 to 160
+AT
+Insertion from 162 to 163
+CT
+insertion at 165: 
+G
+insertion at 167: 
+T
+insertion at 170: 
+T
+insertion at 172: 
+A
+Insertion from 174 to 186
+GACGCGGACCCAG
+insertion at 188: 
+T
+insertion at 190: 
+T
+Insertion from 192 to 193
+AC
+Insertion from 197 to 198
+CA
+insertion at 200: 
+T
+Insertion from 202 to 206
+GGTGT
+Insertion from 208 to 210
+GGG
+Insertion from 212 to 215
+TTCC
+Insertion from 217 to 222
+GAGAAG
+Insertion from 224 to 226
+CAA
+Insertion from 229 to 230
+AG
+Insertion from 232 to 233
+GT
+Insertion from 235 to 237
+TTC
+insertion at 239: 
+C
+Insertion from 242 to 243
+TC
+Insertion from 245 to 254
+CTCTTCTAAA
+insertion at 256: 
+T
+insertion at 259: 
+G
+Insertion from 261 to 276
+ACGCACCCACCGGGAC
+Insertion from 278 to 279
+CA
+Insertion from 281 to 290
+ATTCTCCCCA
+insertion at 292: 
+A
+Insertion from 296 to 301
+CGAGGA
+Insertion from 304 to 309
+GCCGTC
+Insertion from 311 to 313
+TGG
+insertion at 315: 
+G
+Insertion from 318 to 320
+CCG
+Insertion from 322 to 332
+ACCCTCCTCCT
+Insertion from 334 to 335
+CT
+insertion at 338: 
+T
+insertion at 341: 
+C
+Insertion from 345 to 346
+GG
+Insertion from 348 to 350
+CCT
+Insertion from 353 to 356
+CCCT
+Insertion from 358 to 366
+ACCCAGACC
+Insertion from 369 to 376
+GGCGGGTG
+Insertion from 3229 to 3503
+AGGCAAGAGTTGTTCCTGCCCTTCCCTTTGTGACTTGAAGAACCCTGACTTTGTTTCTGCAAAGGCACCTGCATGTGTCTGTGTTCGTGTAGGCATAATGTGAGGAGGTGGGGAGACCACCCCACCCCGATGTCCACCATGACCCTCTTCCCACGCTGACCTGTGCTCCCTCTCCAATCATCTTTCCTGTTCCAGAGAGGTGGGGCTGAGGTGTCTCCATCTCTGTCTCAACTTCATGGTGCACTGAGCTGTAACTTCTTCCTTCCCTATTAAAA
+
+
+>>> A*23:01:01:28: 
+Insertion from 1 to 14
+CAGAAGCAGAGGGG
+Insertion from 17 to 20
+AGGG
+Insertion from 22 to 26
+GAAGT
+insertion at 29: 
+C
+Insertion from 32 to 37
+GGCCCC
+Insertion from 39 to 40
+GG
+Insertion from 43 to 45
+TGG
+insertion at 47: 
+T
+Insertion from 49 to 51
+TCA
+Insertion from 53 to 58
+GGTCTC
+Insertion from 62 to 66
+CCCCG
+Insertion from 68 to 73
+AGGCGG
+Insertion from 76 to 78
+TAT
+Insertion from 80 to 90
+GATTGGGGAGT
+Insertion from 93 to 94
+CA
+Insertion from 96 to 97
+CC
+Insertion from 99 to 106
+TGGGGATT
+Insertion from 108 to 110
+CCC
+Insertion from 112 to 113
+AC
+Insertion from 115 to 116
+CC
+Insertion from 118 to 119
+CA
+Insertion from 121 to 123
+TTT
+Insertion from 125 to 146
+TTTTCTCCCTCTCCCAACCTAT
+Insertion from 148 to 153
+TAGGGT
+Insertion from 156 to 157
+TT
+Insertion from 159 to 160
+TT
+Insertion from 162 to 163
+CT
+insertion at 165: 
+G
+insertion at 167: 
+T
+insertion at 170: 
+T
+insertion at 172: 
+A
+Insertion from 174 to 186
+GACGCGGACCCAG
+insertion at 188: 
+T
+Insertion from 190 to 200
+TCACTCCCATT
+Insertion from 202 to 203
+GG
+Insertion from 205 to 206
+GT
+Insertion from 208 to 213
+GGGTTT
+Insertion from 215 to 226
+CAGAGAAGCCAA
+Insertion from 228 to 229
+CA
+Insertion from 231 to 233
+TGT
+insertion at 235: 
+G
+Insertion from 237 to 251
+CGCGGTCGCTGTTCT
+Insertion from 253 to 256
+AAGT
+Insertion from 258 to 276
+CGCACGCACCCACCGGGAC
+Insertion from 279 to 281
+AGA
+insertion at 283: 
+T
+Insertion from 285 to 290
+TCCCCA
+Insertion from 292 to 293
+AC
+Insertion from 295 to 296
+CC
+insertion at 298: 
+A
+Insertion from 301 to 304
+ATGG
+Insertion from 307 to 308
+GT
+insertion at 310: 
+A
+insertion at 315: 
+G
+Insertion from 318 to 325
+CCGAACCC
+insertion at 327: 
+C
+Insertion from 329 to 335
+TCCTGCT
+insertion at 338: 
+T
+insertion at 340: 
+T
+Insertion from 342 to 357
+GGGGGCCCTGGCCCTG
+Insertion from 359 to 362
+CCCA
+Insertion from 3228 to 3502
+AGGCAAGAGTTGTTCCTGCCCTTCCCTTTGTGACTTGAAGAACCCTGACTTTGTTTCTGCAAAGGCACCTGCATGTGTCTGTGTTCATGTAGGCATAATGTGAGGAGGTGGGGAGACCACCCCACCCCCATGTCCACCATGACCCTCTTCCCACGCTGACCTGTGCTCCCTCCCCAATCATCTTTCCTGTTGCAGAGAGGTGGGGCTGAGGTGTCTCCATCTCTGTCTCAACTTCATGGTGCACTGAGCTGTAACTTCTTCCTTCCCTATTAAAA
+
+
+>>> A*24:02:165: 
+Insertion from 2 to 14
+AGAAGCAGAGGGG
+Insertion from 17 to 20
+AGGG
+Insertion from 22 to 26
+GAAGT
+insertion at 29: 
+C
+Insertion from 32 to 37
+GGCCCC
+Insertion from 39 to 40
+GG
+Insertion from 43 to 45
+TGG
+insertion at 47: 
+T
+Insertion from 49 to 51
+TCA
+Insertion from 53 to 58
+GGTCTC
+Insertion from 62 to 66
+CCCCG
+Insertion from 68 to 73
+AGGCGG
+Insertion from 76 to 78
+TAT
+Insertion from 80 to 90
+GATTGGGGAGT
+Insertion from 93 to 94
+CA
+Insertion from 96 to 97
+CC
+Insertion from 99 to 106
+TGGGGATT
+Insertion from 108 to 110
+CCC
+Insertion from 112 to 113
+AC
+Insertion from 115 to 116
+CC
+Insertion from 118 to 119
+CA
+Insertion from 121 to 123
+TTT
+Insertion from 125 to 146
+TTTTCTCCCTCTCCCAACCTAT
+Insertion from 148 to 153
+TAGGGT
+Insertion from 156 to 157
+TT
+Insertion from 159 to 160
+TT
+Insertion from 162 to 163
+CT
+insertion at 165: 
+G
+insertion at 167: 
+T
+insertion at 170: 
+T
+insertion at 172: 
+A
+Insertion from 174 to 186
+GACGCGGACCCAG
+insertion at 188: 
+T
+Insertion from 190 to 200
+TCACTCCCATT
+Insertion from 202 to 203
+GG
+Insertion from 205 to 206
+GT
+Insertion from 208 to 213
+GGGTTT
+Insertion from 215 to 226
+CAGAGAAGCCAA
+Insertion from 228 to 229
+CA
+Insertion from 231 to 233
+TGT
+insertion at 235: 
+G
+Insertion from 237 to 251
+CGCGGTCGCTGTTCT
+Insertion from 253 to 256
+AAGT
+Insertion from 258 to 276
+CGCACGCACCCACCGGGAC
+Insertion from 279 to 281
+AGA
+insertion at 283: 
+T
+Insertion from 285 to 290
+TCCCCA
+Insertion from 292 to 293
+AC
+Insertion from 295 to 296
+CC
+insertion at 298: 
+A
+Insertion from 301 to 304
+ATGG
+Insertion from 307 to 308
+GT
+insertion at 310: 
+A
+insertion at 315: 
+G
+Insertion from 318 to 325
+CCGAACCC
+insertion at 327: 
+C
+Insertion from 329 to 335
+TCCTGCT
+insertion at 338: 
+T
+insertion at 340: 
+T
+Insertion from 342 to 357
+GGGGGCCCTGGCCCTG
+Insertion from 359 to 362
+CCCA
+Insertion from 3228 to 3502
+AGGCAAGAGTTGTTCCTGCCCTTCCCTTTGTGACTTGAAGAACCCTGACTTTGTTTCTGCAAAGGCACCTGCATGTGTCTGTGTTCATGTAGGCATAATGTGAGGAGGTGGGGAGACCACCCCACCCCCATGTCCACCATGACCCTCTTCCCACGCTGACCTGTGCTCCCTCCCCAATCATCTTTCCTGTTGCAGAGAGGTGGGGCTGAGGTGTCTCCATCTCTGTCTCAACTTCATGGTGCACTGAGCTGTAACTTCTTCCTTCCCTATTAAAA
+
+
+>>> A*24:616: 
+Insertion from 2 to 6
+AGAAG
+insertion at 9: 
+G
+Insertion from 11 to 14
+GGGG
+Insertion from 19 to 25
+GGCGAAG
+Insertion from 27 to 30
+CCCA
+Insertion from 32 to 42
+GGCCCCAGGCG
+Insertion from 44 to 45
+GG
+Insertion from 47 to 51
+TCTCA
+Insertion from 53 to 54
+GG
+Insertion from 57 to 59
+TCA
+insertion at 61: 
+G
+Insertion from 63 to 65
+CCC
+Insertion from 67 to 68
+AA
+Insertion from 70 to 73
+GCGG
+Insertion from 75 to 90
+GTATGGATTGGGGAGT
+Insertion from 92 to 94
+CCA
+insertion at 97: 
+C
+insertion at 99: 
+T
+Insertion from 101 to 104
+GGGA
+Insertion from 108 to 113
+CCCAAC
+Insertion from 115 to 118
+CCGC
+Insertion from 120 to 139
+GTTTCTTTTCTCCCTCTCCC
+Insertion from 142 to 146
+CCTAT
+Insertion from 149 to 153
+AGGGT
+Insertion from 156 to 163
+TTCTTCCT
+Insertion from 165 to 168
+GATA
+Insertion from 170 to 171
+TC
+insertion at 175: 
+A
+Insertion from 177 to 180
+GCGG
+Insertion from 186 to 188
+GTT
+insertion at 190: 
+T
+Insertion from 192 to 200
+ACTCCCATT
+Insertion from 204 to 215
+TGTCGGGTTTCC
+Insertion from 217 to 222
+GAGAAG
+Insertion from 224 to 226
+CAA
+Insertion from 231 to 251
+TGTCGTCGCGGTCGCTGTTCT
+Insertion from 253 to 255
+AAG
+Insertion from 257 to 276
+CCGCACGCACCCACCGGGAC
+Insertion from 279 to 281
+AGA
+insertion at 283: 
+T
+insertion at 285: 
+T
+insertion at 289: 
+C
+Insertion from 3381 to 3502
+CGCTGACCTGTGCTCCCTCCCCAATCATCTTTCCTGTTGCAGAGAGGTGGGGCTGAGGTGTCTCCATCTCTGTCTCAACTTCATGGTGCACTGAGCTGTAACTTCTTCCTTCCCTATTAAAA
+
+
+>>> A*26:01:71: 
+Insertion from 2 to 14
+AGGAGCAGAGGGG
+Insertion from 17 to 20
+AGGG
+Insertion from 22 to 26
+GAAGT
+insertion at 29: 
+C
+Insertion from 32 to 37
+GGCCCC
+Insertion from 39 to 40
+GG
+Insertion from 43 to 45
+TGG
+insertion at 47: 
+T
+Insertion from 49 to 51
+TCA
+Insertion from 53 to 58
+GGTCTC
+Insertion from 62 to 66
+CCCCG
+Insertion from 68 to 73
+AGGCGG
+Insertion from 75 to 78
+ATAT
+Insertion from 81 to 90
+ATTGGGGAGT
+Insertion from 93 to 94
+CA
+Insertion from 96 to 97
+CC
+Insertion from 99 to 106
+TGGGGATT
+Insertion from 108 to 110
+CCC
+Insertion from 112 to 113
+AC
+Insertion from 115 to 116
+CC
+Insertion from 118 to 119
+CA
+Insertion from 121 to 123
+TTT
+Insertion from 125 to 146
+TTTTCTCCCTCTCCCAACCTAT
+Insertion from 148 to 153
+TAGGGT
+Insertion from 156 to 157
+TT
+Insertion from 159 to 160
+TT
+Insertion from 162 to 163
+CT
+insertion at 165: 
+G
+insertion at 167: 
+T
+insertion at 170: 
+T
+insertion at 172: 
+A
+Insertion from 174 to 186
+GACGCGGACCCAG
+insertion at 188: 
+T
+Insertion from 190 to 200
+TCACTCCCATT
+Insertion from 202 to 203
+GG
+Insertion from 205 to 206
+GT
+Insertion from 208 to 213
+GGGTTT
+Insertion from 215 to 226
+CAGAGAAGCCAA
+Insertion from 228 to 229
+CA
+Insertion from 231 to 233
+TGT
+insertion at 235: 
+G
+Insertion from 237 to 251
+CGCGGTCGCGGTTCT
+Insertion from 253 to 256
+AAGT
+Insertion from 258 to 276
+CGCACGCACCCACCGGGAC
+Insertion from 279 to 281
+AGA
+insertion at 283: 
+T
+Insertion from 285 to 290
+TCCCCA
+Insertion from 292 to 293
+AC
+Insertion from 295 to 296
+CC
+insertion at 298: 
+A
+Insertion from 301 to 304
+ATGG
+Insertion from 307 to 308
+GT
+insertion at 310: 
+A
+insertion at 315: 
+G
+Insertion from 318 to 325
+CCGAACCC
+insertion at 327: 
+C
+Insertion from 329 to 335
+TCCTGCT
+insertion at 338: 
+T
+insertion at 340: 
+T
+Insertion from 342 to 357
+GGGGGCCCTGGCCCTG
+Insertion from 359 to 362
+CCCA
+Insertion from 3243 to 3517
+AGGCAAGATTTGTTCCTGCCCTTCCCTTTGTGACTTGAAGAACCCTGACTTTGTTTCTGCAAAGGCACCTGCATGTGTCTGTGTTCTTGTAGGCATAATGTGAGGAGGTGGGGAGACCACCCCACCCCCATGTCCACCATGACCCTCTTCCCACGCTGACCTGTGCTCCCTCCCCAATCATCTTTCCTGTTCCAGAGAGGTGGGGCTGAGGTGTCTCCATCTCTGCCTCAACTTCATGGTGCACTGAGCTGTAACTTTTTCCTTCCCTATTAAAA
+
+
+>>> A*30:02:01:18: 
+Insertion from 1 to 14
+CAGGAGCAGAGGGG
+Insertion from 17 to 20
+AGGG
+Insertion from 22 to 26
+GAAGT
+Insertion from 28 to 29
+CC
+Insertion from 31 to 42
+GGGCCCCAGGCG
+Insertion from 44 to 46
+GGC
+Insertion from 48 to 51
+CTCA
+Insertion from 56 to 59
+CTCA
+Insertion from 61 to 73
+GCCCCGAAGGCGG
+Insertion from 75 to 90
+GTATGGATTGGGGAGT
+Insertion from 92 to 94
+ACA
+Insertion from 96 to 99
+CCTT
+Insertion from 102 to 104
+GGA
+Insertion from 107 to 113
+CCCCAAC
+Insertion from 117 to 118
+GC
+Insertion from 121 to 139
+TTTCTTTTCTCCCTCTCCC
+Insertion from 141 to 146
+ACCTAC
+insertion at 148: 
+T
+Insertion from 150 to 158
+GGGTCCTTC
+Insertion from 160 to 163
+TCCT
+Insertion from 165 to 168
+GATA
+insertion at 170: 
+T
+Insertion from 173 to 174
+CG
+Insertion from 176 to 186
+CGCGGACCCAG
+insertion at 188: 
+T
+Insertion from 190 to 191
+TC
+Insertion from 193 to 200
+CTCCCATT
+Insertion from 202 to 203
+GG
+Insertion from 209 to 210
+GG
+Insertion from 212 to 213
+TT
+Insertion from 215 to 216
+CA
+Insertion from 218 to 222
+AGAAG
+Insertion from 224 to 229
+CAATCA
+insertion at 231: 
+T
+insertion at 236: 
+T
+Insertion from 238 to 241
+GCGG
+insertion at 243: 
+C
+insertion at 245: 
+C
+insertion at 247: 
+G
+insertion at 249: 
+T
+Insertion from 3267 to 3503
+AGAACCCTGACTTTGTTTCTGCAAAGGCACCTGCATGTGTCTGTGTTCGTGTAGGCATAATGTGAGGAGGTGGGGAGACCACCCCACCCCCATGTCCACCATGACCCTCTTCCCACGCTGACCTGTGCTCCCTCCCCAATCATCTTTCCTGTTCCAGAGAGGTGGGGCTGAGGTGTCTCCATCTCTGTCTCAACTTCATGGTGCACTGAGCTGTAACTTCTTCCTTCCCTATTAAAA
+
+
+>>> A*43:03: 
+Insertion from 2 to 6
+AGGAG
+insertion at 9: 
+G
+Insertion from 11 to 14
+GGGG
+Insertion from 19 to 25
+GGCGAAG
+Insertion from 27 to 30
+CCCA
+Insertion from 32 to 42
+GGCCCCAGGCG
+Insertion from 44 to 45
+GG
+Insertion from 47 to 51
+TCTCA
+Insertion from 53 to 54
+GG
+Insertion from 57 to 59
+TCA
+insertion at 61: 
+G
+Insertion from 63 to 65
+CCC
+Insertion from 67 to 68
+AA
+Insertion from 70 to 73
+GCGG
+Insertion from 75 to 90
+ATATGGATTGGGGAGT
+Insertion from 92 to 94
+CCA
+Insertion from 97 to 99
+CTT
+Insertion from 102 to 104
+GGA
+Insertion from 108 to 113
+CCCAAC
+Insertion from 115 to 118
+CCGC
+Insertion from 120 to 139
+GTTTCTTTTCTCCCTCTCCC
+Insertion from 142 to 146
+CCTAT
+Insertion from 149 to 153
+AGGGT
+Insertion from 156 to 163
+TTCTTCCT
+Insertion from 165 to 168
+GATA
+Insertion from 170 to 171
+TC
+insertion at 175: 
+A
+Insertion from 177 to 180
+GCGG
+Insertion from 186 to 188
+GTT
+insertion at 190: 
+T
+Insertion from 192 to 200
+ACTCCCATT
+Insertion from 204 to 215
+TGTCGGGTTTCC
+Insertion from 217 to 222
+GAGAAG
+Insertion from 224 to 226
+CAA
+Insertion from 231 to 251
+TGTCGTCGCGGTCGCGGTTCT
+Insertion from 253 to 255
+AAG
+Insertion from 257 to 276
+CCGCACGCACCCACCGGGAC
+Insertion from 279 to 281
+AGA
+insertion at 283: 
+T
+insertion at 285: 
+T
+insertion at 289: 
+C
+Insertion from 3395 to 3517
+ACGCTGACCTGTGCTCCCTCCCCAATCATCTTTCCTGTTCCAGAGAGGTGGGGCTGAGGTGTCTCCATCTCTGCCTCAACTTCATGGTGCACTGAGCTGTAACTTTTTCCTTCCCTATTAAAA
+
+
+>>> A*80:01:01:02: 
+Insertion from 3303 to 3506
+ATGTGTCTGTGTTGGTGTAGGCATAATGTGAGGAGATAGGGGAGACCACCCCACCCCCATGTCCACCATGACCCTCTTCCCACGCTGACCTGTGCTCCCTCCCCAGTCATCTTTCCTGTTCCAGAGAGGTGGGGCTGAGGTGTCTCCATCTCTGTCTCAACTTCATGGTGCATTGAGCTGTAACTTTTTCCTTCCCTATTAAAA
+
+
+>>> B*14:105: 
+Insertion from 3843 to 3874
+TCCTGCCCTGCTTCTAGAGCTCCTTTTCTGCT
+
+
+>>> B*18:03:01:01: 
+Insertion from 3324 to 3885
+GTTCCCATGCTGACCTGTGTTTCCTCCCCAGTCATCTTTCTTGTTCCAGAGAGGTGGGGCTGGATGTCTCCATCTCTGTCTCAACTTTATGTGCACTGAGCTGCAACTTCTTACTTCCCTACTGAAAATAAGAATCTGAATATAAATTTGTTTTCTCAAATATTTGCTATGAGAGGTTGATGGATTAATTAAATAAGTCAATTCCTGGAATTTGAGAGAGCAAATAAAGACCTGAGAACCTTCCAGAATCTGCATGTTCGCTGTGCTGAGTCTGTTGCAGGTGGGGTGTGGAGAAGGCTGTGGGGGGCCGAGTGTGGATGGGGCCTGTGCCCATTTGGTGTTGAGTCCATCATGGGCTTTATGTGGTTAGTCCTCAGCTGGGTCACCTTCACTGCTCCATTGTCCTTGTCCCTTCAGTGGAAACTTGTCCAGTGGGAGCTGTGACCACAGAGGCTCACACATCGCCCAGGGCGGCCCCTGCACACGGGGGTCTCTGTGCATTCTGAGACAAATTTTCAGAGCCATTCACCTCCTGCTCTGCTTCTAGAGCTCCTTTTCTGCT
+
+
+>>> B*35:01:01:33: 
+Insertion from 2992 to 3317
+GTCTAGAGTGGGCGGGGGGGGCGGGGAGGGGGCAGAGGGGAAAGGCCTGGGTAATGGAGATTCTTTGATTGGGATGTTTCGCGTGTGTCGTGGGCTGTTCAGAGTGTCATCACTTACCATGACTAACCAGAATTTGTTCATGACTGTTGTTTTCTGTAGCCTGAGACAGCTGTCTTGTGAGGGACTGAGATGCAGGATTTCTTCACTCCTCCCCTTTGTGACTTCAAGAGCCTCTGGCATCTCTTTCTGCAAAGGCACCTGAATGTGTCTGCGTCCCTGTTAGCCTAATGTGAGGAGGTGGAGAGACAGCCCACCCCCGTGTCCAC
+
+
+>>> B*35:01:01:49: 
+Insertion from 3832 to 4085
+GAGACAAATTTTCAGAGCCATTCACCTCCTGCCCTGCTTCTAGAGCTCCTTTTCTGCTCTGCTCTCCTGCCCTCTCTCCCTGCCCTGGTTCTAGTGATCTTGGTGCTGAATCCAATCCCAACTCATGAATCTGTAAAGCAGAGTCTAATTTAGACTTACATTTGTCTGTGAAATTGGACCCGTCATCAAGGACTGTTCTTTCCTGAAGAGAGAACCTGATTGTGTGCTGCAGTGTGCTGGGGCAGGGGGTGCGG
+
+
+>>> B*35:01:01:55: 
+Insertion from 1 to 2
+GT
+Insertion from 4 to 6
+CCC
+Insertion from 8 to 10
+TTT
+insertion at 16: 
+T
+Insertion from 19 to 22
+CATT
+Insertion from 25 to 31
+GTGTCGG
+Insertion from 33 to 35
+TAT
+Insertion from 38 to 44
+AGAGAAG
+insertion at 46: 
+C
+Insertion from 48 to 51
+ATCA
+Insertion from 53 to 67
+TGTCGCCGGGGTCCC
+Insertion from 69 to 73
+GTTCT
+Insertion from 75 to 77
+AAG
+Insertion from 80 to 98
+CCCACGCACCCACCCGGAC
+Insertion from 101 to 105
+AGAAT
+Insertion from 109 to 111
+CTC
+Insertion from 2811 to 3062
+AAAGGTGAGATTCTTGGGGTCTAGAGTGGGCGGGGGGGCGGGGAGGGGGCAGAGGGGAAAGGCCTGGGTAATGGAGATTCTTTGATTGGGATGTTTCGCGTGTGTCGTGGGCTGTTCAGAGTGTCATCACTTACCATGACTAACCAGAATTTGTTCATGACTGTTGTTTTCTGTAGCCTGAGACAGCTGTCTTGTGAGGGACTGAGATGCAGGATTTCTTCACTCCTCCCCTTTGTGACTTCAAGAGCCTCT
+
+
+>>> B*35:03:01:14: 
+Insertion from 2992 to 3328
+GTCTAGAGTGGGTGGGGTGGCAGGTCTGGGGGCGGGGAGGGGGCAGAGGGGAAAGGCCTGGGTAATGGAGATTCTTTGATTGGGATGTTTCGCGTGTGTCGTGGGCTGTTCAGAGTGTCATCACTTACCATGACTAACCAGAATTTGTTCATGACTGTTGTTTTCTGTAGCCTGAGACAGCTGTCTTGTGAGGGACTGAGATGCAGGATTTCTTCACTCCTCCCCTTTGTGACTTCAAGAGCCTCTGGCATCTCTTTCTGCAAAGGCACCTGAATGTGTCTGCGTCCCTGTTAGCCTAATGTGAGGAGGTGGAGAGACAGCCCACCCCCGTGTCCAC
+
+
+>>> B*35:03:01:24: 
+Insertion from 3013 to 3328
+AGGTCTGGGGGCGGGGAGGGGGCAGAGGGGAAAGGCCTGGGTAATGGAGATTCTTTGATTGGGATGTTTCGCGTGTGTCGTGGGCTGTTCAGAGTGTCATCACTTACCATGACTAACCAGAATTTGTTCATGACTGTTGTTTTCTGTAGCCTGAGACAGCTGTCTTGTGAGGGACTGAGATGCAGGATTTCTTCACTCCTCCCCTTTGTGACTTCAAGAGCCTCTGGCATCTCTTTCTGCAAAGGCACCTGAATGTGTCTGCGTTCCTGTTAGCATAATGTGAGGAGGTGGAGAGACAGCCCACCCCCGTGTCCAC
+
+
+>>> B*35:09:01:01: 
+Insertion from 3859 to 3889
+CCTGCCCTGCTTCTAGAGCTCCTTTTCTGTT
+
+
+>>> B*40:01:02:33: 
+Insertion from 3828 to 4081
+GAGACAAATTTTCAGAGCCATTCACCTCCTGCCCTGCTTCTAGAGCTCCTTTTCTGCTCTGCTCTTCTGCCCTCTCTCCCTGCCCTGGTTCTAGTGATCTTGGTGCTGAATCCAATCCCAACTCATGAATCTGTAAAGCAGAGTCTAATTTAGACTTACATTTGTCTGTGAAATTGGACCCGTCATCAAGGACTGTTCTTTCCTGAAGAGAGAACCTGATTGTGTGCTGCAGTGTGCTGGGGCAGGGGGTGCGG
+
+
+>>> B*40:01:70: 
+Insertion from 3828 to 4081
+GAGACAAATTTTCAGAGCCATTCACCTCCTGCCCTGCTTCTAGAGCTCCTTTTCTGCTCTGCTCTTCTGCCCTCTCTCCCTGCCCTGGTTCTAGTGATCTTGGTGCTGAATCCAATCCCAACTCATGAATCTGTAAAGCAGAGTCTAATTTAGACTTACATTTGTCTGTGAAATTGGACCCGTCATCAAGGACTGTTCTTTCCTGAAGAGAGAACCTGATTGTGTGCTGCAGTGTGCTGGGGCAGGGGGTGCGG
+
+
+>>> B*40:02:01:16: 
+Insertion from 3830 to 4083
+GAGACAAATTTTCAGAGCCATTCACCTCCTGCCCTGCTTCTAGAGCTCCTTTTCTGCTCTGCTCTTCTGCCCTCTCTCCCTGCCCTGGTTCTAGTGATCTTGGTGCTGAATCCAATCCCAACTCATGAATCTGTAAAGCAGAGTCTAATTTAGACTTACATTTGTCTGTGAAATTGGACCCATCATCAAGGACTGTTCTTTCCTGAAGGGAGAACCTGATTGTGTGCTGCAGTGTGCTGGGGCAGGGGGTGCGG
+
+
+>>> B*40:02:01:17: 
+Insertion from 3830 to 4083
+GAGACAAATTTTCAGAGCCATTCACCTCCTGCCCTGCTTCTAGAGCTCCTTTTCTGCTCTGCTCTTCTGCCCTCTCTCCCTGCCCTGGTTCTAGTGATCTTGGTGCTGAATCCAATCCCAACTCATGAATCTGTAAAGCAGAGTCTAATTTAGACTTACATTTGTCTGTGAAATTGGACCCATCATCAAGGACTGTTCTTTCCTGAAGGGAGAACCTGATTGTGTGCTGCAGTGTGCTGGGGCAGGGGGTGCGG
+
+
+>>> B*40:06:04:01: 
+Insertion from 3325 to 3886
+GTTCCCATGCTGACCTGTGTTTCCTCCCCAGTCATCTTTCCTGTTCCAGAGAGGTGGGGCTGGATGTCTCCATCTCTGTCTCAACTTTATGTGCACTGAGCTGCAACTTCTTACTTCCCTACTGAAAATAAGAATCTGAATATAAATTTGTTTTCTCAAATATTTGCTATGAGAGGTTGATGGATTAATTAAATAAGTCAATTCCTGGAATTTGAGAGAGCAAATAAAGACCTGAGAACCTTCCAGAATCTGCATGTTCGCTGTGCTGAGTCTGTTGCAGGTGGGGTGTGGAGAAGGCTGTGGGGGGCCGAGTGTGGACGGGGCCTGTGCCCATTTGGTGTTGAGTCCATCATGGGCTTTATGTGGTTAGTCCTCAGCTGGGTCACCTTCACTGCTCCATTGTCCTTGTCCCTTCAGTGGAAACTTGTCCAGTGGGAGCTGTGACCACAGAGGCTCACACATCGCCCTGGGCGGCCCCTGCACACGGGGGTCTCTGTGCATTCTGAGACAAATTTTCAGAGCCATTCACCTCCTGCCCTGCTTCTAGAGCTCCTTTTCTGCT
+
+
+>>> B*41:01:01:01: 
+Insertion from 3851 to 3884
+CCTCCTGCCCTGCTTGTAGAGCTCCTTTTCTGCT
+
+
+>>> B*44:02:01:54: 
+Insertion from 3854 to 3885
+TCCTGCCCTGCTTCTAGAGCTCCTTTTCTGCT
+
+
+>>> B*44:02:80: 
+Insertion from 1 to 3
+GAT
+Insertion from 6 to 8
+GGA
+Insertion from 10 to 14
+GAAGT
+insertion at 17: 
+C
+Insertion from 19 to 21
+GGT
+Insertion from 29 to 33
+GGGGC
+Insertion from 36 to 37
+TC
+Insertion from 40 to 45
+GGTCTC
+Insertion from 47 to 53
+GGCTCCG
+Insertion from 55 to 62
+GGGCCGCG
+insertion at 66: 
+G
+Insertion from 68 to 77
+AATGGGGAGG
+Insertion from 79 to 84
+GCAGCG
+Insertion from 86 to 93
+TGGGGATT
+Insertion from 95 to 97
+CCC
+Insertion from 99 to 105
+CTCCCAC
+Insertion from 108 to 111
+GTTT
+Insertion from 113 to 131
+ACTTCTTCTCCCAACCTAT
+insertion at 133: 
+T
+Insertion from 135 to 138
+GGGT
+Insertion from 140 to 148
+CTTCTTCCA
+insertion at 150: 
+G
+Insertion from 152 to 156
+TACTC
+Insertion from 158 to 159
+TG
+Insertion from 161 to 164
+CGCG
+Insertion from 166 to 185
+CCCCATTTCCCACTCCCATT
+Insertion from 187 to 191
+GGTGT
+Insertion from 197 to 198
+GT
+insertion at 200: 
+T
+Insertion from 202 to 207
+GAGAAG
+Insertion from 209 to 214
+CAATCA
+insertion at 216: 
+T
+insertion at 218: 
+T
+Insertion from 223 to 227
+GGGGT
+Insertion from 230 to 231
+CA
+Insertion from 233 to 236
+TTCT
+Insertion from 239 to 241
+AGT
+Insertion from 245 to 261
+CACGCACCCACCCGGAC
+Insertion from 264 to 268
+AGAAT
+Insertion from 274 to 275
+CA
+insertion at 277: 
+A
+Insertion from 279 to 285
+GCCGAGA
+Insertion from 289 to 291
+GGG
+Insertion from 294 to 309
+ACGGCGCCCCGAACCC
+Insertion from 311 to 316
+CCTCCT
+Insertion from 318 to 319
+CT
+Insertion from 321 to 324
+CTCT
+Insertion from 329 to 330
+GG
+Insertion from 2961 to 3885
+AAAGGTGAGATTCTTGGGGTCTAGAGTGGGTGGGGTGGCAGGTCTGGGGGTGGGTGGGGCAGTGGGGAAAGGCCTGGGTAATGGAGATTCTTTGATTGGGATGTTTCGCGTGTGTGGTGGGCTGTTTAGAGTGTCATCACTTACCATGACTAACCAGAATTTGTTCATGACTGTTGTTTTCTGTAGCCTGAGACAGCTGTCTTGTGAGGGACTGAGATGCAGGATTTCTTCACGCCTCCCCTTTGTGACTTCAAGAGCCTCTGGCATCTCTTTCTGCAAAGGCACCTGAATGTGTCTGCGTCCCTGTTAGCATAATGTGAGGAGGTGGAGAGACAGCCCACCCCCGTGTCCACCGTGACCCCTGTTCCCATGCTGACTTGTGTTTCCTCCCCAGTCATCTTTCCTGTTCCAGAGAGGTGGGGCTGGATGTCTCCATCTCTGTCTCAACTTTATGTGCACTGAGCTGCAACTTCTTACTTCCCTACTGAAAATAAGAATCTGAATATAAATTTGTTTTCTCAAATATTTGCTATGAGAGGTTGATGGATTAATTAAATAAGTCAATTCCTGGAATTTGAGAGAGCAAATAAAGACCTGAGAACCTTCCAGAATCTGCATGTTCGCTGTGCTGAGTCTGTTGCAGGTGGGGTGTGGAGAAGGCTGTGGGGGGCCGAGTGTGGACGGGGCCTGTGCCCATTTGGTGTTGAGTCCATCATGGGCTTTATGTGGTTAGTCTTCAGCTGGGTCACCTTCACTGCTCCATTGTCCTTGTCCCTTCAGTGGAAACTTGTCCAGTGGGAGCTGTGACCACAGAGGCTCACACATCGCCCTGGGCGGCCCCTGCACACGGGGGTCTCTGTGCATTCTGAGACAAATTTTCAGAGCCATTCACCTCCTGCCCTGCTTCTAGAGCTCCTTTTCTGCT
+
+
+>>> B*44:360: 
+Insertion from 1 to 3
+GAT
+Insertion from 6 to 8
+GGA
+Insertion from 10 to 14
+GAAGT
+insertion at 17: 
+C
+Insertion from 19 to 21
+GGT
+Insertion from 29 to 33
+GGGGC
+Insertion from 36 to 37
+TC
+Insertion from 40 to 45
+GGTCTC
+Insertion from 47 to 53
+GGCTCCG
+Insertion from 55 to 62
+GGGCCGCG
+insertion at 66: 
+G
+Insertion from 68 to 77
+AATGGGGAGG
+Insertion from 79 to 84
+GCAGCG
+Insertion from 86 to 93
+TGGGGATT
+Insertion from 95 to 97
+CCC
+Insertion from 99 to 105
+CTCCCAC
+Insertion from 108 to 111
+GTTT
+Insertion from 113 to 131
+ACTTCTTCTCCCAACCTAT
+insertion at 133: 
+T
+Insertion from 135 to 138
+GGGT
+Insertion from 140 to 148
+CTTCTTCCA
+insertion at 150: 
+G
+Insertion from 152 to 156
+TACTC
+Insertion from 158 to 159
+TG
+Insertion from 161 to 164
+CGCG
+Insertion from 166 to 185
+CCCCATTTCCCACTCCCATT
+Insertion from 187 to 191
+GGTGT
+Insertion from 197 to 198
+GT
+insertion at 200: 
+T
+Insertion from 202 to 207
+GAGAAG
+Insertion from 209 to 214
+CAATCA
+insertion at 216: 
+T
+insertion at 218: 
+T
+Insertion from 223 to 227
+GGGGT
+Insertion from 230 to 231
+CA
+Insertion from 233 to 236
+TTCT
+Insertion from 239 to 241
+AGT
+Insertion from 245 to 261
+CACGCACCCACCCGGAC
+Insertion from 264 to 268
+AGAAT
+Insertion from 274 to 275
+CA
+insertion at 277: 
+A
+Insertion from 279 to 285
+GCCGAGA
+Insertion from 289 to 291
+GGG
+Insertion from 294 to 309
+ACGGCGCCCCGAACCC
+Insertion from 311 to 316
+CCTCCT
+Insertion from 318 to 319
+CT
+Insertion from 321 to 324
+CTCT
+Insertion from 329 to 330
+GG
+Insertion from 2961 to 3885
+AAAGGTGAGATTCTTGGGGTCTAGAGTGGGTGGGGTGGCAGGTCTGGGGGTGGGTGGGGCAGTGGGGAAAGGCCTGGGTAATGGAGATTCTTTGATTGGGATGTTTCGCGTGTGTGGTGGGCTGTTTAGAGTGTCATCACTTACCATGACTAACCAGAATTTGTTCATGACTGTTGTTTTCTGTAGCCTGAGACAGCTGTCTTGTGAGGGACTGAGATGCAGGATTTCTTCACGCCTCCCCTTTGTGACTTCAAGAGCCTCTGGCATCTCTTTCTGCAAAGGCACCTGAATGTGTCTGCGTCCCTGTTAGCATAATGTGAGGAGGTGGAGAGACAGCCCACCCCCGTGTCCACCGTGACCCCTGTTCCCATGCTGACTTGTGTTTCCTCCCCAGTCATCTTTCCTGTTCCAGAGAGGTGGGGCTGGATGTCTCCATCTCTGTCTCAACTTTATGTGCACTGAGCTGCAACTTCTTACTTCCCTACTGAAAATAAGAATCTGAATATAAATTTGTTTTCTCAAATATTTGCTATGAGAGGTTGATGGATTAATTAAATAAGTCAATTCCTGGAATTTGAGAGAGCAAATAAAGACCTGAGAACCTTCCAGAATCTGCATGTTCGCTGTGCTGAGTCTGTTGCAGGTGGGGTGTGGAGAAGGCTGTGGGGGGCCGAGTGTGGACGGGGCCTGTGCCCATTTGGTGTTGAGTCCATCATGGGCTTTATGTGGTTAGTCTTCAGCTGGGTCACCTTCACTGCTCCATTGTCCTTGTCCCTTCAGTGGAAACTTGTCCAGTGGGAGCTGTGACCACAGAGGCTCACACATCGCCCTGGGCGGCCCCTGCACACGGGGGTCTCTGTGCATTCTGAGACAAATTTTCAGAGCCATTCACCTCCTGCCCTGCTTCTAGAGCTCCTTTTCTGCT
+
+
+>>> B*51:01:01:30: 
+Insertion from 2974 to 3889
+AAAGGTGAGATTCTTGGGGTCTAGAGTGGGCGGGGGGGGCGGGGAGGGGGCAGAGGGGAAAGGCCTGGGTAATGGAGATTCTTTGATTGGGATGTTTCGCGTGTGTCGTGGGCTGTTCAGAGTGTCATCACTTACCATGACTAACCAGAATTTGTTCATGACTGTTGTTTTCTGTAGCCTGAGACAGCTGTCTTGTGAGGGACTGAGATGCAGGATTTCTTCACTCCTCCCCTTTGTGACTTCAAGAGCCTCTGGCATCTCTTTCTGCAAAGGCACCTGAATGTGTCTGCGTTCCTGTTAGCATAATGTGAGGAGGTGGAGAGACAGCCCACCCTTGTGTCCACTGTGACCCCTGTTCCCATGCTGACCTGTGTTTCCTCCCCAGTCATCTTTCTTGTTCCAGAGAGGTGGGGCTGGATGTCTCCATCTCTGTCTCAACTTTATGTGCACTGAGCTGCAACTTCTTACTTCCCTACTGAAAATAAGAATCTGAATATACATTTGTTTTCTCAAATATTTGCTATGAGAGGTTGATGGATTAATTAAATAAGTCAATTCCTGGAATGTGAGAGAGCAAATAAAGACCTGAGAACCTTCCAGAATCTGCATGTTCGCTGTGCTGAGTCTATTGCAGGTGGGGTGTGGAGAAGGCTGTGGGGGGCCGAGTGTGGACAGGGCCTGTGCCCAGTTGTTGTTGAGCCCATCATGGGCTTTATGTGGTTAGTCCTCAGCTGGGTCACCTTCACTGCTCCATTGTCCTTGTCCCTTCAGTGGAAACTTGTCCAGTGGGAGCTGTGACCACAGAGGCTCACACATCGCCCAGGGTGGCCCCTGCACACGGGGGTCTCTGTGCATTCTGAGACAAATTTTCAGAGCCATTCACCTCCTGCCCTGCTTCTAGAGCTCCTTTTCTGCT
+
+
+>>> B*51:348: 
+Insertion from 3858 to 3889
+TCCTGCCCTGCTTCTAGAGCTCCTTTTCTGTT
+
+
+>>> B*52:01:01:18: 
+Insertion from 3318 to 3889
+TGTGACCCCTGTTCCCATGCTGACCTGTGTTTCCTCCCCAGTCATCTTTCTTGTTCCAGAGAGGTGGGGCTGGATGTCTCCATCTCTGTCTCAACTTTATGTGCACTGAGCTGCAACTTCTTACTTCCCTACTGAAAATAAGAATCTGAATATACATTTGTTTTCTCAAATATTTGCTATGAGAGGTTGATGGATTAATTAAATAAGTCAATTCCTGGAATGTGAGAGAGCAAATAAAGACCTGAGAACCTTCCAGAATCTGCATGTTCGCTGTGCTGAGTCTATTGCAGGTGGGGTGTGGAGAAGGCTGTGGGGGGCCGAGTGTGGACAGGGCCTGTGCCCAGTTGTTGTTGAGCCCATCATGGGCTTTATGTGGTTAGTCCTCAGCTGGGTCACCTTCACTGCCCCATTGTCCTTGTCCCTTCAGCGGAAACTTGTCCAGTGGGAGCTGTGACCACAGAGGCTCACACATCGCCCAGGGTGGCCCCTGCACACGGGGGTCTCTGTGCATTCTGAGACAAATTTTCAGAGCCATTCACCTCCTGCCCTGCTTCTAGAGCTCCTTTTCTGCT
+
+
+>>> C*01:02:01:54: 
+Insertion from 3905 to 4114
+GTTCTTCATGGGCTTTATGTGGTCAGTCCTCAGCTGGGTCACCTTCACTGCTCCATTGTCCTTGTCCCTTCAGTGGAAACTTGTCCAGCGGGAGCTGTGACCACAGAGGCTCACACATCGCCCAGGGCAGCCCCTGCACACGGGAGTCCCTGTGCTTTCTGAGACAAATTTTCAGACCCAGTCAGCTCCTGCCCTCCTTCTAGGGCTCCT
+
+
+>>> C*01:228N: 
+Insertion from 1 to 8
+TTATTTTG
+Insertion from 10 to 28
+TGGATGTAGTTTAATATTA
+Insertion from 30 to 31
+CT
+Insertion from 33 to 45
+AGGTAAGGTAAGG
+Insertion from 48 to 49
+AA
+Insertion from 51 to 52
+AG
+Insertion from 54 to 59
+GGGAGG
+Insertion from 61 to 67
+AGGGAGT
+insertion at 70: 
+A
+Insertion from 72 to 75
+TTCA
+Insertion from 77 to 85
+GGACGGGGA
+Insertion from 89 to 97
+CAGGAGAAG
+insertion at 99: 
+G
+Insertion from 102 to 105
+GGGG
+insertion at 107: 
+A
+Insertion from 109 to 112
+GGGC
+Insertion from 114 to 116
+GGG
+insertion at 118: 
+G
+Insertion from 120 to 121
+AG
+Insertion from 124 to 145
+TGGGGGTCTCTCCCTGGTTTCC
+Insertion from 147 to 148
+CA
+Insertion from 150 to 154
+ACAGA
+Insertion from 157 to 163
+CTTGGCC
+Insertion from 165 to 167
+GGA
+insertion at 169: 
+T
+Insertion from 171 to 173
+AGG
+insertion at 177: 
+A
+Insertion from 179 to 185
+AGTGTGA
+Insertion from 187 to 189
+AAA
+Insertion from 191 to 192
+AT
+Insertion from 194 to 201
+CTTGGTGT
+Insertion from 203 to 215
+GGAGAAGAGGGAT
+Insertion from 217 to 225
+AGGACGAAG
+Insertion from 228 to 229
+CC
+Insertion from 232 to 249
+GTCCCGGGCGGGGTTCTC
+Insertion from 251 to 253
+GGG
+insertion at 255: 
+C
+Insertion from 258 to 261
+AGGC
+Insertion from 265 to 269
+AAGGG
+Insertion from 272 to 279
+GTGTCTGC
+Insertion from 281 to 282
+CT
+Insertion from 284 to 286
+GGG
+Insertion from 288 to 289
+GG
+Insertion from 295 to 299
+CGTTG
+insertion at 302: 
+G
+Insertion from 305 to 317
+TCTCCACTCCCCT
+Insertion from 319 to 323
+AGTTT
+Insertion from 325 to 341
+ACTTCTTCTCCCAACCT
+insertion at 343: 
+C
+Insertion from 345 to 346
+TC
+Insertion from 348 to 349
+GG
+Insertion from 352 to 361
+CTTCTTCCTG
+insertion at 363: 
+A
+Insertion from 365 to 370
+ACTCAT
+Insertion from 372 to 373
+AC
+insertion at 377: 
+T
+Insertion from 382 to 397
+AATTCCCACTCCCATT
+Insertion from 399 to 411
+GGTGTCGGGTTCT
+insertion at 413: 
+G
+Insertion from 415 to 418
+GAAG
+Insertion from 421 to 423
+AAT
+Insertion from 425 to 428
+AGCG
+Insertion from 431 to 435
+TCCGC
+insertion at 437: 
+G
+Insertion from 441 to 443
+CGG
+Insertion from 445 to 450
+TCTAAA
+insertion at 452: 
+T
+Insertion from 454 to 458
+CCCAG
+Insertion from 460 to 468
+CACCCACCC
+Insertion from 470 to 471
+GA
+Insertion from 475 to 477
+AGA
+insertion at 479: 
+T
+Insertion from 481 to 486
+TCCCCA
+Insertion from 488 to 489
+AC
+Insertion from 491 to 492
+CC
+Insertion from 496 to 498
+ATG
+Insertion from 500 to 503
+GGGT
+Insertion from 505 to 508
+ATGG
+Insertion from 510 to 520
+GCCCCGAACCC
+Insertion from 522 to 527
+CATCCT
+Insertion from 529 to 530
+CT
+insertion at 533: 
+T
+insertion at 535: 
+T
+Insertion from 537 to 544
+GGGAGCCC
+Insertion from 547 to 552
+GCCCTG
+Insertion from 3397 to 4112
+CCTGTGTGGGACTGAGATGCAGGATTTCTTCACACCTCTCCTTTGTGACTTCAAGAGCCTCTGGCATCTCTTTCTGCAAAGGCATCTGAATGTGTCTGCGTTCCTGTTAGCATAATGTGAGGAGGTGGAGAGACAGCCCACCCCCGTGTCCACCGTGACCCCTGTCCCCACACTGACCTGTGTTCCCTCCCCGATCATCTTTCCTGTTCCAGAGAAGTGGGCTGGATGTCTCCATCTCTGTCTCAACTTCATGGTGCGCTGAGCTGCAACTTCTTACTTCCCTAATGAAGTTAAGAACCTGAATATAAATTTGTTTTCTCAAATATTTGCTATGAAGGGTTGATGGATTAATTAAATAAGTCAATTCCTGGAAGTTGAGAGAGCAAATAAAGACCTGAGAACCTTCCAGAATCCGCATGTTCGCTGTGCTGAGTCTGTTGCAGGTGGGGGTGGGGAAGGCTGTGAGGAGACGAGTGTGGACGGGGCCTGTGCCTAGTTGCTGTTCAGTTCTTCATGGGCTTTATGTGGTCAGTCCTCAGCTGGGTCACCTTCACTGCTCCATTGTCCTTGTCCCTTCAGTGGAAACTTGTCCAGCGGGAGCTGTGACCACAGAGGCTCACACATCGCCCAGGGCAGCCCCTGCACACGGGAGTCCCTGTGCTTTCTGAGACAAATTTTCAGACCCAGTCAGCTCCTGCCCTCCTTCTAGGGCTCCT
+
+
+>>> C*02:02:02:18: 
+Insertion from 3898 to 4107
+GTTCTTCATGGGCTTTATGTGGTCAGTCCTCAGCTGGGTCACCTTCACTGCTCCATTGTCCTTGTCCCTTCAGTGGAAACTTGTCCAGCGGGAGCTGTGACCACAGAGGCTCACACATCGCCCAGGGCAGCCCCTGCACACGGGAGTCCCTGTGCTTTCTGAGACAAATTTTCAGACCCATTCAGCTCCTGCCCTCCTTCTAGGGCTCCT
+
+
+>>> C*02:02:02:75: 
+Insertion from 3888 to 4107
+TTGCTGTTCAGTTCTTCATGGGCTTTATGTGGTCAGTCCTCAGCTGGGTCACCTTCACTGCTCCATTGTCCTTGTCCCTTCAGTGGAAACTTGTCCAGCGGGAGCTGTGACCACAGAGGCTCACACATCGCCCAGGGCAGCCCCTGCACACGGGAGTCCCTGTGCTTTCTGAGACAAATTTTCAGACCCATTCAGCTCCTGCCCTCCTTCTAGGGCTCCT
+
+
+>>> C*03:04:01:47: 
+Insertion from 1 to 2
+TT
+Insertion from 4 to 12
+TTTTGCTGG
+Insertion from 15 to 28
+GTAGTTTAATATTA
+Insertion from 30 to 32
+CTG
+insertion at 36: 
+T
+Insertion from 38 to 45
+AGGTAAGG
+Insertion from 47 to 49
+AAA
+Insertion from 52 to 56
+GTGGG
+Insertion from 59 to 66
+GCAGGGAG
+Insertion from 70 to 73
+AGTT
+Insertion from 78 to 85
+GACGGGGA
+insertion at 87: 
+T
+Insertion from 90 to 111
+AGGAGAAGTGAAGGGGAAGGGG
+insertion at 113: 
+T
+Insertion from 119 to 120
+CA
+Insertion from 122 to 124
+CCT
+Insertion from 127 to 130
+GGGT
+Insertion from 136 to 145
+CCTGGTTTCC
+Insertion from 147 to 148
+CA
+Insertion from 150 to 152
+ACA
+Insertion from 154 to 159
+ATCCTT
+Insertion from 161 to 168
+GCCAGGAC
+Insertion from 171 to 180
+AGGCACACAG
+Insertion from 182 to 185
+GTGA
+Insertion from 188 to 189
+AA
+Insertion from 191 to 192
+AT
+Insertion from 196 to 215
+TGGTGTAGGAGAAGAGGAAT
+Insertion from 217 to 220
+AGGA
+insertion at 222: 
+G
+Insertion from 226 to 230
+TCCCA
+insertion at 233: 
+T
+insertion at 236: 
+C
+Insertion from 238 to 245
+GGCGGGGC
+Insertion from 247 to 250
+CTCA
+Insertion from 252 to 253
+GG
+Insertion from 257 to 258
+CA
+insertion at 260: 
+G
+Insertion from 262 to 264
+TCC
+Insertion from 266 to 269
+AGGG
+Insertion from 271 to 272
+CG
+Insertion from 275 to 277
+TCT
+Insertion from 279 to 282
+CACT
+Insertion from 285 to 286
+GG
+Insertion from 3561 to 4114
+GTCCCCACACTGACCTGTGTTCCCTCCCCGATCATCTTTCCTGTTCCAGAGAAGTGGGCTGGATGTCTCCATCTCTGTCTCAACTTCATGGTGCGCTGAGCTGCAACTTCTTACTTCCCTAATGAAGTTAGGAACCTGAATATAAATTTGTTTTCTCAAATATTTGCTATGAAGGGTTGATGGATTAATTAAATAAGTCAATTCCTGGAAGTTGAGAGAGCAAATAAAGACCTGAGAACTTTCCAGAATCCGCATGTTCTCTGTGCTGAGTCTGTTGCAGGTGGGGGTGGGGAAGGCTGTGAGGAGCCGAGTGTGGACGGGGGCCTGTGCCTAGTTGCTGTTCAGTTCTTCATGGGCTTTATGTAGTCAGTCCTTAGCTGGGTCACCTTCACTGCTCCATTGTCCTTGTCCCTTCAGTGGAAACTTGTCCAGCAGGAGCTGTGACCACAGAGGCTCACACATCGCCCAGGGCAGCCCCTGCACACGGGAGTCCCTGTGCTTTCTGAGACAAATTTTCAGACCCATTCAGCTCCTGCCCTCCTTATAGGGCTCCT
+
+
+>>> C*03:04:01:80: 
+Insertion from 3895 to 4114
+TTGCTGTTCAGTTCTTCATGGGCTTTATGTAGTCAGTCCTTAGCTGGGTCACCTTCACTGCTCCATTGTCCTTGTCCCTTCAGTGGAAACTTGTCCAGCAGGAGCTGTGACCACAGAGGCTCACACATCGCCCAGGGCAGCCCCTGCACACGGGAGTCCCTGTGCTTTCTGAGACAAATTTTCAGACCCATTCAGCTCCTGCCCTCCTTATAGGGCTCCT
+
+
+>>> C*03:100: 
+Insertion from 1 to 14
+AGGAGAAGAGGAAT
+insertion at 16: 
+A
+Insertion from 21 to 24
+GAAG
+Insertion from 27 to 28
+CC
+Insertion from 31 to 48
+GTCCCGGGCGGGGCTCTC
+Insertion from 50 to 52
+GGG
+insertion at 54: 
+C
+Insertion from 57 to 60
+AGGC
+Insertion from 64 to 68
+AAGGG
+Insertion from 71 to 78
+GTGTCTGC
+Insertion from 80 to 81
+CT
+Insertion from 83 to 85
+GGG
+Insertion from 87 to 88
+GG
+Insertion from 94 to 98
+CGTTG
+insertion at 101: 
+G
+Insertion from 104 to 116
+TCTCCACTCCCCT
+Insertion from 118 to 122
+AGTTT
+Insertion from 124 to 140
+ACTTCTTCTCCCAACCT
+insertion at 142: 
+C
+Insertion from 144 to 145
+TC
+Insertion from 147 to 148
+GG
+Insertion from 151 to 160
+CTTCTTCCTG
+insertion at 162: 
+A
+Insertion from 164 to 169
+ACTCAT
+Insertion from 171 to 172
+AC
+insertion at 176: 
+T
+Insertion from 181 to 196
+AATTCCCACTCCCATT
+Insertion from 198 to 205
+GGTGTCGG
+Insertion from 207 to 210
+TTCT
+Insertion from 212 to 217
+GAGAAG
+Insertion from 220 to 222
+AAT
+Insertion from 224 to 227
+AGCG
+Insertion from 230 to 234
+TCCGC
+insertion at 236: 
+G
+Insertion from 240 to 242
+CGG
+Insertion from 244 to 246
+TCT
+Insertion from 248 to 251
+AAGT
+Insertion from 253 to 257
+CCCAG
+Insertion from 259 to 267
+CACCCACCC
+Insertion from 269 to 270
+GA
+Insertion from 274 to 276
+AGA
+insertion at 278: 
+T
+Insertion from 280 to 285
+TCCCCA
+Insertion from 287 to 288
+AC
+Insertion from 290 to 291
+CC
+Insertion from 295 to 297
+ATG
+Insertion from 299 to 302
+GGGT
+Insertion from 304 to 307
+ATGG
+Insertion from 309 to 319
+GCCCCGAACCC
+Insertion from 321 to 326
+CATCCT
+Insertion from 328 to 329
+CT
+insertion at 332: 
+T
+insertion at 334: 
+T
+Insertion from 336 to 343
+GGGAGCCC
+Insertion from 346 to 351
+GCCCTG
+
+
+>>> C*04:01:01:167: 
+Insertion from 1 to 8
+TTATTTTG
+Insertion from 10 to 28
+TGGATGTAGTTTAATATTA
+Insertion from 30 to 31
+CT
+Insertion from 33 to 45
+AGGTAAGGTAAGG
+Insertion from 48 to 49
+AA
+Insertion from 51 to 52
+AG
+Insertion from 54 to 59
+GGGAGG
+Insertion from 61 to 67
+AGGGAGT
+insertion at 70: 
+A
+Insertion from 72 to 75
+TTCA
+Insertion from 77 to 85
+GGACGGGGA
+Insertion from 89 to 97
+CAGGAGAAG
+insertion at 99: 
+G
+Insertion from 102 to 105
+GGGG
+insertion at 107: 
+A
+Insertion from 109 to 112
+GGGC
+Insertion from 114 to 116
+GGG
+insertion at 118: 
+G
+Insertion from 120 to 121
+AG
+Insertion from 124 to 145
+TGGGGGTCTCTCCCTGGTTTCC
+Insertion from 147 to 148
+CA
+Insertion from 150 to 154
+ACAGA
+Insertion from 157 to 163
+CTTGGCC
+Insertion from 165 to 167
+GGA
+insertion at 169: 
+T
+Insertion from 171 to 173
+AGG
+insertion at 177: 
+A
+Insertion from 179 to 185
+AGTGTGA
+Insertion from 187 to 189
+AAA
+Insertion from 191 to 192
+AT
+Insertion from 194 to 201
+CTTGGTGT
+Insertion from 203 to 215
+GGAGAAGAGGAAT
+Insertion from 217 to 225
+AGGACGAAG
+Insertion from 228 to 229
+CC
+Insertion from 232 to 249
+GTCCCGGGCGGGGCTCTC
+Insertion from 251 to 253
+GGG
+insertion at 255: 
+C
+Insertion from 258 to 261
+AGGC
+Insertion from 265 to 269
+AAGGG
+Insertion from 272 to 279
+GTGTCTGC
+Insertion from 281 to 282
+CT
+Insertion from 284 to 286
+GGG
+Insertion from 288 to 289
+GG
+Insertion from 295 to 302
+CGTTGGGG
+Insertion from 304 to 317
+TTCTCCACTCCCCT
+insertion at 320: 
+G
+Insertion from 322 to 341
+TTCACTTCTTCTCCCAACCT
+Insertion from 345 to 346
+TC
+insertion at 349: 
+G
+Insertion from 352 to 361
+CTTCTTCCTG
+insertion at 363: 
+A
+Insertion from 365 to 370
+ACTCAT
+Insertion from 372 to 373
+AC
+insertion at 377: 
+T
+Insertion from 382 to 397
+AATTCCCACTCCCATT
+Insertion from 399 to 411
+GGTGTCGGGTTCT
+insertion at 413: 
+G
+Insertion from 415 to 418
+GAAG
+Insertion from 421 to 423
+AAT
+Insertion from 425 to 428
+AGCG
+Insertion from 431 to 435
+TCCGC
+insertion at 437: 
+G
+Insertion from 441 to 443
+CGG
+Insertion from 445 to 450
+TCTAAA
+insertion at 452: 
+T
+Insertion from 454 to 458
+CCCAG
+Insertion from 460 to 468
+CACCCACCC
+Insertion from 470 to 471
+GA
+Insertion from 475 to 477
+AGA
+insertion at 479: 
+T
+Insertion from 481 to 486
+TCCCCA
+Insertion from 488 to 489
+AC
+Insertion from 491 to 492
+CC
+Insertion from 496 to 498
+ATG
+Insertion from 500 to 503
+GGGT
+Insertion from 505 to 508
+ATGG
+Insertion from 510 to 520
+GCCCCGAACCC
+Insertion from 522 to 527
+CATCCT
+Insertion from 529 to 530
+CT
+insertion at 533: 
+T
+insertion at 535: 
+T
+Insertion from 537 to 544
+GGGAGCCC
+Insertion from 547 to 552
+GCCCTG
+Insertion from 3399 to 4114
+CCTGTGTGGGACTGAGATGCAGGATTTCTTCACACCTCTCCTTTGTGACTTCAAGAGCCTCTGGCATCTCTTTCTGCAAAGGCATCTGAATGTGTCTGCGTTCCTGTTAGCATAATGTGAGGAGGTGGAGAGACAGCCCACCCCCGTGTCCACCGTGACCCCTGTCCCCACACTGACCTGTGTTCCCTCCCCGATCATCTTTCCTGTTCCAGAGAAGTGGGCTGGATGTCTCCATCTCTGTCTCAACTTCATGGTGCGCTGAGCTGCAACTTCTTACTTCCCTAATGAAGTTAAGAACCTGAATATAAATTTGTTTTCTCAAATATTTGCTATGAAGGGTTGATGGATTAATTAAATAAGTCAATTCCTGGAAGTTGAGAGAGCAAATAAAGACCTGAGAACCTTCCAGAATCCGCATGTTCGCTGTGCTGAGTCTGTTGCAGGTGGGGGTGGGGAAGGCTGTGAGGAGCCGAGTGTGGACGGGGCCTGTGCCTAGTTGCTGTTCAGTTCTTCATGGGCTTTATGTGGTCAGTCCTCAGCTGGGTCACCTTCACTGCTCCATTGTCCTTGTCCCTTCAGTGGAAACTTGTCCAGCGGGAGCTGTGACCACAGAGGCTCACACATCGCCCAGGGCAGCCCCTGCACACGGGAGTCCCTGTGCTTTCTGAGACAAATTTTCAGACCCATTCAGCTCCTGCCCTCCTTCTAGGGCTCCT
+
+
+>>> C*04:01:150: 
+Insertion from 1 to 8
+TTATTTTG
+Insertion from 10 to 28
+TGGATGTAGTTTAATATTA
+Insertion from 30 to 31
+CT
+Insertion from 33 to 45
+AGGTAAGGTAAGG
+Insertion from 48 to 49
+AA
+Insertion from 51 to 52
+AG
+Insertion from 54 to 59
+GGGAGG
+Insertion from 61 to 67
+AGGGAGT
+insertion at 70: 
+A
+Insertion from 72 to 75
+TTCA
+Insertion from 77 to 85
+GGACGGGGA
+Insertion from 89 to 97
+CAGGAGAAG
+insertion at 99: 
+G
+Insertion from 102 to 105
+GGGG
+insertion at 107: 
+A
+Insertion from 109 to 112
+GGGC
+Insertion from 114 to 116
+GGG
+insertion at 118: 
+G
+Insertion from 120 to 121
+AG
+Insertion from 124 to 145
+TGGGGGTCTCTCCCTGGTTTCC
+Insertion from 147 to 148
+CA
+Insertion from 150 to 154
+ACAGA
+Insertion from 157 to 163
+CTTGGCC
+Insertion from 165 to 167
+GGA
+insertion at 169: 
+T
+Insertion from 171 to 173
+AGG
+insertion at 177: 
+A
+Insertion from 179 to 185
+AGTGTGA
+Insertion from 187 to 189
+AAA
+Insertion from 191 to 192
+AT
+Insertion from 194 to 201
+CTTGGTGT
+Insertion from 203 to 215
+GGAGAAGAGGAAT
+Insertion from 217 to 225
+AGGACGAAG
+Insertion from 228 to 229
+CC
+Insertion from 232 to 249
+GTCCCGGGCGGGGCTCTC
+Insertion from 251 to 253
+GGG
+insertion at 255: 
+C
+Insertion from 258 to 261
+AGGC
+Insertion from 265 to 269
+AAGGG
+Insertion from 272 to 279
+GTGTCTGC
+Insertion from 281 to 282
+CT
+Insertion from 284 to 286
+GGG
+Insertion from 288 to 289
+GG
+Insertion from 295 to 302
+CGTTGGGG
+Insertion from 304 to 317
+TTCTCCACTCCCCT
+insertion at 320: 
+G
+Insertion from 322 to 341
+TTCACTTCTTCTCCCAACCT
+Insertion from 345 to 346
+TC
+insertion at 349: 
+G
+Insertion from 352 to 361
+CTTCTTCCTG
+insertion at 363: 
+A
+Insertion from 365 to 370
+ACTCAT
+Insertion from 372 to 373
+AC
+insertion at 377: 
+T
+Insertion from 382 to 397
+AATTCCCACTCCCATT
+Insertion from 399 to 411
+GGTGTCGGGTTCT
+insertion at 413: 
+G
+Insertion from 415 to 418
+GAAG
+Insertion from 421 to 423
+AAT
+Insertion from 425 to 428
+AGCG
+Insertion from 431 to 435
+TCCGC
+insertion at 437: 
+G
+Insertion from 441 to 443
+CGG
+Insertion from 445 to 450
+TCTAAA
+insertion at 452: 
+T
+Insertion from 454 to 458
+CCCAG
+Insertion from 460 to 468
+CACCCACCC
+Insertion from 470 to 471
+GA
+Insertion from 475 to 477
+AGA
+insertion at 479: 
+T
+Insertion from 481 to 486
+TCCCCA
+Insertion from 488 to 489
+AC
+Insertion from 491 to 492
+CC
+Insertion from 496 to 498
+ATG
+Insertion from 500 to 503
+GGGT
+Insertion from 505 to 508
+ATGG
+Insertion from 510 to 520
+GCCCCGAACCC
+Insertion from 522 to 527
+CATCCT
+Insertion from 529 to 530
+CT
+insertion at 533: 
+T
+insertion at 535: 
+T
+Insertion from 537 to 544
+GGGAGCCC
+Insertion from 547 to 552
+GCCCTG
+Insertion from 3399 to 4114
+CCTGTGTGGGACTGAGATGCAGGATTTCTTCACACCTCTCCTTTGTGACTTCAAGAGCCTCTGGCATCTCTTTCTGCAAAGGCATCTGAATGTGTCTGCGTTCCTGTTAGCATAATGTGAGGAGGTGGAGAGACAGCCCACCCCCGTGTCCACCGTGACCCCTGTCCCCACACTGACCTGTGTTCCCTCCCCGATCATCTTTCCTGTTCCAGAGAAGTGGGCTGGATGTCTCCATCTCTGTCTCAACTTCATGGTGCGCTGAGCTGCAACTTCTTACTTCCCTAATGAAGTTAAGAACCTGAATATAAATTTGTTTTCTCAAATATTTGCTATGAAGGGTTGATGGATTAATTAAATAAGTCAATTCCTGGAAGTTGAGAGAGCAAATAAAGACCTGAGAACCTTCCAGAATCCGCATGTTCGCTGTGCTGAGTCTGTTGCAGGTGGGGGTGGGGAAGGCTGTGAGGAGCCGAGTGTGGACGGGGCCTGTGCCTAGTTGCTGTTCAGTTCTTCATGGGCTTTATGTGGTCAGTCCTCAGCTGGGTCACCTTCACTGCTCCATTGTCCTTGTCCCTTCAGTGGAAACTTGTCCAGCGGGAGCTGTGACCACAGAGGCTCACACATCGCCCAGGGCAGCCCCTGCACACGGGAGTCCCTGTGCTTTCTGAGACAAATTTTCAGACCCATTCAGCTCCTGCCCTCCTTCTAGGGCTCCT
+
+
+>>> C*04:449: 
+Insertion from 1 to 8
+TTATTTTG
+Insertion from 10 to 28
+TGGATGTAGTTTAATATTA
+Insertion from 30 to 31
+CT
+Insertion from 33 to 45
+AGGTAAGGTAAGG
+Insertion from 48 to 49
+AA
+Insertion from 51 to 52
+AG
+Insertion from 54 to 59
+GGGAGG
+Insertion from 61 to 67
+AGGGAGT
+insertion at 70: 
+A
+Insertion from 72 to 75
+TTCA
+Insertion from 77 to 85
+GGACGGGGA
+Insertion from 89 to 97
+CAGGAGAAG
+insertion at 99: 
+G
+Insertion from 102 to 105
+GGGG
+insertion at 107: 
+A
+Insertion from 109 to 112
+GGGC
+Insertion from 114 to 116
+GGG
+insertion at 118: 
+G
+Insertion from 120 to 121
+AG
+Insertion from 124 to 145
+TGGGGGTCTCTCCCTGGTTTCC
+Insertion from 147 to 148
+CA
+Insertion from 150 to 154
+ACAGA
+Insertion from 157 to 163
+CTTGGCC
+Insertion from 165 to 167
+GGA
+insertion at 169: 
+T
+Insertion from 171 to 173
+AGG
+insertion at 177: 
+A
+Insertion from 179 to 185
+AGTGTGA
+Insertion from 187 to 189
+AAA
+Insertion from 191 to 192
+AT
+Insertion from 194 to 201
+CTTGGTGT
+Insertion from 203 to 215
+GGAGAAGAGGAAT
+Insertion from 217 to 225
+AGGACGAAG
+Insertion from 228 to 229
+CC
+Insertion from 232 to 249
+GTCCCGGGCGGGGCTCTC
+Insertion from 251 to 253
+GGG
+insertion at 255: 
+C
+Insertion from 258 to 261
+AGGC
+Insertion from 265 to 269
+AAGGG
+Insertion from 272 to 279
+GTGTCTGC
+Insertion from 281 to 282
+CT
+Insertion from 284 to 286
+GGG
+Insertion from 288 to 289
+GG
+Insertion from 295 to 302
+CGTTGGGG
+Insertion from 304 to 317
+TTCTCCACTCCCCT
+insertion at 320: 
+G
+Insertion from 322 to 341
+TTCACTTCTTCTCCCAACCT
+Insertion from 345 to 346
+TC
+insertion at 349: 
+G
+Insertion from 352 to 361
+CTTCTTCCTG
+insertion at 363: 
+A
+Insertion from 365 to 370
+ACTCAT
+Insertion from 372 to 373
+AC
+insertion at 377: 
+T
+Insertion from 382 to 397
+AATTCCCACTCCCATT
+Insertion from 399 to 411
+GGTGTCGGGTTCT
+insertion at 413: 
+G
+Insertion from 415 to 418
+GAAG
+Insertion from 421 to 423
+AAT
+Insertion from 425 to 428
+AGCG
+Insertion from 431 to 435
+TCCGC
+insertion at 437: 
+G
+Insertion from 441 to 443
+CGG
+Insertion from 445 to 450
+TCTAAA
+insertion at 452: 
+T
+Insertion from 454 to 458
+CCCAG
+Insertion from 460 to 468
+CACCCACCC
+Insertion from 470 to 471
+GA
+Insertion from 475 to 477
+AGA
+insertion at 479: 
+T
+Insertion from 481 to 486
+TCCCCA
+Insertion from 488 to 489
+AC
+Insertion from 491 to 492
+CC
+Insertion from 496 to 498
+ATG
+Insertion from 500 to 503
+GGGT
+Insertion from 505 to 508
+ATGG
+Insertion from 510 to 520
+GCCCCGAACCC
+Insertion from 522 to 527
+CATCCT
+Insertion from 529 to 530
+CT
+insertion at 533: 
+T
+insertion at 535: 
+T
+Insertion from 537 to 544
+GGGAGCCC
+Insertion from 547 to 552
+GCCCTG
+Insertion from 3399 to 4114
+CCTGTGTGGGACTGAGATGCAGGATTTCTTCACACCTCTCCTTTGTGACTTCAAGAGCCTCTGGCATCTCTTTCTGCAAAGGCATCTGAATGTGTCTGCGTTCCTGTTAGCATAATGTGAGGAGGTGGAGAGACAGCCCACCCCCGTGTCCACCGTGACCCCTGTCCCCACACTGACCTGTGTTCCCTCCCCGATCATCTTTCCTGTTCCAGAGAAGTGGGCTGGATGTCTCCATCTCTGTCTCAACTTCATGGTGCGCTGAGCTGCAACTTCTTACTTCCCTAATGAAGTTAAGAACCTGAATATAAATTTGTTTTCTCAAATATTTGCTATGAAGGGTTGATGGATTAATTAAATAAGTCAATTCCTGGAAGTTGAGAGAGCAAATAAAGACCTGAGAACCTTCCAGAATCCGCATGTTCGCTGTGCTGAGTCTGTTGCAGGTGGGGGTGGGGAAGGCTGTGAGGAGCCGAGTGTGGACGGGGCCTGTGCCTAGTTGCTGTTCAGTTCTTCATGGGCTTTATGTGGTCAGTCCTCAGCTGGGTCACCTTCACTGCTCCATTGTCCTTGTCCCTTCAGTGGAAACTTGTCCAGCGGGAGCTGTGACCACAGAGGCTCACACATCGCCCAGGGCAGCCCCTGCACACGGGAGTCCCTGTGCTTTCTGAGACAAATTTTCAGACCCATTCAGCTCCTGCCCTCCTTCTAGGGCTCCT
+
+
+>>> C*04:465: 
+Insertion from 3895 to 4114
+TTGCTGTTCAGTTCTTCATGGGCTTTATGTGGTCAGTCCTCAGCTGGGTCACCTTCACTGCTCCATTGTCCTTGTCCCTTCAGTGGAAACTTGTCCAGCGGGAGCTGTGACCACAGAGGCTCACACATCGCCCAGGGCAGCCCCTGCACACGGGAGTCCCTGTGCTTTCTGAGACAAATTTTCAGACCCATTCAGCTCCTGCCCTCCTTCTAGGGCTCCT
+
+
+>>> C*05:01:01:45: 
+Insertion from 1 to 8
+TTATTTTG
+Insertion from 11 to 13
+GGA
+Insertion from 16 to 17
+TA
+Insertion from 19 to 28
+TTTAATATTA
+Insertion from 31 to 32
+TG
+insertion at 36: 
+T
+Insertion from 38 to 45
+AGGTAAGG
+Insertion from 47 to 52
+AAAGAG
+Insertion from 54 to 59
+GGGAGG
+Insertion from 64 to 67
+GAGT
+insertion at 69: 
+C
+Insertion from 71 to 73
+GTT
+Insertion from 76 to 79
+GGGA
+Insertion from 81 to 84
+GGGG
+Insertion from 86 to 90
+TTCCA
+Insertion from 92 to 97
+GAGAAG
+Insertion from 100 to 112
+AAGGGGAAGGGGC
+Insertion from 115 to 119
+GGCGC
+insertion at 121: 
+G
+Insertion from 123 to 145
+CTGGGGGTCTCTCCCTGGTTTCC
+insertion at 147: 
+C
+insertion at 149: 
+G
+Insertion from 151 to 152
+CA
+Insertion from 156 to 159
+CCTT
+insertion at 161: 
+G
+Insertion from 163 to 168
+CAGGAC
+Insertion from 170 to 180
+CAGGCACACAG
+insertion at 183: 
+T
+Insertion from 185 to 191
+ACAAAGA
+insertion at 194: 
+C
+Insertion from 196 to 201
+TGGTGT
+
+
+>>> C*07:01:01:101: 
+Insertion from 3919 to 4128
+GTTCTTCATGGGCTTTATGTGGTCAGTCCTCAGCTGGGTCACCTTCACTGCTCCATTGTCCTTGTCCCTTCAGTGGAAACTTGTCCAGCGGAAGCTGTGACCACAGAGGCTCACCCATCGCCCAGGGCAGCCCCTGCACACGGGAGTCCCTGTGCTTTCTGAGACAAATTTTCAGACCCATTCAGCTCCTGCCCTCCTTCTAGGGCTCCT
+
+
+>>> C*07:01:01:127Q: 
+Insertion from 1 to 2
+TT
+Insertion from 4 to 7
+TTTT
+Insertion from 9 to 10
+CT
+insertion at 12: 
+G
+insertion at 14: 
+T
+insertion at 16: 
+T
+Insertion from 18 to 21
+GTTT
+Insertion from 23 to 31
+ATATTACCT
+insertion at 36: 
+T
+Insertion from 39 to 40
+GG
+Insertion from 42 to 50
+AAGGTAAGG
+Insertion from 53 to 54
+AA
+Insertion from 57 to 61
+GTGGG
+Insertion from 63 to 64
+GG
+insertion at 66: 
+A
+Insertion from 68 to 69
+GG
+Insertion from 71 to 74
+GTCC
+insertion at 78: 
+T
+Insertion from 80 to 84
+AGGGA
+Insertion from 86 to 92
+GGGGATT
+insertion at 94: 
+C
+Insertion from 98 to 105
+AGGAGAAG
+Insertion from 107 to 119
+GAAGGGGAAGGGG
+Insertion from 121 to 124
+TGGG
+insertion at 126: 
+G
+insertion at 128: 
+A
+Insertion from 130 to 133
+CCTT
+Insertion from 136 to 138
+GGT
+Insertion from 140 to 146
+TCTCCCT
+Insertion from 149 to 156
+TTTCCACA
+Insertion from 158 to 160
+ACA
+Insertion from 162 to 163
+AT
+insertion at 165: 
+C
+Insertion from 167 to 169
+TGT
+Insertion from 171 to 176
+CAGGAC
+Insertion from 182 to 187
+CACACA
+Insertion from 190 to 193
+GTGA
+Insertion from 195 to 199
+AAAGA
+insertion at 201: 
+G
+Insertion from 203 to 209
+TTGGTGT
+Insertion from 213 to 223
+AGAAGAGGGAT
+Insertion from 225 to 233
+AGGACGAAG
+insertion at 237: 
+C
+Insertion from 239 to 257
+GGTCCCGGGCGGGGCTCTC
+insertion at 262: 
+T
+insertion at 264: 
+T
+insertion at 266: 
+A
+Insertion from 268 to 269
+GC
+Insertion from 271 to 274
+CCAA
+Insertion from 276 to 280
+GGCCG
+Insertion from 282 to 283
+GT
+Insertion from 3565 to 4128
+CGTGACCCCTGTCCCCACACTGACCTGTGTTCCCTCCCCGATCATCTTTCCTGTTCCAGAGAGGTGGGGCTGGATGTCTCCATCTCTGTCTCAAATTCATGGTGCACTGAGCTGCAACTTCTTACTTCCCTAATGAAGTTAAGAACCTGAATATAAATTTGTGTTCTCAAATATTTGCTATGAAGCGTTGATGGATTAATTAAATAAGTCAATTCCTAGAAGTTGAGAGAGCAAATAAAGACCTGAGAACCTTCCAGAATTTGCATGTTCGCTGTGCTGAGTCTGTTGCAGGTGGGGGTGGGGAAGGCTGTGAGGAGCCGAGTGTGGACGGGGCCTGTGCCTAGTTGCTGTTCAGTTCTTCATGGGCTTTATGTGGTCAGTCCTCAGCTGGGTCACCTTCACTGCTCCATTGTCCTTGTCCCTTCAGTGGAAACTTGTCCAGCGGAAGCTGTGACCACAGAGGCTCACCCATCGCCCAGGGCAGCCCCTGCACACGGGAGTCCCTGTGCTTTCTGAGACAAATTTTCAGACCCATTCAGCTCCTGCCCTCCTTCTAGGGCTCCT
+
+
+>>> C*07:02:01:114: 
+insertion at 4128: 
+T
+
+
+>>> C*07:02:01:137Q: 
+Insertion from 3919 to 4128
+GTTCTTCATGGGCTTTATGTGGTCAGTCCTCAGCTGGGTCACCTTCACTGCTCCATTGTCCTTGTCCCTTCAGTGGAAACTTGTCCAGCGGAAGCTGTGACCACAGAGGCTCACCCATCGCCCAGGGCAGCCCCTGCACACGGGAGTCCCTGTGCTTTCTGAGACAAATTTTCAGACCCATTCAGCTCCTGCCCTCCTTCTAGGGCTCCT
+
+
+>>> C*07:02:01:178: 
+Insertion from 3909 to 4128
+TTGCTGTTCAGTTCTTCATGGGCTTTATGTGGTCAGTCCTCAGCTGGGTCACCTTCACTGCTCCATTGTCCTTGTCCCTTCAGTGGAAACTTGTCCAGCGGAAGCTGTGACCACAGAGGCTCACCCATCGCCCAGGGCAGCCCCTGCACACGGGAGTCCCTGTGCTTTCTGAGACAAATTTTCAGACCCATTCAGCTCCTGCCCTCCTTCTAGGGCTCCT
+
+
+>>> C*07:02:01:30: 
+Insertion from 3919 to 4128
+GTTCTTCATGGGCTTTATGTGGTCAGTCCTCAGCTGGGTCACCTTCACTGCTCCATTGTCCTTGTCCCTTCAGTGGAAACTTGTCCAGCGGAAGCTGTGACCACAGAGGCTCACCCATCGCCCAGGGCAGCCCCTGCACACGGGAGTCCCTGTGCTTTCTGAGACAAATTTTCAGACCCATTCAGCTCCTGCCCTCCTTCTAGGGCTCCT
+
+
+>>> C*07:06:01:02: 
+Insertion from 1 to 2
+TT
+Insertion from 4 to 7
+TTTT
+Insertion from 9 to 10
+CT
+insertion at 12: 
+G
+insertion at 14: 
+T
+insertion at 16: 
+T
+Insertion from 18 to 21
+GTTT
+Insertion from 23 to 31
+ATATTACCT
+insertion at 36: 
+T
+Insertion from 39 to 40
+GG
+Insertion from 42 to 50
+AAGGTAAGG
+Insertion from 53 to 54
+AA
+Insertion from 57 to 61
+GTGGG
+Insertion from 63 to 64
+GG
+insertion at 66: 
+A
+Insertion from 68 to 69
+GG
+Insertion from 71 to 74
+GTCC
+insertion at 78: 
+T
+Insertion from 80 to 84
+AGGGA
+Insertion from 86 to 92
+GGGGATT
+insertion at 94: 
+C
+Insertion from 98 to 105
+AGGAGAAG
+Insertion from 107 to 119
+GAAGGGGAAGGGG
+Insertion from 121 to 124
+TGGG
+insertion at 126: 
+G
+insertion at 128: 
+A
+Insertion from 130 to 133
+CCTT
+Insertion from 136 to 138
+GGT
+Insertion from 140 to 146
+TCTCCCT
+Insertion from 149 to 156
+TTTCCACA
+Insertion from 158 to 160
+ACA
+Insertion from 162 to 163
+AT
+insertion at 165: 
+C
+Insertion from 167 to 169
+TGT
+Insertion from 171 to 176
+CAGGAC
+Insertion from 182 to 187
+CACACA
+Insertion from 190 to 193
+GTGA
+Insertion from 195 to 199
+AAAGA
+insertion at 201: 
+G
+Insertion from 203 to 209
+TTGGTGT
+Insertion from 213 to 223
+AGAAGAGGGAT
+Insertion from 225 to 233
+AGGACGAAG
+insertion at 237: 
+C
+Insertion from 239 to 257
+GGTCCCGGGCGGGGCTCTC
+insertion at 262: 
+T
+insertion at 264: 
+T
+insertion at 266: 
+A
+Insertion from 268 to 269
+GC
+Insertion from 271 to 274
+CCAA
+Insertion from 276 to 280
+GGCCG
+Insertion from 282 to 283
+GT
+Insertion from 3565 to 4128
+CGTGACCCCTGTCCCCACACTGACCTGTGTTCCCTCCCCGATCATCTTTCCTGTTCCAGAGAGGTGGGGCTGGATGTCTCCATCTCTGTCTCAAATTCATGGTGCACTGAGCTGCAACTTCTTACTTCCCTAATGAAGTTAAGAACCTGAATATAAATTTGTGTTCTCAAATATTTGCTATGAAGCGTTGATGGATTAATTAAATAAGTCAATTCCTAGAAGTTGAGAGAGCAAATAAAGACCTGAGAACCTTCCAGAATTTGCATGTTCGCTGTGCTGAGTCTGTTGCAGGTGGGGGTGGGGAAGGCTGTGAGGAGCCGAGTGTGGACGGGGCCTGTGCCTAGTTGCTGTTCAGTTCTTCATGGGCTTTATGTGGTCAGTCCTCAGCTGGGTCACCTTCACTGCTCCATTGTCCTTGTCCCTTCAGTGGAAACTTGTCCAGCGGAAGCTGTGACCACAGAGGCTCACCCATCGCCCAGGGCAGCCCCTGCACACGGGAGTCCCTGTGCTTTCTGAGACAAATTTTCAGACCCAGTCAGCTCCTGCCCTCCTTCTAGGGCTCCT
+
+
+>>> C*07:18:09: 
+Insertion from 3919 to 4128
+GTTCTTCATGGGCTTTATGTGGTCAGTCCTCAGCTGGGTCACCTTCACTGCTCCATTGTCCTTGTCCCTTCAGTGGAAACTTGTCCAGCGGAAGCTGTGACCACAGAGGCTCACCCATCGCCCAGGGCAGCCCCTGCACACGGGAGTCCCTGTGCTTTCTGAGACAAATTTTCAGACCCAGTCAGCTCCTGCCCTCCTTCTAGGGCTCCT
+
+
+>>> C*07:530:02: 
+Insertion from 1 to 8
+TTATTTTG
+Insertion from 10 to 28
+TGGATGTAGTTTAATATTA
+Insertion from 30 to 31
+CT
+Insertion from 33 to 50
+AGGTGAGGTAAGGTAAGG
+Insertion from 53 to 54
+AA
+Insertion from 56 to 57
+GG
+Insertion from 59 to 64
+GGGAGG
+Insertion from 66 to 72
+AGGGAGT
+insertion at 75: 
+A
+Insertion from 77 to 80
+TTCA
+Insertion from 82 to 90
+GGACGGGGA
+Insertion from 94 to 105
+CAGGAGGAGAAG
+insertion at 107: 
+G
+Insertion from 110 to 113
+GGGG
+insertion at 115: 
+A
+Insertion from 117 to 120
+GGGC
+Insertion from 122 to 124
+GGG
+insertion at 126: 
+G
+Insertion from 128 to 129
+AG
+Insertion from 132 to 153
+TTGGGGTCTCTCCCTGGTTTCC
+Insertion from 155 to 156
+CA
+Insertion from 158 to 162
+ACAGA
+Insertion from 165 to 171
+CTTGTCC
+Insertion from 173 to 175
+GGA
+insertion at 177: 
+T
+Insertion from 179 to 181
+AGG
+insertion at 185: 
+A
+Insertion from 187 to 193
+AGTGTGA
+Insertion from 195 to 197
+AAA
+Insertion from 199 to 200
+AT
+Insertion from 202 to 209
+CTTGGTGT
+Insertion from 211 to 223
+GGAGAAGAGGGAT
+Insertion from 225 to 233
+AGGACGAAG
+Insertion from 236 to 237
+CC
+Insertion from 239 to 241
+GGT
+Insertion from 243 to 257
+CCGGGCGGGGCTCTC
+Insertion from 259 to 261
+GGG
+insertion at 263: 
+C
+Insertion from 266 to 269
+AGGC
+Insertion from 273 to 277
+AAGGG
+Insertion from 280 to 287
+GTGTCTGC
+Insertion from 289 to 290
+TT
+Insertion from 292 to 294
+GGG
+insertion at 299: 
+G
+insertion at 301: 
+C
+Insertion from 303 to 310
+CGTTGGGG
+Insertion from 312 to 325
+TTCTCCACTCCCCT
+insertion at 328: 
+G
+Insertion from 330 to 346
+TTCACTTCTCCCAACCT
+Insertion from 350 to 351
+TC
+insertion at 354: 
+G
+Insertion from 357 to 366
+CTTCTTCCTG
+insertion at 368: 
+A
+Insertion from 370 to 375
+ACTCAT
+Insertion from 377 to 378
+AC
+insertion at 382: 
+T
+Insertion from 387 to 402
+AATTCCCACTCCCATT
+Insertion from 404 to 416
+GGTGTCGGGTTCT
+Insertion from 419 to 423
+AGAAG
+Insertion from 426 to 428
+AAT
+Insertion from 430 to 433
+AGCG
+insertion at 436: 
+T
+Insertion from 438 to 442
+CGCAG
+Insertion from 446 to 448
+CGG
+Insertion from 450 to 455
+TCTAAA
+insertion at 457: 
+T
+Insertion from 459 to 463
+CCCAG
+Insertion from 465 to 473
+CACCCACCC
+Insertion from 475 to 476
+GA
+Insertion from 480 to 482
+ACA
+insertion at 484: 
+T
+Insertion from 486 to 491
+TCCCCA
+insertion at 493: 
+A
+Insertion from 496 to 498
+CCG
+Insertion from 501 to 502
+AT
+Insertion from 505 to 508
+GGGT
+insertion at 510: 
+A
+insertion at 515: 
+G
+Insertion from 518 to 525
+CCGAGCCC
+Insertion from 527 to 532
+CCTCCT
+Insertion from 534 to 544
+CTGCTCTCGGG
+Insertion from 546 to 547
+GG
+insertion at 550: 
+T
+Insertion from 552 to 557
+GCCCTG
+Insertion from 559 to 560
+CC
+Insertion from 563 to 564
+GA
+Insertion from 3412 to 4128
+CCTGTGTGGGACTGAGATGCAGGATTTCTTCACACCTCTCCTTTGTGACTTCAAGAGCCTCTGGCATCTCTTTCTGCAAAGGCACCTGAATGTGTCTGCGTTCCTGTTAGCATAATGTGAGGAGGTGGAGAGACAGCCCACCCCCGTGTCCACCGTGACCCCTGTCCCCACACTGACCTGTGTTCCCTCCCCGATCATCTTTCCTGTTCCAGAGAGGTGGGGCTGGATGTCTCCATCTCTGTCTCAAATTCATGGTGCACTGAGCTGCAACTTCTTACTTCCCTAATGAAGTTAAGAACCTGAATATAAATTTGTGTTCTCAAATATTTGCTATGAAGCGTTGATGGATTAATTAAATAAGTCAATTCCTAGAAGTTGAGAGAGCAAATAAAGACCTGAGAACCTTCCAGAATTTGCATGTTCGCTGTGCTGAGTCTGTTGCAGGTGGGGGTGGGGAAGGCTGTGAGGAGCCGAGTGTGGACGGGGCCTGTGCCTAGTTGCTGTTCAGTTCTTCATGGGCTTTATGTGGTCAGTCCTCAGCTGGGTCACCTTCACTGCTCCATTGTCCTTGTCCCTTCAGTGGAAACTTGTCCAGCGGAAGCTGTGACCACAGAGGCTCACCCATCGCCCAGGGCAGCCCCTGCACACGGGAGTCCCTGTGCTTTCTGAGACAAATTTTCAGACCCATTCAGCTCCTGCCCTCCTTCTAGGGCTCCT
+
+
+>>> C*07:916: 
+Insertion from 3919 to 4128
+GTTCTTCATGGGCTTTATGTGGTCAGTCCTCAGCTGGGTCACCTTCACTGCTCCATTGTCCTTGTCCCTTCAGTGGAAACTTGTCCAGCGGAAGCTGTGACCACAGAGGCTCACCCATCGCCCAGGGCAGCCCCTGCACACGGGAGTCCCTGTGCTTTCTGAGACAAATTTTCAGACCCATTCAGCTCCTGCCCTCCTTCTAGGGCTCCT
+
+
+>>> C*07:917: 
+Insertion from 3919 to 4128
+GTTCTTCATGGGCTTTATGTGGTCAGTCCTCAGCTGGGTCACCTTCACTGCTCCATTGTCCTTGTCCCTTCAGTGGAAACTTGTCCAGCGGAAGCTGTGACCACAGAGGCTCACCCATCGCCCAGGGCAGCCCCTGCACACGGGAGTCCCTGTGCTTTCTGAGACAAATTTTCAGACCCATTCAGCTCCTGCCCTCCTTCTAGGGCTCCT
+
+
+>>> C*12:03:72: 
+Insertion from 3904 to 4113
+GTTCTTCATGGGCTTTATGTGGTCAGTCCTCAGCTGGGTCACCTTCACTGCTCCATTGTCCTTGTCCCTTCAGTGGAAACTTGTCCAGCGGGAGCTGTGACCACAGAGGCTCACACATCGCCCAGGGCAGCCCCTGCACACGGGAGTCCCTGTGCTTTCTGAGACAAATTTTCAGACCCATTCAGCTCCTGCCCTCCTTCTAGGGCTCCT
+
+
+>>> C*12:334: 
+Insertion from 1 to 2
+TT
+Insertion from 4 to 7
+TTTT
+Insertion from 9 to 10
+CT
+insertion at 12: 
+G
+insertion at 14: 
+T
+insertion at 16: 
+T
+Insertion from 18 to 21
+GTTT
+Insertion from 23 to 31
+ATATTACCT
+Insertion from 36 to 38
+TAA
+Insertion from 40 to 41
+GT
+Insertion from 43 to 52
+AGGCAAAGAG
+Insertion from 54 to 59
+GGGAGG
+insertion at 64: 
+G
+Insertion from 66 to 67
+GT
+Insertion from 69 to 70
+CA
+Insertion from 72 to 74
+TTC
+Insertion from 76 to 78
+GGG
+insertion at 80: 
+C
+Insertion from 82 to 85
+GGGA
+insertion at 87: 
+T
+Insertion from 90 to 111
+AGGAGAAGTGAAGGGGAAGGGG
+Insertion from 113 to 119
+TGGGCGC
+Insertion from 122 to 124
+CCT
+Insertion from 126 to 129
+GGGG
+insertion at 132: 
+T
+insertion at 134: 
+T
+Insertion from 136 to 138
+CCT
+Insertion from 141 to 148
+TTTCCACA
+insertion at 150: 
+A
+insertion at 152: 
+A
+Insertion from 154 to 159
+ATCCTT
+Insertion from 162 to 164
+CCA
+Insertion from 166 to 167
+GA
+Insertion from 171 to 180
+AGGCACACAG
+Insertion from 182 to 185
+GTGA
+Insertion from 188 to 189
+AA
+Insertion from 191 to 192
+AT
+Insertion from 194 to 196
+CTT
+insertion at 198: 
+G
+Insertion from 200 to 215
+GTAGGAGAAGAGGGAT
+Insertion from 217 to 225
+AGGACGAAG
+Insertion from 228 to 229
+CC
+insertion at 233: 
+T
+Insertion from 235 to 245
+CCGGGCGGGGC
+insertion at 248: 
+T
+Insertion from 251 to 257
+GGGTCTC
+Insertion from 261 to 266
+CTCCAA
+Insertion from 268 to 269
+GG
+Insertion from 3552 to 4113
+CGTGACCCCTGTCCCCACACTGACCTGTGTTCCCTCCCCGATCATCTTTCCTGTTCCAGAGAAGTGGGCTGGATGTCTCCATCTCTGTCTCAACTTTACGTGTACTGAGCTGCAACTTCTTACTTCCCTACTGAAAATAAGAATCTGAATATAAATTTGTTTTCTCAAATATTTGCTATGAGAGGTTGATGGATTAATTAAATAAGTCAATTCCTGGAAGTTGAGAGAGCAAATAAAGACCTGAGAACCTTCCAGAATCCGCATGTTCGCTGTGCTGAGTCTGTTGCAGGTGGGGGTGGGGAAGGCTGTGAGGAGACGAGTGTGGACGGGGCCTGTGCCTAGTTGCTGTTCAGTTCTTCATGGGCTTTATGTGGTCAGTCCTCAGCTGGGTCACCTTCACTGCTCCATTGTCCTTGTCCCTTCAGTGGAAACTTGTCCAGCGGGAGCTGTGACCACAGAGGCTCACACATCGCCCAGGGCAGCCCCTGCACACGGGAGTCCCTGTGCTTTCTGAGACAAATTTTCAGACCCATTCAGCTCCTGCCCTCCTTCTAGGGCTCCT
+
+
+>>> C*12:359: 
+Insertion from 1 to 8
+TTATTTTG
+Insertion from 10 to 28
+TGGATGTAGTTTAATATTA
+Insertion from 30 to 31
+CT
+Insertion from 33 to 45
+AGGTAAGGTAAGG
+Insertion from 48 to 49
+AA
+Insertion from 51 to 52
+AG
+Insertion from 54 to 59
+GGGAGG
+Insertion from 61 to 67
+AGGGAGT
+insertion at 70: 
+A
+Insertion from 72 to 75
+TTCA
+Insertion from 77 to 85
+GGACGGGGA
+Insertion from 89 to 97
+CAGGAGAAG
+insertion at 99: 
+G
+Insertion from 102 to 105
+GGGG
+insertion at 107: 
+A
+Insertion from 109 to 112
+GGGC
+Insertion from 114 to 116
+GGG
+insertion at 118: 
+G
+Insertion from 120 to 121
+AG
+Insertion from 124 to 145
+TGGGGGTCTCTCCCTGGTTTCC
+Insertion from 147 to 148
+CA
+Insertion from 150 to 154
+ACAGA
+Insertion from 157 to 163
+CTTGGCC
+Insertion from 165 to 167
+GGA
+insertion at 169: 
+T
+Insertion from 171 to 173
+AGG
+insertion at 177: 
+A
+Insertion from 179 to 185
+AGTGTGA
+Insertion from 187 to 189
+AAA
+Insertion from 191 to 192
+AT
+Insertion from 194 to 201
+CTTGGTGT
+Insertion from 203 to 215
+GGAGAAGAGGGAT
+Insertion from 217 to 225
+AGGACGAAG
+Insertion from 228 to 230
+CCA
+Insertion from 233 to 249
+TCCCGGGCGGGGCTCTC
+Insertion from 251 to 253
+GGG
+insertion at 255: 
+C
+Insertion from 258 to 261
+AGGC
+Insertion from 265 to 269
+AAGGG
+Insertion from 272 to 279
+GTGTCTGC
+Insertion from 281 to 282
+CT
+Insertion from 284 to 286
+GGG
+Insertion from 288 to 289
+GG
+Insertion from 295 to 299
+CGTTG
+insertion at 302: 
+G
+Insertion from 305 to 317
+TCTCCACTCCCCT
+Insertion from 319 to 323
+AGTTT
+Insertion from 325 to 341
+ACTTCTTCTCCCAACCT
+insertion at 343: 
+C
+Insertion from 345 to 346
+TC
+Insertion from 348 to 349
+GG
+Insertion from 352 to 361
+CTTCTTCCTG
+insertion at 363: 
+A
+Insertion from 365 to 370
+ACTCAT
+Insertion from 372 to 373
+AC
+insertion at 377: 
+T
+Insertion from 382 to 397
+AATTCCCACTCCCATT
+Insertion from 399 to 411
+GGTGTCGGGTTCT
+insertion at 413: 
+G
+Insertion from 415 to 418
+GAAG
+Insertion from 421 to 423
+AAT
+Insertion from 425 to 428
+AGCG
+Insertion from 431 to 435
+TCCGC
+insertion at 437: 
+G
+Insertion from 441 to 443
+CGG
+Insertion from 445 to 450
+TCTAAA
+insertion at 452: 
+T
+Insertion from 454 to 458
+CCCAG
+Insertion from 460 to 468
+CACCCACCC
+Insertion from 470 to 471
+GA
+Insertion from 475 to 477
+GGA
+insertion at 479: 
+T
+Insertion from 481 to 486
+TCCCCA
+Insertion from 488 to 489
+AC
+Insertion from 491 to 492
+CC
+Insertion from 496 to 498
+ATG
+Insertion from 500 to 503
+GGGT
+Insertion from 505 to 508
+ATGG
+Insertion from 510 to 520
+GCCCCGAACCC
+Insertion from 522 to 527
+CATCCT
+Insertion from 529 to 530
+CT
+insertion at 533: 
+T
+insertion at 535: 
+T
+Insertion from 537 to 544
+GGGAGCCC
+Insertion from 547 to 552
+GCCCTG
+Insertion from 3399 to 4113
+CCTGTGTGGGACTGAGATGCAGGATTTCTTCACACCTCTCCTTTGTGACTTCAAGAGCCTCTGGCATCTCTTTCTGCAAAGGCATCTGAATGTGTCTGCGTTCCTGTTAGCATAATGTGAGGAGGTGGAGAGACAGCCCACCCCCGTGTCCACCGTGACCCCTGTCCCCACACTGACCTGTGTTCCCTCCCCGATCATCTTTCCTGTTCCAGAGAAGTGGGCTGGATGTCTCCATCTCTGTCTCAACTTTACGTGTACTGAGCTGCAACTTCTTACTTCCCTACTGAAAATAAGAATCTGAATATAAATTTGTTTTCTCAAATATTTGCTATGAGAGGTTGATGGATTAATTAAATAAGTCAATTCCTGGAAGTTGAGAGAGCAAATAAAGACCTGAGAACCTTCCAGAATCCGCATGTTCGCTGTGCTGAGTCTGTTGCAGGTGGGGGTGGGGAAGGCTGTGAGGAGACGAGTGTGGACGGGGCCTGTGCCTAGTTGCTGTTCAGTTCTTCATGGGCTTTATGTGGTCAGTCCTCAGCTGGGTCACCTTCACTGCTCCATTGTCCTTGTCCCTTCAGTGGAAACTTGTCCAGCGGGAGCTGTGACCACAGAGGCTCACACATCGCCCAGGGCAGCCCCTGCACACGGGAGTCCCTGTGCTTTCTGAGACAAATTTTCAGACCCATTCAGCTCCTGCCCTCCTTCTAGGGCTCCT
+
+
+>>> C*12:392: 
+Insertion from 1 to 7
+TTATTTT
+insertion at 10: 
+T
+Insertion from 12 to 13
+GA
+Insertion from 15 to 28
+GTAGTTTAATATTA
+Insertion from 31 to 45
+TGAGGTAAGGTAAGG
+Insertion from 47 to 59
+AAAGAGTGGGAGG
+Insertion from 62 to 64
+GGG
+insertion at 66: 
+G
+Insertion from 68 to 71
+CCAG
+insertion at 73: 
+T
+Insertion from 75 to 79
+AGGGA
+Insertion from 81 to 87
+GGGGATT
+insertion at 89: 
+C
+Insertion from 91 to 111
+GGAGAAGTGAAGGGGAAGGGG
+Insertion from 114 to 116
+GGG
+insertion at 118: 
+G
+Insertion from 120 to 121
+AG
+Insertion from 123 to 145
+CTGGGGGTCTCTCCCTGGTTTCC
+Insertion from 147 to 154
+CAGACAGA
+Insertion from 156 to 157
+CC
+insertion at 159: 
+T
+Insertion from 162 to 164
+CCA
+Insertion from 166 to 168
+GAC
+Insertion from 170 to 171
+CA
+Insertion from 173 to 180
+GCACACAG
+Insertion from 182 to 185
+GTGA
+Insertion from 187 to 189
+AAA
+Insertion from 191 to 192
+AT
+Insertion from 194 to 196
+CTT
+insertion at 198: 
+G
+insertion at 200: 
+G
+Insertion from 202 to 215
+AGGAGAAGAGGGAT
+Insertion from 217 to 225
+AGGACGAAG
+Insertion from 227 to 229
+CCC
+Insertion from 232 to 249
+GTCCCGGGCGGGGCTCTC
+Insertion from 252 to 257
+GGTCTC
+Insertion from 259 to 264
+GGCTCC
+insertion at 266: 
+A
+Insertion from 268 to 269
+GG
+Insertion from 272 to 279
+GTGTCTGC
+Insertion from 281 to 286
+CTGGGG
+Insertion from 288 to 296
+GGCGCCGCG
+Insertion from 298 to 305
+TGAGGATT
+Insertion from 307 to 309
+TCC
+Insertion from 311 to 317
+CTCCCCT
+Insertion from 319 to 323
+AGTTT
+Insertion from 325 to 341
+ACTTCTTCTCCCAACCT
+Insertion from 343 to 344
+CG
+Insertion from 347 to 349
+GGG
+Insertion from 353 to 360
+TTCTTCCT
+Insertion from 362 to 365
+AATA
+Insertion from 367 to 368
+TC
+insertion at 370: 
+T
+Insertion from 372 to 376
+ACGCG
+Insertion from 381 to 397
+CAATTCCCACTCCCATT
+insertion at 400: 
+G
+insertion at 402: 
+G
+Insertion from 405 to 407
+GGG
+Insertion from 409 to 411
+TCT
+insertion at 413: 
+G
+insertion at 415: 
+G
+insertion at 417: 
+A
+Insertion from 419 to 422
+CCAA
+Insertion from 425 to 426
+AG
+Insertion from 428 to 429
+GT
+insertion at 431: 
+T
+Insertion from 433 to 435
+CGC
+Insertion from 440 to 447
+CCGGTTCT
+Insertion from 449 to 452
+AAGT
+insertion at 456: 
+C
+Insertion from 458 to 459
+GT
+insertion at 461: 
+A
+Insertion from 464 to 468
+CACCC
+Insertion from 3411 to 4113
+TGAGATGCAGGATTTCTTCACACCTCTCCTTTGTGACTTCAAGAGCCTCTGGCATCTCTTTCTGCAAAGGCATCTGAATGTGTCTGCGTTCCTGTTAGCATAATGTGAGGAGGTGGAGAGACAGCCCACCCCCGTGTCCACCGTGACCCCTGTCCCCACACTGACCTGTGTTCCCTCCCCGATCATCTTTCCTGTTCCAGAGAAGTGGGCTGGATGTCTCCATCTCTGTCTCAACTTTACGTGTACTGAGCTGCAACTTCTTACTTCCCTACTGAAAATAAGAATCTGAATATAAATTTGTTTTCTCAAATATTTGCTATGAGAGGTTGATGGATTAATTAAATAAGTCAATTCCTGGAAGTTGAGAGAGCAAATAAAGACCTGAGAACCTTCCAGAATCCGCATGTTCGCTGTGCTGAGTCTGTTGCAGGTGGGGGTGGGGAAGGCTGTGAGGAGACGAGTGTGGACGGGGCCTGTGCCTAGTTGCTGTTCAGTTCTTCATGGGCTTTATGTGGTCAGTCCTCAGCTGGGTCACCTTCACTGCTCCATTGTCCTTGTCCCTTCAGTGGAAACTTGTCCAGCGGGAGCTGTGACCACAGAGGCTCACACATCGCCCAGGGCAGCCCCTGCACACGGGAGTCCCTGTGCTTTCTGAGACAAATTTTCAGACCCATTCAGCTCCTGCCCTCCTTCTAGGGCTCCT
+
+
+>>> C*14:02:17: 
+insertion at 1: 
+A
+insertion at 3: 
+G
+Insertion from 5 to 13
+GAAGAGGGA
+
+
+>>> C*15:25: 
+Insertion from 3923 to 4113
+TGGTCAGTCCTCAGCTGGGTCACCTTCACTGCTCCATTGTCCTTGTCCCTTCAGTGGAAACTTGTCCAGCGGGAGCTGTGACCACAGAGGCTCACACATCGCCCAGGGCAGCCCCTGCACACGGGAGTCCCTGTGCTTTCTGAGACAAATTTTCAGACCCATTCAGCTCCTGCCCTCCTTCTAGGGCTCCT
+
+
+>>> C*17:01:01:29: 
+Insertion from 1 to 2
+TT
+Insertion from 4 to 7
+TTTT
+Insertion from 9 to 10
+CT
+insertion at 12: 
+G
+insertion at 14: 
+T
+insertion at 16: 
+T
+Insertion from 18 to 21
+GTTT
+Insertion from 23 to 31
+ATATTACCT
+Insertion from 36 to 38
+TAA
+Insertion from 40 to 41
+GT
+Insertion from 43 to 52
+AGGCAAAGAG
+Insertion from 54 to 59
+GGGAGG
+insertion at 64: 
+G
+Insertion from 66 to 67
+GT
+Insertion from 69 to 70
+CA
+Insertion from 72 to 74
+TTC
+Insertion from 76 to 78
+GGG
+insertion at 80: 
+C
+Insertion from 82 to 86
+GGGAA
+Insertion from 90 to 114
+AGGAGGAGAAGTGAAGGGGAAGGGG
+Insertion from 116 to 122
+TGGGCGC
+Insertion from 125 to 127
+CCT
+Insertion from 129 to 132
+GGGG
+insertion at 135: 
+T
+insertion at 137: 
+T
+Insertion from 139 to 141
+CCT
+Insertion from 144 to 151
+TTTCCACA
+insertion at 153: 
+A
+insertion at 155: 
+A
+Insertion from 157 to 162
+ATCCTT
+Insertion from 165 to 167
+CCA
+Insertion from 169 to 170
+GA
+Insertion from 174 to 183
+AGGCACACAG
+Insertion from 185 to 188
+GTGA
+Insertion from 190 to 194
+AAAGA
+Insertion from 197 to 199
+CTT
+Insertion from 203 to 218
+GTAGGAGAAGAGGGAT
+Insertion from 220 to 228
+AGGACGAAG
+Insertion from 231 to 232
+CC
+Insertion from 234 to 260
+GGTCCCGGGCGGGGCTCTCTGGGTCTC
+insertion at 262: 
+A
+Insertion from 3574 to 4137
+CGTGACCCCTGTCCCCATACTGACCTGTGTTCCCTCCCCGATCATCTTTCCTGTTCCAGAGAGGTGGGGCTGGATGTCTCCATCTCTGTCTCAACTTCATGGTGCACTGAGCTGCAGCTTCTTACTTCCCTAATGAAGTTAAGAACCTGAATATAAATTTGTGTTCTCAAATATTTGCTATGAAGCGTTGATGGGTTAATTAAATAAGTCAATTCCTAGAAGTTGAGAGAGCAAATAAAGACCTGAGAACCTTCCAGAATCCACATGTTCACTGTGCTGAGTCAGTTGCAGGTGGGGGTGGAGAAGGCTGTGAGGAACCGAGTGTGGACGGGGCCTGTGCCTAGTTGCTGTTCAGTTCTTCATGAGCTTTATGTGGTCAGTCCTCAGCTGGGTCACCTTCACTGCTCCATTGTCCTTGTCCCTTCAGTGGAAACTTGTTCAGCGGGAGCTGTGACCACAGAGGCTCACACATCGCCCAGGGCAGCCCCTGCACATGGGAGTCCCTGTGCTTTCTGAGACAAATTTTCAGACCCATTCAGCTCCTGCCCTCCTTCTAGGGCTCCT
+
+
+>>> DOB*01:02:01:01: 
+Insertion from 2 to 9
+ATAATAAA
+Insertion from 13 to 19
+TCTGCCT
+Insertion from 21 to 28
+GTTCTTCT
+Insertion from 30 to 36
+GGGCCCC
+insertion at 38: 
+T
+Insertion from 41 to 45
+TATGT
+Insertion from 48 to 73
+AACATATATTTTTACTTCTTCTCCCA
+Insertion from 76 to 84
+CCATTTTTA
+insertion at 86: 
+T
+Insertion from 89 to 91
+ACC
+Insertion from 93 to 95
+AAA
+insertion at 97: 
+T
+insertion at 99: 
+C
+Insertion from 101 to 103
+GTC
+Insertion from 105 to 110
+GTGATT
+insertion at 113: 
+G
+Insertion from 115 to 124
+AGGCAAACAA
+Insertion from 126 to 127
+GG
+Insertion from 129 to 130
+TG
+Insertion from 132 to 136
+GTTGT
+Insertion from 140 to 149
+ACACAACTTT
+insertion at 151: 
+T
+Insertion from 153 to 156
+AAAG
+insertion at 159: 
+T
+insertion at 161: 
+C
+Insertion from 163 to 168
+ACCCAG
+Insertion from 170 to 172
+ACC
+Insertion from 174 to 180
+GATGATG
+Insertion from 182 to 186
+AAAAC
+Insertion from 188 to 197
+CTTCTATCTT
+Insertion from 200 to 207
+TTGGTTGT
+Insertion from 209 to 210
+AA
+Insertion from 212 to 213
+CT
+Insertion from 216 to 217
+GG
+insertion at 219: 
+G
+Insertion from 223 to 226
+CCAA
+Insertion from 228 to 234
+CCTGGGG
+Insertion from 236 to 252
+AGCCAGAAAAACAGCGA
+Insertion from 254 to 266
+TTATACTCTTAAT
+Insertion from 268 to 270
+GGT
+Insertion from 272 to 277
+CTTTCT
+insertion at 279: 
+A
+Insertion from 282 to 293
+GAATTTTATGAG
+Insertion from 295 to 296
+TC
+Insertion from 4086 to 4785
+CCTCACTGAAGCTTCTCTCTCTGGAGCCTGAAGTAGTGATGAGTAGTCTGGGCCCTGGGTGAGGTAAAGGACATTCATGAGGTCAATGTTCTGGGAATAACTCTCTTCCCTGATCCTTGGAGGAGCCCGAACTGATTCTGGAGCTCTGTGTTCTGAGATCATGCATCTCCCACCCATCTGCCCTTCTCCCTTCTACGTGTACATCATTAATCCCCATTGCCAAGGGCATTGTCCAGAAACTCCCCTGAGACCTTACTCCTTCCAGTCCCAAATCATTTACTTTTCTGTGGTCCAGCCCTACTCCTATAAGTCATGATCTCCAAAGCTTTCTGTCTTCCAACTGCAGTCTCCACAGTCTTCAGAAGACAAATGCTCAGGTAGTCACTGTTTCCTTTTCACTGTTTTTAAAAACCTTTTATTGTCAAATAAAATGGAGATACAAAAAATGTACATTTTAGTGAATTATTTAAGAAAAACCCCTGTAATCAAGTCAAGGAACAGGACTTTGCCAGCTCCAGCAGAAGTCTCTGTACGTCAGGCCAATCAAAGCCTCTCCTTCCCCTCGAAAGTGACCATATCCTGATTTTATTGTAACCTCTTTCATGTCTTTGTAGTCTAGTCCCCCAGGTATGTGTTCCTGGACGCCACAGCTTAGTTGTCTTTTACGTCTCTTATACTTCACTGGTTTCTCCCCCATCAG
+
+
+>>> DOB*01:03:01:02: 
+Insertion from 2 to 9
+ATAATAAA
+Insertion from 13 to 19
+TCTGCCT
+Insertion from 21 to 28
+GTTCTTCT
+Insertion from 30 to 36
+GGGCCCC
+insertion at 38: 
+T
+Insertion from 41 to 45
+TATGT
+Insertion from 48 to 73
+AACATATATTTTTACTTCTTCTCCCA
+Insertion from 76 to 84
+CCATTTTTA
+insertion at 86: 
+T
+Insertion from 89 to 91
+ACC
+Insertion from 93 to 95
+AAA
+insertion at 97: 
+T
+insertion at 99: 
+C
+Insertion from 101 to 103
+GTC
+Insertion from 105 to 110
+GTGATT
+insertion at 113: 
+G
+Insertion from 115 to 124
+AGGCAAACAA
+Insertion from 126 to 127
+GG
+Insertion from 129 to 130
+TG
+Insertion from 132 to 136
+GTTGT
+Insertion from 140 to 149
+ACACAACTTT
+insertion at 151: 
+T
+Insertion from 153 to 156
+AAAG
+insertion at 159: 
+T
+insertion at 161: 
+C
+Insertion from 163 to 168
+ACCCAG
+Insertion from 170 to 172
+ACC
+Insertion from 174 to 180
+GATGATG
+Insertion from 182 to 186
+AAAAC
+Insertion from 188 to 197
+CTTCTATCTT
+Insertion from 200 to 207
+TTGGTTGT
+Insertion from 209 to 210
+AA
+Insertion from 212 to 213
+CT
+Insertion from 216 to 217
+GG
+insertion at 219: 
+G
+Insertion from 223 to 226
+CCAA
+Insertion from 228 to 234
+CCTGGGG
+Insertion from 236 to 252
+AGCCAGAAAAACAGCGA
+Insertion from 254 to 266
+TTATACTCTTAAT
+Insertion from 268 to 270
+GGT
+Insertion from 272 to 277
+CTTTCT
+insertion at 279: 
+A
+Insertion from 282 to 293
+GAATTTTATGAG
+Insertion from 295 to 296
+TC
+Insertion from 4087 to 4786
+CCTCACTGAAGCTTCTCTCTCTGGAGCCTGAAGTAGTGATGAGTAGTCTGGGCCCTGGGTGAGGTAAAGGACATTCATGAGGTCAATGTTCTGGGAATAACTCTCTTCCCTGATCCTTGGAGGAGCCCGAACTGATTCTGGAGCTCTGTGTTCTGAGATCATGCATCTCCCACCCATCTGCCCTTCTCCCTTCTACGTGTACATCATTAATCCCCATTGCCAAGGGCATTGTCCAGAAACTCCCCTGAGACCTTACTCCTTCCAGCCCCAAATCATTTACTTTTCTGTGGTCCAGCCCTACTCCTATAAGTCATGATCTCCAAAGCTTTCTGTCTTCCAACTGCAGTCTCCACAGTCTTCAGAAGACAAATGCTCAGGTAGTCACTGTTTCCTTTTCACTGTTTTTAAAAACCTTTTATTGTCAAATAAAATGGAGATACAAAAAATGTACATTTTAGTGAATTATTTAAGAAAAACCCCTGTAATCAAGTCAAGGAACAGGACTTTGCCAGCTCCAGCGGAAGTCTCTGTACGTCAGGCCAATCAAAGCCTCTCCTTCCCCTCGAAAGTGACCATATCCTGATTTTATTGTAACCTCTTTCATGTCTTTGTAGTCTAGTCCCCCAGGTATGTGTTCCTGGACGCCACAGCTTAGTTGTCTTTTACGTCTCTCATACTTCACTGGTTTCTCCCCCTTCAG
+
+
+>>> DPA1*02:01:01:15: 
+Insertion from 5240 to 5578
+TATGGTCAGGCGCTATTCTGAGGGTTTACATTCATTAACTCACTTTATTCTCACAAATAGTCTTTGAGGTAGGTACTATTATTTTCACCATTTCACATGAGAGATACTTACATCTTTTTACATACACAGAGATCTTAAGCACTTTGATCCAGTTCCCACAGCTATGAAGTAGTAGGGCTACCTTCCAATCCAGAAAGTCTGGATCCAAGACTGTTTATCCACTGTCCTATTCACCCTATTTTGTGAAGGAAAAGACCAAGTTGAAATTCTCCAAGAGTCCGTTGTCTAATAACGGAGCCAGATCTATATTTCTATACATAATTACAACACAGTGTGGTG
+
+
+>>> DPA1*02:02:02:01: 
+Insertion from 1 to 5
+GGTGG
+Insertion from 7 to 8
+CC
+insertion at 10: 
+G
+insertion at 14: 
+G
+Insertion from 16 to 43
+AAGATTAATTATATATTTTATTAGATAG
+Insertion from 46 to 47
+CA
+Insertion from 49 to 64
+TCATTCTTAATTATCA
+insertion at 66: 
+C
+Insertion from 68 to 70
+GAA
+insertion at 72: 
+A
+Insertion from 75 to 79
+TTTGT
+Insertion from 87 to 88
+TG
+Insertion from 90 to 107
+CAACATAACATAAAACAT
+insertion at 109: 
+A
+Insertion from 111 to 120
+TTAAAATATA
+Insertion from 122 to 123
+TG
+
+
+>>> DPA1*02:66:02N: 
+Insertion from 1 to 4
+GTTT
+Insertion from 6 to 7
+AG
+Insertion from 9 to 15
+CTCATCT
+Insertion from 17 to 18
+CC
+Insertion from 20 to 25
+CCACTC
+insertion at 27: 
+G
+insertion at 29: 
+C
+Insertion from 33 to 35
+GTT
+Insertion from 37 to 39
+CTC
+Insertion from 41 to 45
+TCACT
+insertion at 48: 
+T
+Insertion from 50 to 57
+CTGTGCTC
+Insertion from 59 to 61
+CAG
+Insertion from 65 to 66
+TC
+insertion at 68: 
+A
+
+
+>>> DPA1*04:01:01:02: 
+Insertion from 1 to 2
+GG
+Insertion from 4 to 8
+GGACC
+Insertion from 10 to 19
+GAAAGAAAGA
+Insertion from 22 to 23
+AA
+insertion at 25: 
+T
+Insertion from 27 to 43
+TATATTTTATTAGATAG
+Insertion from 45 to 46
+GC
+insertion at 49: 
+T
+insertion at 51: 
+A
+insertion at 53: 
+T
+Insertion from 57 to 58
+AA
+Insertion from 60 to 62
+TAT
+Insertion from 64 to 70
+AGCAGAA
+Insertion from 72 to 89
+ATTTTTGTAAAATATTGA
+Insertion from 91 to 94
+AACG
+Insertion from 96 to 107
+AACATAAAACAT
+Insertion from 110 to 125
+TTTAAAATATAGTGAT
+Insertion from 127 to 134
+AGAAAACA
+Insertion from 137 to 141
+AAAGA
+Insertion from 143 to 147
+CATCT
+Insertion from 150 to 158
+CTGTCTGGG
+Insertion from 160 to 176
+TGGGGGTGGGGCTCGGG
+insertion at 178: 
+G
+Insertion from 180 to 186
+AGGAACA
+Insertion from 188 to 190
+AAT
+insertion at 192: 
+G
+Insertion from 195 to 196
+AA
+insertion at 198: 
+A
+Insertion from 200 to 201
+TT
+Insertion from 203 to 205
+CCG
+Insertion from 207 to 208
+CA
+Insertion from 212 to 221
+GAAGGTGTAA
+Insertion from 224 to 246
+TATCTTTTTACATCTCTTTCTCT
+Insertion from 248 to 252
+ACTCT
+Insertion from 255 to 258
+AAAT
+Insertion from 260 to 261
+AA
+Insertion from 264 to 268
+GTGAA
+Insertion from 271 to 274
+GGAG
+insertion at 277: 
+C
+Insertion from 279 to 281
+CTT
+Insertion from 5970 to 9816
+CTGTCTCTACTTGGACTCATTCGATGGCAATGCTCACACAAAAAATGCCCCTCCTGAGATCTTATAGGTTTCTATTTATCGTAACACTCACCATGCTTTATATTTTTATATGTTTTGGGAATTCTCTTAGCATTAGACAGTGAACTTCCATGCAGATGACCACATCTAATTCATTATTATTATTGTTATTCATGCTGGACCTCAGGTACAAAAGGTTAAGAACTTCTCAGTTCATTATACTGTCATCACTGGTGCCTCCGAACTCTCTCTCTCTCTCTCGATTTATTTGGTCCCTTTTATCTCCAGTCCTTACTCCCATATCTAACCTCTTACCCCTACCTCATAGGTAAACATTTTAATGAATTTGATGTTTCCTTTTATTTGCATAGATGCTCCCTAATATGTAGTAGTGTCCAGTGTACATGTATTTTTAATTAACCAAAATGGCATTAAATTATAGATCTAATTTTGTATATCCAGTTTGTTTCTTCCAAATCTTCCATAGTATTTTCCTCTATATGTCCATGCATTAGTCCATTTTGCATTCCTATAAAGGAATAAAGGAATATCTGAAGTTACCTAATTTATGAAGAAAAGAGCTTTAAATGGCTTACAGATCTGCAGGCTGTCCATGAAACATGGCACCAGCATCTGCTTCTGTTGGGGGATTCTGGAAGCTTTTACTCATGGTGGAAGGCAAGTGGAGCCAGTGCATCACATGGTCATAGAGGGAGAAAGAGACATAGAAAGAGGTGCCAGGCTCTTTTAACAACGAGGTTTCACGTACACTAATAGAGTGAGAACTCACTCATTACCCTGGGGCGGGCACCAAGCCATTCATGAGGGAGTCTCCTCCATGATTCAAATACCTCCCACCAGGCCCCACCTGCAACACTGGGTATCAATTTTCAACATGAGATTTGGAAGGGACAAATATCCAAATCATATTAATCCACATATCTATATTGCTCCTGGGGTACCTGGATCACCCCTGGTTCTCTACTATTGCAAGTGATGCTCGTATCTCACATGGAACTGCATATGCATGTGGGCCTGACCTGCATCCCTGGAATGTATGTATCCTAGAAAGGGGTTGCAGGGTTGCTGGAGATGCAGCTCCTTAATTTGACTAAATACTGCTCATCTTCTCATCAGAATGGCTGTACTCATCTGTGCTTCCTTTGTCAGTACCTGAAATGTCCTGCAACTCCTAAATGCACATCAACACTGGACATTATCCAGTTTTCTAACTTTTGCCAATTTCATTTGCATAAAGAAATATGCTGTTTTATTTTGCATTTCTTTAATTACTAATAATTGGGGCTATAATTAGGACTGATTAGCCACTTGGGGGTTCCTTTTCTATAAATTGCCTGTTCACATTCATTGCCCATTTTTGTATTATGTGCTTCTATCATTTTCTTATTGATTTGCAAGTGATACTTATACAGTCCTGCTAGTAGTCCCTTGTCAGTTTTAGGCATTGCAAATGTTTTCCCCTAATCTGACTTCTGGTAACTTTCTCCTTGGTTTCCTTTATTGAAGAGAAATCCTTAATATTTTGTGATGAAGTCCATCAACTGTATTTTTGTTTATGCATCTTTTTTAAAAGAAATCTTCCCTGTACTGAGATATCAAAGATACTCTTAAAACATCTCCTACAGTTTTAAATTTCACATGTACTACTTTAATTCATCTGGGATTCATCTTTGTGTTTGATGGGGATCATGTTTTATTTTTCTCTATATAATGGGCCAGTGTGTTCCCACAACTACTAAATAGTTCACCTTTTCCCCATAAGCTAGTGGTGTCTCCTTTGCTATACTGAAAGCTCCCATTACAGATGGGCCTGTGTCTGAGTTCCATCTTGTTCCACTGTTCTGTTTGTCTCTTCTTGTGCCAGTGTCCTAGTGTTTTGATTACTATGACATTGTAGTGTGTGTTAGTATCCAGTAGGAAAAATTCTTCTTTATTTTTCTTTGTTCACACACATTTATAATGATATCTATAATGATTTGTAACAGAATGAAGTGAATGTAGAATGTCAGATGTTAAGAGGAAGAATGGAAAGGAGGGCTGGAATTAGGGTGATGTAAGGGATGCACTTGACTTAGGTGCAAAATTTGGGAGATGCCAAAAGAACTCAGTAATAAATCATATTTTAATGAAATATCTTGAAAAAGCAAAATTAATGCAAAGATACATGATTAACAAAATATCAAAAGAGGATTATTCAACGAAAATGGAGAAGAAGCAGAGAGGCAGAATAATTAGGAGAATATGTTGTCACATAAGCCAAGGAATTAAAGAATTCCAGGAAGGAGGAAGTACTGCTGTCAGATGTTCAACAGAGGTCATTTTAGAAAATTTACCTTGGTTTTGAAATCCTTTCAAAGAGCAGTTTACACAATGTGAACAAGTATCCTTCCTTCATTGCCATCATTGATATGGTTTGGATATTTGTCCCTTCCAATTCTCATTCCAGGGTTAAGCTTCTTCTCTGCCCTCAGTAATGTGGCCCTTCCCCTTGTCAGGATATTTTGGAGACATGAAGCATGTGGGATGCCCTCAAAGTCAGCTGGGGTTTGAGGGTGAAATTCAATGACTTTAGTGAACTCCTTGGCTCCTATGTGCTGTTCACCTGGAGGACCAGGGTTTGTGCAGGGATGACCACCTTCTCCCTGGGAGCTGAACAGGGCAGAGAAATGGGAAGCTCGGGTACAAAGGGAGTGGGAAAGATGGGTTTGGGCTTGCAGTACTGAACCCAGGAATGACAGTAACTGTGTGTGTTGCTGCAGGTGACAAAATATCTGAACAGAAGAGGACTTAGGAGAGATCTGAACTCCAGCTGCCCTACAAACTCCGTCACAGCTTTTCTTCTCACTTCATGTGAAAACTACCCCAGTGGCTGACTGAATTGCTGACCCTTCAAGCTCTGTCCTTATCCATTACCTTAAAGCAGTCATTCCTTAGTAAAGTTTCCAACAAATAGAAATTAATGAATAAATGTTGACACCTTGATAGCACTGATATGGAGATTATCCTTTCATTGAGCCTTTTATCCTCTGGTCTTCTTTGAAGAACCCCTCACTGTCACCTTCCTGAGAATACTCTAAGACCAATAAATACTTCAGTATTTCAGAGCTGGGAGACTCTGAGTCATTCTTACTGGAAGTCTAGGACCAGGTCACATGTGAATACTATTTCTTGAAGGTGTGGTTTCAACCTCTATTGCAGATGTAGTTACTAAAGGTTCTGATCCCACCTGAATGGAAAGGTCTGAGGATATTGATTCAGCCCTGGGTTCTTCCCTAACTACAGGATGGGGTGGGGCAGAGAAAGGATATTGGGGGGAAATTTTACTTGGATGAAGATTTTCTTGGATGTAGTTTGAAGACTGCAGTGTTTGAAGTCTCTGAGGGAAGAGATTTGGTCTGTCTGGATCAAGATTTCAGGCAGATTAGGATTCCATTCACAGCCCCTGAGCTTCCTTCCCAAGGCTGGATTGTAATTATAGCAATATTTCATGGAGGATTTTTTCTACATGATAAACTAAGAGCCAAGAAATAAAATTTTAAAAATGCCCTCATTCATTGCAATTTTTACCAGCCATAGTCACTCCATGTGGGAGAACTTAAATCATGATTACCAGAGCTTCCAAAAGTTTGAGAATAGTGATGATTATGAAGAAAAATATCTTATTTGAGCAAGGATTTTGTTTCTTTATGGGTGTTCATTAGATATTATGATGAAAAAAGCATGAAATGGTAAAAATGCAGATAAATATAAAAACATGTTTTCTAGGTTTCTTTTTATTTTTAAGTTAAAAAAGGAATTGTTTAAAGTG
+
+
+>>> TAP2*01:01:07:05: 
+Insertion from 2 to 5
+CAAA
+Insertion from 7 to 9
+CAA
+insertion at 11: 
+G
+Insertion from 13 to 17
+CAACA
+Insertion from 19 to 23
+ATAAA
+Insertion from 25 to 26
+TT
+Insertion from 28 to 32
+CCCTT
+Insertion from 34 to 40
+AGACAAC
+Insertion from 45 to 49
+TTTTA
+Insertion from 51 to 55
+TTAAT
+Insertion from 57 to 61
+ATAAA
+Insertion from 64 to 67
+AACA
+Insertion from 69 to 72
+TTTT
+insertion at 74: 
+C
+Insertion from 77 to 84
+TTTTATAT
+Insertion from 86 to 87
+CC
+Insertion from 89 to 94
+GAGTAA
+Insertion from 98 to 105
+CCACTAAA
+Insertion from 107 to 111
+GCGAG
+Insertion from 113 to 117
+GAGAC
+insertion at 119: 
+C
+Insertion from 121 to 123
+TTG
+Insertion from 125 to 129
+AGGCC
+Insertion from 131 to 133
+GTA
+insertion at 137: 
+T
+Insertion from 139 to 140
+CG
+Insertion from 142 to 145
+ACCA
+Insertion from 149 to 150
+TT
+Insertion from 152 to 155
+GGGC
+Insertion from 158 to 160
+CAG
+insertion at 162: 
+T
+Insertion from 164 to 202
+CGCTGTCTGCGGGTCTCGCGCGCCCCCTCCCGGCGGCCC
+Insertion from 205 to 208
+CCCA
+Insertion from 210 to 212
+AAT
+Insertion from 214 to 219
+AAGGCC
+Insertion from 223 to 229
+GCTGGGG
+Insertion from 232 to 245
+GCGAAAGCGAAAGC
+Insertion from 247 to 251
+GCCCG
+Insertion from 254 to 257
+CCCT
+Insertion from 260 to 268
+CGCCCGCCC
+Insertion from 270 to 274
+GGCCG
+Insertion from 276 to 279
+GCGT
+Insertion from 281 to 288
+GCTGGCGG
+Insertion from 290 to 291
+CC
+Insertion from 293 to 299
+GAGCCGG
+insertion at 301: 
+A
+Insertion from 303 to 304
+CG
+Insertion from 307 to 312
+GTTGGG
+insertion at 314: 
+G
+insertion at 317: 
+A
+Insertion from 319 to 322
+GGAG
+insertion at 325: 
+G
+Insertion from 327 to 328
+CC
+Insertion from 330 to 331
+CA
+insertion at 333: 
+C
+Insertion from 335 to 337
+CTG
+Insertion from 339 to 340
+AG
+insertion at 342: 
+A
+Insertion from 344 to 345
+AA
+Insertion from 347 to 351
+TCCCC
+Insertion from 353 to 356
+GAGC
+Insertion from 358 to 361
+GCGG
+Insertion from 363 to 381
+CTCCCCGCCGCGGCTGGTG
+Insertion from 384 to 385
+TT
+Insertion from 387 to 389
+GTG
+Insertion from 395 to 399
+GGGAA
+insertion at 402: 
+T
+insertion at 405: 
+A
+Insertion from 409 to 414
+CCAACA
+Insertion from 417 to 429
+GACGCAGCCCAAG
+insertion at 431: 
+G
+Insertion from 433 to 445
+CTACCCACTCCAC
+Insertion from 447 to 451
+CTCCT
+Insertion from 453 to 458
+CTTCCC
+Insertion from 461 to 467
+TCCCTCT
+Insertion from 469 to 473
+CACCC
+insertion at 475: 
+G
+insertion at 477: 
+G
+Insertion from 479 to 480
+TA
+insertion at 483: 
+A
+Insertion from 485 to 486
+GG
+insertion at 488: 
+G
+Insertion from 490 to 491
+GG
+Insertion from 493 to 498
+GCCCGG
+Insertion from 500 to 506
+CCACTTA
+Insertion from 508 to 510
+CTC
+Insertion from 512 to 518
+CCGCGGC
+Insertion from 520 to 527
+GGCGGGGG
+Insertion from 529 to 533
+GGGGG
+Insertion from 538 to 546
+GGTCCGGGG
+Insertion from 548 to 568
+TTTTTTTTTTTTTTTTTTAAG
+Insertion from 570 to 576
+ACGAGGC
+Insertion from 580 to 581
+TG
+Insertion from 583 to 586
+TGGT
+Insertion from 588 to 590
+ATG
+Insertion from 592 to 593
+TT
+Insertion from 596 to 597
+AG
+Insertion from 599 to 603
+TCCCC
+Insertion from 605 to 617
+GAAGGCCGAAAGC
+Insertion from 620 to 627
+TCTGTCGT
+Insertion from 629 to 635
+GGAGGGG
+insertion at 637: 
+G
+Insertion from 639 to 643
+ACGGA
+Insertion from 645 to 647
+GAG
+Insertion from 649 to 653
+ACCGG
+Insertion from 655 to 656
+TA
+Insertion from 658 to 659
+TC
+Insertion from 661 to 667
+GGAGAGC
+insertion at 672: 
+A
+Insertion from 674 to 675
+GG
+Insertion from 677 to 678
+TG
+insertion at 680: 
+A
+Insertion from 682 to 697
+AGGATAAAATGAGAAG
+insertion at 701: 
+A
+Insertion from 703 to 709
+GGACGGG
+Insertion from 711 to 712
+TA
+Insertion from 714 to 717
+GCGG
+insertion at 719: 
+G
+Insertion from 721 to 729
+CGGGCGGGT
+insertion at 732: 
+G
+Insertion from 735 to 736
+GG
+Insertion from 738 to 742
+AGGGA
+Insertion from 745 to 748
+AGGA
+insertion at 750: 
+T
+Insertion from 752 to 754
+GGA
+Insertion from 756 to 766
+TCCACCCCCAT
+Insertion from 768 to 779
+ATTTCTCATCTC
+Insertion from 781 to 783
+TAT
+Insertion from 785 to 786
+CG
+Insertion from 788 to 790
+TGA
+Insertion from 792 to 795
+AGAG
+insertion at 798: 
+A
+Insertion from 801 to 810
+CGGCTCCCTG
+Insertion from 10263 to 10607
+CCAGATAGCTGTTCCTGAGTTGCAGGCACGATGGAGATTTGGACACTGTGTGCTTTTGGTGGGGTAGAGAGGTGGGGTGGGGTGGGGTGGGGGCTGTCTGTGTCCAGGAAACTTAATTCCCTGGTGACTAGAGCTTTGCCTGGTGATGAGGAGTATTTTGTGGCATAATACATATATTTTAAAATATTTTCCTTCTTACATGAACTGTATACATTCATATAGAAAATTTAGACAATATAAAAAAGTACAAAGAAGAAAAGTAAAAGTACCCATTGTTTCACTTCCTGGAGATAACCATAGTTGCTATTTTGCTGCCTGTCCCATCAGTCGTTTATCTGTTGTTTG
+
+

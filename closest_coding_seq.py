@@ -24,7 +24,7 @@ returns:
 def update_name(name: str, data: dict[str, str]) -> str:
     if not name[-1].isdigit():
         name = name[:-1]
-    while name[-2:] == "01":
+    while name[-3:] == ":01":
         name = name[:-3]
     name = decrement_field(name)
     if name not in data.keys():

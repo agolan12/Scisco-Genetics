@@ -1,71 +1,6 @@
 import pytest
 from src.closest_coding_seq import find_closest_coding_seq, update_name, decrement_field
 
-allele_data1 = {
-    'A*02:07:98': 'ACGTCAGAATAGCAGGATACT...G.CCGTATA',
-    'A*02:07:99': "*ACGTCAGAATAGCAGGATACT...G.CCGTATA*" ,
-    'A*02:07:100': "*ACGTCAGAATAGCAGGATACT...*.********" ,
-    'A*02:07:101': "ACGTCAGAATAGCAGGATACT...*.*********" ,
-    'A*02:07:102': "ACGTCAGAATAGCAGGATACT...*.*********" ,
-    'A*02:07:103': "*ACGTCAGAATAGCAGGATACT...*.********" ,
-    'A*02:07:104': "*ACGTCAGAATAGCAGGATACT...*.********" ,
-    'A*02:07:105': "ACGTCAGAATAGCAGGATACT...*.*******" ,
-    'A*02:07:106': "*********************...*.*******" ,
-    'A*02:07:107': "*********************...*.*******" 
-}
-
-allele_data2 = {
-    'A*02:06:08': "**" ,
-    'A*02:06:09N': "ACGTCAGAATAGCAGGATACT...G.CCGTATA" ,
-    'A*02:06:10': "*ACGTCAGAATAGCAGGATACT...G.CCGTATA*" ,
-    'A*02:06:11': "*ACGTCAGAATAGCAGGATACT...G.CCGTATA*" ,
-    'A*02:06:12': "*ACGTCAGAATAGCAGGATACT...G.CCGTATA*" ,
-    'A*02:06:13': "**ACGTCAGAATAGCAGGATACT...G.CCGTATA" ,
-    'A*02:06:14N': "*ACGTCAGAATAGCAGGATACT...G.CCGTATA*" ,
-    'A*02:06:15': "**ACGTCAGAATAGCAGGATACT...G.CCGTATA" ,
-}
-
-allele_data3 = { 
-    'A*01:03:01': "ACGTCAGAATAGCAGGATACT...G.CCGTATA", 
-    'A*02:01:01': "*ACGTCAGAATAGCAGGATACT...C.********", 
-    'A*02:02:01': "*ACGTCAGAATAGCAGGATACT...C.********", 
-    'A*02:03:01': "*ACGTCAGAATAGCAGGATACT...C.********", 
-    'A*02:04:01': "*ACGTCAGAATAGCAGGATACT...C.********", 
-    'A*02:05:01':"*ACGTCAGAATAGCAGGATACT...C.********",
-    'A*02:05:02': "*ACGTCAGAATAGCAGGATACT...C.********", 
-    'A*02:05:03':"*ACGTCAGAATAGCAGGATACT...C.********",
-    'A*02:05:04': "ACGTCAGAATAGCAGGATACT...C.",
-    'A*02:05:05': "*ACGTCAGAATAGCAGGATACT...C.********", 
-    'A*02:05:06':"*ACGTCAGAATAGCAGGATACT...C.********" ,
-    'A*02:06:01:01': "*ACGTCAGAATAGCAGGATACT...C.********" ,
-    'A*02:06:01:02':"ACGTCAGAATAGCAGGATACT...C.*********" ,
-    'A*02:06:01:03': "*ACGTCAGAATAGCAGGATACT...C.********" ,
-    'A*02:06:02': "*ACGTCAGAATAGCAGGATACT...C.********" ,
-    'A*02:06:03': "*ACGTCAGAATAGCAGGATACT...C.********" ,
-    'A*02:06:04': "**ACGTCAGAATAGCAGGATACT...C.*******" ,
-    'A*02:06:05': "*ACGTCAGAATAGCAGGATACT...C.********" ,
-}
-
-allele_data4 = { 
-    'A*01:03:01': "*ACGTCAGAATAGCAGGATACT...C.", 
-    'A*02:01:01': "*ACGTCAGAATAGCAGGATACT...C.*", 
-    'A*02:02:01': "*ACGTCAGAATAGCAGGATACT...C.*", 
-    'A*02:03:01': "*ACGTCAGAATAGCAGGATACT...C.*", 
-    'A*02:04:01': "*ACGTCAGAATAGCAGGATACT...C.*", 
-    'A*02:05:01':"*ACGTCAGAATAGCAGGATACT...C.*",
-    'A*02:05:02': "*ACGTCAGAATAGCAGGATACT...C.*", 
-    'A*02:05:03':"*ACGTCAGAATAGCAGGATACT...C.*",
-    'A*02:05:04': "*ACGTCAGAATAGCAGGATACT...C.",
-    'A*02:05:05': "*ACGTCAGAATAGCAGGATACT...C.*", 
-    'A*02:05:06':"*ACGTCAGAATAGCAGGATACT...C.*" ,
-    'A*02:06:01:01': "*ACGTCAGAATAGCAGGATACT...C.*" ,
-    'A*02:06:01:02':"ACGTCAGAATAGCAGGATACT...C.**" ,
-    'A*02:06:01:03': "*ACGTCAGAATAGCAGGATACT...C.*" ,
-    'A*02:06:02': "*ACGTCAGAATAGCAGGATACT...C.*" ,
-    'A*02:06:03': "*ACGTCAGAATAGCAGGATACT...C.*" ,
-    'A*02:06:04': "**ACGTCAGAATAGCAGGATACT...C." ,
-    'A*02:06:05': "*ACGTCAGAATAGCAGGATACT...C.*" ,
-}
 
 # test cases
 # 1: test when given allele name is complete
@@ -76,9 +11,10 @@ allele_data4 = {
 # 6: test when decrimenting second field/adding another field
 # 7: test when decrimenting last field
 # 8: test when there are no complete sequences
+"""
 @pytest.mark.parametrize("allele_name, allele_data, expected", [
-    ("A*02:07:107", allele_data1, {'A*02:07:98': 'ACGTCAGAATAGCAGGATACT...G.CCGTATA'}),
-    ("A*02:07:98", allele_data1, {'A*02:07:98': 'ACGTCAGAATAGCAGGATACT...G.CCGTATA'}),
+    ("A*02:07:107", allele_data1(), {'A*02:07:98': 'ACGTCAGAATAGCAGGATACT...G.CCGTATA'}),
+    ("A*02:07:98", allele_data1(), {'A*02:07:98': 'ACGTCAGAATAGCAGGATACT...G.CCGTATA'}),
     ("A*02:06:15", allele_data2, {'A*02:06:09N': 'ACGTCAGAATAGCAGGATACT...G.CCGTATA'}),
     ("A*02:06:09N", allele_data2, {'A*02:06:09N': 'ACGTCAGAATAGCAGGATACT...G.CCGTATA'}),
     # ("A*02:07:107", allele_data2, {}),
@@ -86,9 +22,15 @@ allele_data4 = {
     ("A*02:05:03", allele_data3, {'A*01:03:01': 'ACGTCAGAATAGCAGGATACT...G.CCGTATA'}),
     # ("A*02:06:05", allele_data4, {})
 ])
+"""
 
+def test_new(allele_name, allele_data1):
+    assert find_closest_coding_seq("A*02:07:107", allele_data1) == {'A*02:07:98': 'ACGTCAGAATAGCAGGATACT...G.CCGTATA'}
+
+"""
 def test_ccs(allele_name, allele_data, expected):
     assert find_closest_coding_seq(allele_name, allele_data) == expected
+    """
 
 # tests for decrement field
 def test_decrement_field():

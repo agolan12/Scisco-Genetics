@@ -73,3 +73,17 @@ def allele_data4():
     'A*02:06:04': "**ACGTCAGAATAGCAGGATACT...C." ,
     'A*02:06:05': "*ACGTCAGAATAGCAGGATACT...C.*" ,
 }
+
+@pytest.fixture
+def allele_name():
+    return ["A*02:07:107", "A*02:07:98", "A*02:06:15", "A*02:06:09N", "A*02:06:05", "A*02:05:03"]
+
+@pytest.fixture
+def expected():
+    return [{'A*02:07:98': 'ACGTCAGAATAGCAGGATACT...G.CCGTATA'},
+    {'A*02:07:98': 'ACGTCAGAATAGCAGGATACT...G.CCGTATA'},
+    {'A*02:06:09N': 'ACGTCAGAATAGCAGGATACT...G.CCGTATA'},
+    {'A*02:06:09N': 'ACGTCAGAATAGCAGGATACT...G.CCGTATA'},
+    {'A*02:05:04': 'ACGTCAGAATAGCAGGATACT...C.'},
+    {'A*01:03:01': 'ACGTCAGAATAGCAGGATACT...G.CCGTATA'}
+    ]

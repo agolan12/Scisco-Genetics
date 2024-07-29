@@ -7,30 +7,15 @@ from src.closest_coding_seq import find_closest_coding_seq, update_name, decreme
 # 2: test going from hundred to tens
 # 3: test when ending on allele name with letter
 # 4: test given allele name with letter is complete
-# 5: test when given name is not in data
-# 6: test when decrimenting second field/adding another field
-# 7: test when decrimenting last field
-# 8: test when there are no complete sequences
-"""
-@pytest.mark.parametrize("allele_name, allele_data, expected", [
-    ("A*02:07:107", allele_data1(), {'A*02:07:98': 'ACGTCAGAATAGCAGGATACT...G.CCGTATA'}),
-    ("A*02:07:98", allele_data1(), {'A*02:07:98': 'ACGTCAGAATAGCAGGATACT...G.CCGTATA'}),
-    ("A*02:06:15", allele_data2, {'A*02:06:09N': 'ACGTCAGAATAGCAGGATACT...G.CCGTATA'}),
-    ("A*02:06:09N", allele_data2, {'A*02:06:09N': 'ACGTCAGAATAGCAGGATACT...G.CCGTATA'}),
-    # ("A*02:07:107", allele_data2, {}),
-    ("A*02:06:05", allele_data3, {'A*02:05:04': 'ACGTCAGAATAGCAGGATACT...C.'}),
-    ("A*02:05:03", allele_data3, {'A*01:03:01': 'ACGTCAGAATAGCAGGATACT...G.CCGTATA'}),
-    # ("A*02:06:05", allele_data4, {})
-])
-"""
-
-def test_new(allele_name, allele_data1):
-    assert find_closest_coding_seq("A*02:07:107", allele_data1) == {'A*02:07:98': 'ACGTCAGAATAGCAGGATACT...G.CCGTATA'}
-
-"""
-def test_ccs(allele_name, allele_data, expected):
-    assert find_closest_coding_seq(allele_name, allele_data) == expected
-    """
+# 5: test when decrimenting second field/adding another field
+# 6: test when decrimenting last field
+def test_one(allele_name, allele_data1, allele_data2, allele_data3, expected):
+    assert find_closest_coding_seq(allele_name[0], allele_data1) == expected[0]
+    assert find_closest_coding_seq(allele_name[1], allele_data1) == expected[1]
+    assert find_closest_coding_seq(allele_name[2], allele_data2) == expected[2]
+    assert find_closest_coding_seq(allele_name[3], allele_data2) == expected[3]
+    assert find_closest_coding_seq(allele_name[4], allele_data3) == expected[4]
+    assert find_closest_coding_seq(allele_name[5], allele_data3) == expected[5]
 
 # tests for decrement field
 def test_decrement_field():
@@ -44,7 +29,7 @@ def test_decrement_field():
 
 
 # tests for update name
-def update_name_test():
+def test_update_name(allele_data1, allele_data2, allele_data3):
     assert update_name("A*02:07:107", allele_data1) == "A*02:07:106"
     assert update_name('A*02:07:100', allele_data1) == "A*02:07:99"
     assert update_name('A*02:06:15', allele_data2) == "A*02:06:14N"

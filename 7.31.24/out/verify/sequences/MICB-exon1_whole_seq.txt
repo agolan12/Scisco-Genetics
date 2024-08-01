@@ -1,0 +1,7 @@
+MICB*002:01:01-new1 missing in new ruleset
+MICB*004:01:01-new1 missing in new ruleset
+MICB*004:01:01-new2 missing in new ruleset
+MICB*005:02:01-new1 missing in new ruleset
+MICB*005:02:01-new2 missing in new ruleset
+MICB*005:02:01-new3 missing in new ruleset
+MICB*005:02:01-new4 missing in new ruleset

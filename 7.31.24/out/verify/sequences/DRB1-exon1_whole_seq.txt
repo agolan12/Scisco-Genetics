@@ -1,0 +1,3 @@
+DRB1*03:147 missing in new ruleset
+DRB1*14:216 missing in new ruleset
+DRB3*02:144 missing in new ruleset

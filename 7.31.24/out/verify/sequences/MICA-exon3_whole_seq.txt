@@ -1,0 +1,4 @@
+MICA*002:01-new1 missing in new ruleset
+MICA*004-new1 missing in new ruleset
+MICA*018:01-new1 missing in new ruleset
+MICA*027-new1 missing in new ruleset

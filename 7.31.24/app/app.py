@@ -1,5 +1,6 @@
 import os
 import sys
+import csv
 import tkinter as tk
 from tkinter import filedialog, messagebox, scrolledtext, ttk
 from threading import Thread
@@ -92,74 +93,39 @@ def select_results_path():
         results_entry.delete(0, tk.END)
         results_entry.insert(0, path)
 
-
-
-# create tab for each gene that has been modified
-'''
-def create_gene_tabs(parent_frame, result_path):
-    inner_notebook = ttk.Notebook(parent_frame)
-    inner_notebook_frame = ttk.Frame(parent_frame)
-    inner_notebook_frame.pack(expand=True, fill='both')
-    inner_notebook.pack(side='top', fill='both', expand=True)
-
-    file_list = set()
+# creates two dictionaries with keys as file names and values as the output text for the files
+# bases: dictionary for base changes file
+# whole_seq: dictionary for whole sequence changes file
+def create_output_text(result_path):
+    bases = dict()
+    whole_seq = dict()
     for file in sorted(os.listdir(result_path)):
         if not os.path.getsize(f'{result_path}/{file}') == 0:
-            label = os.path.basename(file).split('_')[0]
-            if label not in file_list:
-                file_list.add(label)
-                inner_tab = ttk.Frame(inner_notebook)
-                inner_notebook.add(inner_tab, text=label)
-                add_data_tabs(inner_tab, result_path, label)
-    return inner_notebook
+            output = ''
+            with open(f'{result_path}/summary.csv', 'r') as summary:
+                        reader = csv.reader(summary)
+                        output = 'Stats:\n'
+                        for row in reader:
+                            if row[0] == file.split('_')[0]:
+                                output += f'Differences: {row[1]}\nCoding Differences: {row[2]}\nMissing: {row[3]}\nNew: {row[4]}\nTotal: {row[5]} \n\n\n'
+            with open(f'{result_path}/{file}', 'r') as f:
+                if 'bases' in file:
+                    output += 'Base Changes:\n'
+                    for line in f:
+                        output += line[:-1] + ':\n'
+                        output += f.readline() + '\n'
+                    bases[file] = output
+                else:
+                    for line in f:
+                        output += f'{line[:-1]}:\n'
+                        output += f.readline()
+                        output += f.readline()
+                        output += f.readline()
+                        output += f.readline() + '\n'
+                    whole_seq[file] = output
+    return bases, whole_seq
 
-# create bases and or whole seq tab for each label
-def add_data_tabs(parent_frame, result_path, label):
-    inner_notebook = ttk.Notebook(parent_frame)
-    inner_notebook_frame = ttk.Frame(parent_frame)
-    inner_notebook_frame.pack(expand=True, fill='both')
-    inner_notebook.pack(side='top', fill='both', expand=True)
-    for file in sorted(os.listdir(result_path)):
-        if file == f'{label}_bases.txt' or file == f'{label}_whole_seq.txt':
-            f = os.path.basename(file)
-            inner_tab = ttk.Frame(inner_notebook)
-            inner_notebook.add(inner_tab, text=f)
-
-            text = create_output_text(result_path, file)
-            canvas = tk.Canvas(inner_tab)
-            canvas.pack(side='left', fill='both', expand=True)
-
-            # Create a label inside the canvas
-            inner_label = tk.Label(canvas, text=f'{label}:')
-            canvas.create_window((0, 0), window=inner_label, anchor='nw')
-
-            # Create a text widget inside the canvas
-            inner_text = tk.Text(canvas)
-            inner_text.insert(tk.END, text)
-            canvas.create_window((0, 0), window=inner_text, anchor='nw')
-
-            # Configure the canvas to scroll to the bottom
-            canvas.configure(scrollregion=canvas.bbox("all"))
-    return inner_notebook
-
-
-def create_output_text(result_path, filename):
-    output = ""
-    with open(f'{result_path}/{filename}', 'r') as f:
-        if 'bases' in filename:
-            for line in f:
-                output += line[:-1] + ':\n'
-                output += f.readline() + '\n'
-        else:
-            for line in f:
-                output += f'>>{line[:-1]}:\n'
-                output += f.readline()
-                output += f.readline()
-                output += f.readline()
-                output += f.readline() + '\n'
-    return output
-    '''
-
+# create list of alleles that have been modified
 def allele_list(result_path):
     output = set()
     for file in sorted(os.listdir(result_path)):
@@ -168,8 +134,7 @@ def allele_list(result_path):
             output.add(label)
     return sorted(output)
 
-
-
+# Create the Treeview
 def on_treeview_select(event):
     selected_item = treeview.selection()
     if not selected_item:
@@ -181,17 +146,34 @@ def on_treeview_select(event):
     for tab in notebook.tabs():
         notebook.forget(tab)
 
-    tab1 = ttk.Frame(notebook)
-    canvas1 = tk.Canvas(tab1, width=200, height=200, bg="lightblue")
-    canvas1.pack(fill=tk.BOTH, expand=True)
-    canvas1.create_text(100, 100, text="This is Option 1", font=("Arial", 16))
-    notebook.add(tab1, text="Option 1 - Canvas 1")
-        
+    base_key = item_text + '_bases.txt'
+    whole_seq_key = item_text + '_whole_seq.txt'
+    
+    if base_key in bases_data.keys():
+        #create tab 1
+        tab1 = ttk.Frame(notebook)
+        canvas1 = tk.Canvas(tab1)
+        canvas1.pack(fill=tk.BOTH, expand=True)
+
+        # Create a text widget inside the canvas
+        text = f'{bases_data[base_key]}'
+        inner_text = tk.Text(canvas1, width=100, height=50)
+        inner_text.insert(tk.END, text)
+        canvas1.create_window((0, 0), window=inner_text, anchor='nw')
+        notebook.add(tab1, text='Bases')
+
+    # create tab 2
     tab2 = ttk.Frame(notebook)
-    canvas2 = tk.Canvas(tab2, width=200, height=200, bg="lightgreen")
-    canvas2.pack(fill=tk.BOTH, expand=True)
-    canvas2.create_text(100, 100, text="Another view for Option 1", font=("Arial", 16))
-    notebook.add(tab2, text="Option 1 - Canvas 2")
+    canvas2 = tk.Canvas(tab2)
+    canvas2.pack(fill='both', expand=True)
+
+    # Create a text widget inside the canvas
+    text = f'{whole_seq_data[whole_seq_key]}'
+    inner_text = tk.Text(canvas2, width=100, height=50)
+    inner_text.insert(tk.END, text)
+    canvas2.create_window((0, 0), window=inner_text, anchor='nw')
+    notebook.add(tab2, text='Whole Sequence')
+
 
 app = tk.Tk()
 app.title('HLA/MICAB Ruleset Configuration')
@@ -275,12 +257,14 @@ for allele in allele_list('/Users/assafgolan/Projects/Scisco-Genetics/7.31.24/ou
     treeview.insert("", "end", text=allele)
 treeview.pack(side=tk.LEFT, fill=tk.Y)
 
+# create output text dictionaries
+bases_data, whole_seq_data = create_output_text('/Users/assafgolan/Projects/Scisco-Genetics/7.31.24/out/verify/sequences/')
+
 # Bind the selection event
 treeview.bind("<<TreeviewSelect>>", on_treeview_select)
 
 notebook = ttk.Notebook(result_tab)
 notebook.pack(side=tk.RIGHT, fill=tk.BOTH, expand=True)
-# inner_notebook = create_gene_tabs(result_tab, '/Users/assafgolan/Projects/Scisco-Genetics/7.31.24/out/verify/sequences/')
 
 frame.rowconfigure(6, weight=1)
 

@@ -102,12 +102,23 @@ def allele_list(result_path):
             output.add(label)
     return sorted(output)
 
+def normalize_name(name):
+    if '_exclusion.txt' in name:
+        name = (name[:-len('_exclusion.txt')])
+    else:
+        name = (name[:-len('.txt')])
+    return name.replace('EX_', 'exon').replace('-', '_')
+
+
+
 # create list of log files
 def log_list(log_path):
     output = set()
     for dir in sorted(os.listdir(log_path)):
         for file in sorted(os.listdir(f'{log_path}/{dir}')):
+            file = normalize_name(file)
             output.add(file)
+    print(len(output))
     return sorted(output)
 
 # creates two dictionaries with keys as file names and values as the output text for the files
@@ -146,6 +157,14 @@ def create_output_text(result_path):
                     whole_seq[file] = output
     return bases, whole_seq
 
+# create dict with keys as file names and values as output text for log files
+def log_data(log_file_path):
+    output = dict()
+    for file in sorted(os.listdir(log_file_path)):
+        with open(f'{log_file_path}/{file}', 'r') as f:
+            output[normalize_name(file)] = f.read()
+    return output
+
 # Create the Treeview
 def on_treeview_select(event):
     selected_item = treeview1.selection()
@@ -155,36 +174,54 @@ def on_treeview_select(event):
     selected_item = selected_item[0]
     item_text = treeview1.item(selected_item, "text")
 
-    for tab in notebook.tabs():
-        notebook.forget(tab)
+    for tab in qc_notebook.tabs():
+        qc_notebook.forget(tab)
 
     base_key = item_text + '_bases.txt'
     whole_seq_key = item_text + '_whole_seq.txt'
     
     if base_key in bases_data.keys():
-        #create tab 1
-        tab1 = ttk.Frame(notebook)
-        canvas1 = tk.Canvas(tab1)
-        canvas1.pack(fill=tk.BOTH, expand=True)
-
-        # Create a text widget inside the canvas
-        text = f'{bases_data[base_key]}'
-        inner_text = tk.Text(canvas1, width=100, height=50)
-        inner_text.insert(tk.END, text)
-        canvas1.create_window((0, 0), window=inner_text, anchor='nw')
-        notebook.add(tab1, text='Bases')
+        create_tab(qc_notebook, bases_data, base_key, 'Bases')
 
     # create tab 2
-    tab2 = ttk.Frame(notebook)
-    canvas2 = tk.Canvas(tab2)
-    canvas2.pack(fill='both', expand=True)
+    create_tab(qc_notebook, whole_seq_data, whole_seq_key, 'Whole Sequence')
 
-    # Create a text widget inside the canvas
-    text = f'{whole_seq_data[whole_seq_key]}'
-    inner_text = tk.Text(canvas2, width=100, height=50)
-    inner_text.insert(tk.END, text)
-    canvas2.create_window((0, 0), window=inner_text, anchor='nw')
-    notebook.add(tab2, text='Whole Sequence')
+
+# Treeview for log
+def log_treeview_select(event):
+    selected_item = treeview2.selection()
+    if not selected_item:
+        return
+    
+    selected_item = selected_item[0]
+    item_text = treeview2.item(selected_item, "text")
+
+    for tab in log_notebook.tabs():
+        log_notebook.forget(tab)
+    
+    key = item_text
+
+    if key in exclusions_data.keys():
+        create_tab(log_notebook, exclusions_data, key, 'Exclusions')
+    
+    if key in padding_data.keys():
+        create_tab(log_notebook, padding_data, key, 'Padding')
+    
+    if key in propogate_data.keys():
+        create_tab(log_notebook, propogate_data, key, 'Propogate')
+
+
+# create a tab for file data
+def create_tab(notebook, data, key, label):
+    tab = ttk.Frame(notebook)
+    canvas = tk.Canvas(tab)
+    canvas.pack(fill=tk.BOTH, expand=True)
+
+    test = f'{data[key]}'
+    inner_text = tk.Text(canvas, width=100, height=50)
+    inner_text.insert(tk.END, test)
+    canvas.create_window((0, 0), window=inner_text, anchor='nw')
+    notebook.add(tab, text=label)
 
 
 app = tk.Tk()
@@ -282,14 +319,25 @@ treeview2.pack(side=tk.LEFT, fill=tk.Y)
 # create output text dictionaries for quality control
 bases_data, whole_seq_data = create_output_text('/Users/assafgolan/Projects/Scisco-Genetics/7.31.24/out/verify/sequences/')
 
+exclusions_data = log_data('/Users/assafgolan/Projects/Scisco-Genetics/7.31.24/logs/exclusions/')
+
+padding_data = log_data('/Users/assafgolan/Projects/Scisco-Genetics/7.31.24/logs/padding/')
+
+propogate_data = log_data('/Users/assafgolan/Projects/Scisco-Genetics/7.31.24/logs/propagate/')
+
 # Bind the selection event
 treeview1.bind("<<TreeviewSelect>>", on_treeview_select)
 
+treeview2.bind("<<TreeviewSelect>>", log_treeview_select)
 
 
 
-notebook = ttk.Notebook(quality_control_tab)
-notebook.pack(side=tk.RIGHT, fill=tk.BOTH, expand=True)
+
+qc_notebook = ttk.Notebook(quality_control_tab)
+qc_notebook.pack(side=tk.RIGHT, fill=tk.BOTH, expand=True)
+
+log_notebook = ttk.Notebook(log_tab)
+log_notebook.pack(side=tk.RIGHT, fill=tk.BOTH, expand=True)
 
 frame.rowconfigure(6, weight=1)
 

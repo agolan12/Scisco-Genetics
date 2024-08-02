@@ -118,7 +118,6 @@ def log_list(log_path):
         for file in sorted(os.listdir(f'{log_path}/{dir}')):
             file = normalize_name(file)
             output.add(file)
-    print(len(output))
     return sorted(output)
 
 # creates two dictionaries with keys as file names and values as the output text for the files
@@ -308,6 +307,24 @@ treeview1.heading("#0", text="Allele")
 for allele in allele_list('/Users/assafgolan/Projects/Scisco-Genetics/7.31.24/out/verify/sequences/'):
     treeview1.insert("", "end", text=allele)
 treeview1.pack(side=tk.LEFT, fill=tk.Y)
+
+
+
+# Create Search Frame
+search_frame = tk.Frame(log_tab)
+search_frame.pack(side=tk.TOP, fill=tk.X, padx=10, pady=10)
+
+search_label = tk.Label(search_frame, text="Search:")
+search_label.pack(side=tk.LEFT)
+
+search_entry = tk.Entry(search_frame, width=50)
+search_entry.pack(side=tk.LEFT, padx=5)
+
+search_button = tk.Button(search_frame, text="Search", command=lambda: perform_search(search_entry.get()))
+search_button.pack(side=tk.LEFT)
+
+def perform_search(search_term):
+    pass
 
 # Create Treeview for log
 treeview2 = ttk.Treeview(log_tab, columns=("Description"))

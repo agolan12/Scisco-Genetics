@@ -93,6 +93,23 @@ def select_results_path():
         results_entry.delete(0, tk.END)
         results_entry.insert(0, path)
 
+# create list of alleles that have been modified for quality control
+def allele_list(result_path):
+    output = set()
+    for file in sorted(os.listdir(result_path)):
+        if not os.path.getsize(f'{result_path}/{file}') == 0:
+            label = os.path.basename(file).split('_')[0]
+            output.add(label)
+    return sorted(output)
+
+# create list of log files
+def log_list(log_path):
+    output = set()
+    for dir in sorted(os.listdir(log_path)):
+        for file in sorted(os.listdir(f'{log_path}/{dir}')):
+            output.add(file)
+    return sorted(output)
+
 # creates two dictionaries with keys as file names and values as the output text for the files
 # bases: dictionary for base changes file
 # whole_seq: dictionary for whole sequence changes file
@@ -116,6 +133,10 @@ def create_output_text(result_path):
                         output += f.readline() + '\n'
                     bases[file] = output
                 else:
+                    if (file.split('_')[0] + '_bases.txt') not in bases.keys():
+                        bases[file.split('_')[0] + '_bases.txt'] = output + "No Base Changes"
+                    
+                    output = ''
                     for line in f:
                         output += f'{line[:-1]}:\n'
                         output += f.readline()
@@ -125,23 +146,14 @@ def create_output_text(result_path):
                     whole_seq[file] = output
     return bases, whole_seq
 
-# create list of alleles that have been modified
-def allele_list(result_path):
-    output = set()
-    for file in sorted(os.listdir(result_path)):
-        if not os.path.getsize(f'{result_path}/{file}') == 0:
-            label = os.path.basename(file).split('_')[0]
-            output.add(label)
-    return sorted(output)
-
 # Create the Treeview
 def on_treeview_select(event):
-    selected_item = treeview.selection()
+    selected_item = treeview1.selection()
     if not selected_item:
         return
     
     selected_item = selected_item[0]
-    item_text = treeview.item(selected_item, "text")
+    item_text = treeview1.item(selected_item, "text")
 
     for tab in notebook.tabs():
         notebook.forget(tab)
@@ -181,12 +193,15 @@ app.title('HLA/MICAB Ruleset Configuration')
 # Set the window size
 app.geometry('1000x650')
 
-# Create results tab
+# Create Quality Control and log tab
 tab_control = ttk.Notebook(app)
 analysis_tab = ttk.Frame(tab_control)
 tab_control.add(analysis_tab, text='Analyze')
-result_tab = ttk.Frame(tab_control)
-tab_control.add(result_tab, text='Results')
+quality_control_tab = ttk.Frame(tab_control)
+tab_control.add(quality_control_tab, text='Quality Control')
+tab_control.grid(row=0, column=0, sticky="nsew")
+log_tab = ttk.Frame(tab_control)
+tab_control.add(log_tab, text='Log')
 tab_control.grid(row=0, column=0, sticky="nsew")
 
 # Configure the main window to use grid
@@ -250,20 +265,30 @@ run_button.grid(row=5, column=0, columnspan=3, pady=10)
 output_text = scrolledtext.ScrolledText(frame, height=20)
 output_text.grid(row=6, column=0, columnspan=3, sticky="nsew", pady=10)
 
-# Create Treeview
-treeview = ttk.Treeview(result_tab, columns=("Allele"))
-treeview.heading("#0", text="Allele")
+# Create Treeview for quality control
+treeview1 = ttk.Treeview(quality_control_tab, columns=("Allele"))
+treeview1.heading("#0", text="Allele")
 for allele in allele_list('/Users/assafgolan/Projects/Scisco-Genetics/7.31.24/out/verify/sequences/'):
-    treeview.insert("", "end", text=allele)
-treeview.pack(side=tk.LEFT, fill=tk.Y)
+    treeview1.insert("", "end", text=allele)
+treeview1.pack(side=tk.LEFT, fill=tk.Y)
 
-# create output text dictionaries
+# Create Treeview for log
+treeview2 = ttk.Treeview(log_tab, columns=("Description"))
+treeview2.heading("#0", text="Description")
+for sequence in log_list('/Users/assafgolan/Projects/Scisco-Genetics/7.31.24/logs/'):
+    treeview2.insert("", "end", text=sequence)
+treeview2.pack(side=tk.LEFT, fill=tk.Y)
+
+# create output text dictionaries for quality control
 bases_data, whole_seq_data = create_output_text('/Users/assafgolan/Projects/Scisco-Genetics/7.31.24/out/verify/sequences/')
 
 # Bind the selection event
-treeview.bind("<<TreeviewSelect>>", on_treeview_select)
+treeview1.bind("<<TreeviewSelect>>", on_treeview_select)
 
-notebook = ttk.Notebook(result_tab)
+
+
+
+notebook = ttk.Notebook(quality_control_tab)
 notebook.pack(side=tk.RIGHT, fill=tk.BOTH, expand=True)
 
 frame.rowconfigure(6, weight=1)

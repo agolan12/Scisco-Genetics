@@ -132,7 +132,7 @@ def create_output_text(result_path):
             output = ''
             with open(f'{result_path}/summary.csv', 'r') as summary:
                         reader = csv.reader(summary)
-                        output = 'Stats:\n'
+                        output = 'Summary:\n'
                         for row in reader:
                             if row[0] == file.split('_')[0]:
                                 output += f'Differences: {row[1]}\nCoding Differences: {row[2]}\nMissing: {row[3]}\nNew: {row[4]}\nTotal: {row[5]} \n\n\n'

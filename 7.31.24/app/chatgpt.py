@@ -1,60 +1,68 @@
-import tkinter as tk
-from tkinter import ttk
+#Python Program to search string in text using Tkinter
 
-def on_treeview_select(event):
-    selected_item = treeview.selection()
-    if not selected_item:
-        return
+from tkinter import *
 
-    selected_item = selected_item[0]
-    item_text = treeview.item(selected_item, "text")
+#to create a window
+root = Tk()
 
-    # Clear the notebook before adding new tabs
-    for tab in notebook.tabs():
-        notebook.forget(tab)
+#root window is the parent window
+fram = Frame(root)
 
-    if item_text == "Option 1":
-        tab1 = ttk.Frame(notebook)
-        canvas1 = tk.Canvas(tab1, width=200, height=200, bg="lightblue")
-        canvas1.pack(fill=tk.BOTH, expand=True)
-        canvas1.create_text(100, 100, text="This is Option 1", font=("Arial", 16))
-        notebook.add(tab1, text="Option 1 - Canvas 1")
-        
-        tab2 = ttk.Frame(notebook)
-        canvas2 = tk.Canvas(tab2, width=200, height=200, bg="lightgreen")
-        canvas2.pack(fill=tk.BOTH, expand=True)
-        canvas2.create_text(100, 100, text="Another view for Option 1", font=("Arial", 16))
-        notebook.add(tab2, text="Option 1 - Canvas 2")
-        
-    elif item_text == "Option 2":
-        tab1 = ttk.Frame(notebook)
-        canvas1 = tk.Canvas(tab1, width=200, height=200, bg="lightcoral")
-        canvas1.pack(fill=tk.BOTH, expand=True)
-        canvas1.create_text(100, 100, text="This is Option 2", font=("Arial", 16))
-        notebook.add(tab1, text="Option 2 - Canvas 1")
-        
-        tab2 = ttk.Frame(notebook)
-        canvas2 = tk.Canvas(tab2, width=200, height=200, bg="lightyellow")
-        canvas2.pack(fill=tk.BOTH, expand=True)
-        canvas2.create_text(100, 100, text="Another view for Option 2", font=("Arial", 16))
-        notebook.add(tab2, text="Option 2 - Canvas 2")
+#adding label to search box
+Label(fram,text='Text to find:').pack(side=LEFT) 
 
-app = tk.Tk()
-app.title("Treeview with Canvas Tabs")
+#adding of single line text box
+edit = Entry(fram) 
 
-# Create the Treeview
-treeview = ttk.Treeview(app, columns=("Description"))
-treeview.heading("#0", text="Options")
-treeview.heading("Description", text="Description")
-treeview.insert("", "end", text="Option 1")
-treeview.insert("", "end", text="Option 2")
-treeview.pack(side=tk.LEFT, fill=tk.Y)
+#positioning of text box
+edit.pack(side=LEFT, fill=BOTH, expand=1) 
 
-# Bind the selection event
-treeview.bind("<<TreeviewSelect>>", on_treeview_select)
+#setting focus
+edit.focus_set() 
 
-# Create the Notebook widget
-notebook = ttk.Notebook(app)
-notebook.pack(side=tk.RIGHT, fill=tk.BOTH, expand=True)
+#adding of search button
+butt = Button(fram, text='Find') 
+butt.pack(side=RIGHT) 
+fram.pack(side=TOP)
 
-app.mainloop()
+#text box in root window
+text = Text(root) 
+
+#text input area at index 1 in text window
+text.insert('1.0','''Type your text here''') 
+text.pack(side=BOTTOM)
+
+
+#function to search string in text
+def find():
+	
+	#remove tag 'found' from index 1 to END
+	text.tag_remove('found', '1.0', END) 
+	
+	#returns to widget currently in focus
+	s = edit.get() 
+	if s:
+		idx = '1.0'
+		while 1:
+			#searches for desired string from index 1
+			idx = text.search(s, idx, nocase=1, 
+							stopindex=END) 
+			if not idx: break
+			
+			#last index sum of current index and
+			#length of text
+			lastidx = '%s+%dc' % (idx, len(s)) 
+			
+			#overwrite 'Found' at idx
+			text.tag_add('found', idx, lastidx) 
+			idx = lastidx
+		#mark located string as red
+		text.tag_config('found', foreground='orange') 
+	edit.focus_set()
+butt.config(command=find)
+
+#mainloop function calls the endless loop of the window,
+#so the window will wait for any 
+#user interaction till we close it
+root.mainloop() 
+

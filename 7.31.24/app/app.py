@@ -162,7 +162,6 @@ def select_results_path():
         results_entry.delete(0, tk.END)
         results_entry.insert(0, path)
 
-
 # creates two dictionaries with keys as file names and values as the output text for the files
 # bases: dictionary for base changes file
 # whole_seq: dictionary for whole sequence changes file
@@ -256,7 +255,6 @@ def on_treeview_select(event):
     # create tab 2
     create_tab(notebook, whole_seq_data, whole_seq_key, 'Whole Sequence')
 
-
 # Treeview for log
 def log_treeview_select(event):
     selected_item = treeview2.selection()
@@ -293,8 +291,6 @@ def update_log_treeview():
         for key in propagate_data.keys():
             treeview2.insert("", tk.END, text=key)
     
-    
-
 def create_tab(notebook, data, key, label):
     tab = ttk.Frame(notebook)
     canvas = tk.Canvas(tab)
@@ -305,7 +301,6 @@ def create_tab(notebook, data, key, label):
     inner_text.insert(tk.END, test)
     canvas.create_window((0, 0), window=inner_text, anchor='nw')
     notebook.add(tab, text=label)
-
 
 def toggle_all_checkboxes():
     state = all_var.get()
@@ -350,7 +345,6 @@ def load_results_data():
     for allele in log_list(os.path.join(result_path, 'logs')):
         treeview2.insert("", "end", text=allele)
 
-
 # Create the main window
 app = tk.Tk()
 app.title('HLA/MICAB Ruleset Configuration')
@@ -367,7 +361,6 @@ tab_control.add(result_tab, text='Quality Control')
 tab_control.grid(row=0, column=0, sticky="nsew")
 log_tab = ttk.Frame(tab_control)
 tab_control.add(log_tab, text='Logs')
-
 
 # Configure the main window to use grid
 app.grid_rowconfigure(0, weight=1)

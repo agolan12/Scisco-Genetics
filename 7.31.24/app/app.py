@@ -270,14 +270,29 @@ def log_treeview_select(event):
         log_notebook.forget(tab)
     
     key = item_text
-    if key in exclusions_data.keys():
+
+    if key in exclusions_data.keys() and exclusions_var.get():
         create_tab(log_notebook, exclusions_data, key, 'Exclusions')
     
-    if key in padding_data.keys():
+    if key in padding_data.keys() and padding_var.get():
         create_tab(log_notebook, padding_data, key, 'Padding')
     
-    if key in propagate_data.keys():
+    if key in propagate_data.keys() and propagate_var.get():
         create_tab(log_notebook, propagate_data, key, 'Propagate')
+
+# update log treeview
+def update_log_treeview():
+    treeview2.delete(*treeview2.get_children())
+    if exclusions_var.get():
+        for key in exclusions_data.keys():
+            treeview2.insert("", tk.END, text=key)
+    if padding_var.get():
+        for key in padding_data.keys():
+            treeview2.insert("", tk.END, text=key)
+    if propagate_var.get():
+        for key in propagate_data.keys():
+            treeview2.insert("", tk.END, text=key)
+    
     
 
 def create_tab(notebook, data, key, label):
@@ -322,14 +337,19 @@ def load_results_data():
     padding_data = log_data(os.path.join(result_path, 'logs/padding/'))
     propagate_data = log_data(os.path.join(result_path, 'logs/propagate/'))
 
-
     # Populate Treeview with allele list
     for allele in allele_list(os.path.join(result_path, 'verify', 'sequences')):
         treeview1.insert("", "end", text=allele)
 
+    # Set checkboxes to True
+    exclusions_var.set(True)
+    padding_var.set(True)
+    propagate_var.set(True)
+
     # Populate log Treeview with log list
     for allele in log_list(os.path.join(result_path, 'logs')):
         treeview2.insert("", "end", text=allele)
+
 
 # Create the main window
 app = tk.Tk()
@@ -472,10 +492,30 @@ l_frame.grid(padx=20, pady=20, sticky="nsew")
 logs_frame.grid_rowconfigure(0, weight=1)
 logs_frame.grid_columnconfigure(0, weight=1)
 
+# Create BooleanVars to hold the state of the checkboxes
+exclusions_var = tk.BooleanVar()
+padding_var = tk.BooleanVar()
+propagate_var = tk.BooleanVar()
+
+# Create a frame to hold the checkboxes
+log_checkbox_frame = tk.Frame(logs_frame)
+log_checkbox_frame.grid(row=0, column=3, sticky="nsew")
+
+# Create the checkboxes
+checkbox_label = tk.Label(log_checkbox_frame, text="Category Selection:")
+checkbox_label.grid(row=0, column=0, sticky="nw")
+exclusions_checkbox = tk.Checkbutton(log_checkbox_frame, text="Exclusions", variable=exclusions_var)
+padding_checkbox = tk.Checkbutton(log_checkbox_frame, text="Padding", variable=padding_var)
+propagate_checkbox = tk.Checkbutton(log_checkbox_frame, text="Propagate", variable=propagate_var)
+
+exclusions_checkbox.grid(row=1, column=0, sticky='nw')
+padding_checkbox.grid(row=2, column=0, sticky="nw")
+propagate_checkbox.grid(row=3, column=0, sticky="nw")
+
 # Create Treeview for log 
-treeview2 = ttk.Treeview(logs_frame, columns=("Description"))
+treeview2 = ttk.Treeview(l_frame, columns=("Description"))
 treeview2.heading("#0", text="Description")
-treeview2.grid(row=0, column=1, sticky="nsew")
+treeview2.grid(row=0, column=0, sticky="nsew")
 
 treeview2.bind("<<TreeviewSelect>>", log_treeview_select)
 
@@ -498,6 +538,9 @@ l_frame.grid_columnconfigure(1, weight=1)
 # Load Results button in result_tab
 load_results_button = create_fake_button(r_frame, 'Load Results', load_results_data, bg='#49be25')
 load_results_button.grid(row=1, column=0, columnspan=2, pady=10)
+
+load_log_button = create_fake_button(log_checkbox_frame, 'Update Selection', update_log_treeview, bg='#49be25')
+load_log_button.grid(row=4, column=0, columnspan=2, pady=10)
 
 app.protocol("WM_DELETE_WINDOW", on_closing)
 

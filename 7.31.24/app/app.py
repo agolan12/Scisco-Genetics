@@ -205,6 +205,14 @@ def create_output_text(result_path):
 
     return bases, whole_seq
 
+# create dict with keys as file names and values as output text for new_alleles files
+def create_new_alleles_data(result_path):
+    output = dict()
+    for file in sorted(os.listdir(result_path)):
+        with open(f'{result_path}/{file}', 'r') as f:
+            output[file.split('.')[0]] = f.read()
+    return output
+
 #  create dict with keys as file names and values as output text for log files
 def log_data(log_file_path):
     output = dict()
@@ -221,14 +229,19 @@ def normalize_name(name):
         name = (name[:-len('_exclusion.txt')])
     else:
         name = (name[:-len('.txt')])
-    return name.replace('EX_', 'exon').replace('-', '_')
+    return name.replace('EX_', 'exon')
 
 # create list of alleles that have been modified
-def allele_list(result_path):
+def allele_list(verify_path):
     output = set()
-    for file in sorted(os.listdir(result_path)):
-        if not os.path.getsize(f'{result_path}/{file}') == 0:
+
+    for file in sorted(os.listdir(os.path.join(verify_path, 'sequences'))):
+        if not os.path.getsize(f'{verify_path}/sequences/{file}') == 0:
             label = os.path.basename(file).split('_')[0]
+            output.add(label)
+    for file in sorted(os.listdir(os.path.join(verify_path, 'new_alleles'))):
+        if not os.path.getsize(f'{verify_path}/new_alleles/{file}') == 0:
+            label = os.path.basename(file).split('.')[0]
             output.add(label)
     return sorted(output)
 
@@ -261,7 +274,12 @@ def on_treeview_select(event):
         create_tab(notebook, bases_data, base_key, 'Bases')
 
     # create tab 2
-    create_tab(notebook, whole_seq_data, whole_seq_key, 'Whole Sequence')
+    if whole_seq_key in whole_seq_data.keys():
+        create_tab(notebook, whole_seq_data, whole_seq_key, 'Whole Sequence')
+
+    # create tab 3 for new alleles data
+    if item_text in new_alleles_data.keys():
+        create_tab(notebook, new_alleles_data, item_text, 'New Alleles')
 
 
 # Treeview for log
@@ -354,17 +372,24 @@ def load_results_data():
     result_path = results_entry.get()
 
     # Initialize data dictionaries
-    global bases_data, whole_seq_data
+    global bases_data, whole_seq_data, new_alleles_data
     global exclusions_data, padding_data, propagate_data
-    bases_data, whole_seq_data = {}, {}
+    bases_data, whole_seq_data, new_alleles_data = {}, {}, {}
     exclusions_data, padding_data, propagate_data = {}, {}, {}
 
     # Check if 'verify' directory exists and create output text dictionaries if it does
-    verify_path = os.path.join(result_path, 'verify', 'sequences')
-    if os.path.exists(verify_path):
+    sequence_path = os.path.join(result_path, 'verify', 'sequences')
+    if os.path.exists(sequence_path):
         bases_data, whole_seq_data = create_output_text(result_path)
     else:
-        print(f"Directory {verify_path} does not exist")
+        print(f"Directory {sequence_path} does not exist")
+
+    # check if 'verify/new_alleles' directory exists and create new_alleles_data dictionary if it does
+    new_alleles_path = os.path.join(result_path, 'verify', 'new_alleles')
+    if os.path.exists(new_alleles_path):
+        new_alleles_data = create_new_alleles_data(new_alleles_path)
+    else:
+        print(f"Directory {new_alleles_data} does not exist")
 
     # Check if 'logs' directory exists and create log data dictionaries if it does
     logs_path = os.path.join(result_path, 'logs')
@@ -386,6 +411,8 @@ def load_results_data():
     else:
         print(f"Directory {logs_path} does not exist")
 
+
+    verify_path = os.path.join(result_path, 'verify')
     # Populate Treeview with allele list if 'verify' directory exists
     if os.path.exists(verify_path):
         for allele in allele_list(verify_path):

@@ -106,7 +106,6 @@ def save_default_paths():
     imgt_path = imgt_entry.get()
     hla_path = hla_entry.get()
     micab_path = micab_entry.get()
-    results_path = results_entry.get()
 
     with open(get_config_path(), 'w') as config_file:
         lead = '' if output_text.get('1.0', tk.END) == "\n" else '\n'
@@ -114,7 +113,6 @@ def save_default_paths():
         config_file.write(f'imgt_path: {imgt_path}\n')
         config_file.write(f'hla_path: {hla_path}\n')
         config_file.write(f'micab_path: {micab_path}\n')
-        config_file.write(f'results_path: {results_path}\n')
 
 def set_default_paths():
     config_path = get_config_path()
@@ -136,9 +134,6 @@ def set_default_paths():
 
     micab_entry.delete(0, tk.END)
     micab_entry.insert(0, paths_dict.get('micab_path'))
-
-    results_entry.delete(0, tk.END)
-    results_entry.insert(0, paths_dict.get('results_path', ''))
 
 def select_imgt_path():
     path = os.path.join(filedialog.askdirectory(), 'alignments')
@@ -166,7 +161,6 @@ def select_results_path():
     if path:
         results_entry.delete(0, tk.END)
         results_entry.insert(0, path)
-
 
 # creates two dictionaries with keys as file names and values as the output text for the files
 # bases: dictionary for base changes file
@@ -209,10 +203,8 @@ def create_output_text(result_path):
 def log_data(log_file_path):
     output = dict()
     for file in sorted(os.listdir(log_file_path)):
-        file_path = os.path.join(log_file_path, file)
-        if os.path.isfile(file_path):
-            with open(file_path, 'r') as f:
-                output[normalize_name(file)] = f.read()
+        with open(f'{log_file_path}/{file}', 'r') as f:
+            output[normalize_name(file)] = f.read()
     return output
 
 # normalize allele names
@@ -263,7 +255,6 @@ def on_treeview_select(event):
     # create tab 2
     create_tab(notebook, whole_seq_data, whole_seq_key, 'Whole Sequence')
 
-
 # Treeview for log
 def log_treeview_select(event):
     selected_item = treeview2.selection()
@@ -273,43 +264,33 @@ def log_treeview_select(event):
     selected_item = selected_item[0]
     item_text = treeview2.item(selected_item, "text")
 
-    log_text.delete('1.0', tk.END)    
+    for tab in log_notebook.tabs():
+        log_notebook.forget(tab)
+    
     key = item_text
 
-    if selection_var.get() == 1 and key in exclusions_data.keys():
-        log_text.insert(tk.END, exclusions_data[key])
+    if key in exclusions_data.keys() and exclusions_var.get():
+        create_tab(log_notebook, exclusions_data, key, 'Exclusions')
     
-    if selection_var.get() == 2 and key in padding_data.keys():
-        log_text.insert(tk.END, padding_data[key])
+    if key in padding_data.keys() and padding_var.get():
+        create_tab(log_notebook, padding_data, key, 'Padding')
     
-    if selection_var.get() == 3 and key in propagate_data.keys():
-        log_text.insert(tk.END, propagate_data[key])
-
-    # Trigger search to filter initial content
-    search_logs()
-
-
-def update_log_view(*args):
-    update_log_treeview()
-    log_text.delete('1.0', tk.END)
-
+    if key in propagate_data.keys() and propagate_var.get():
+        create_tab(log_notebook, propagate_data, key, 'Propagate')
 
 # update log treeview
-def update_log_treeview(*args):
+def update_log_treeview():
     treeview2.delete(*treeview2.get_children())
-    selected_category = selection_var.get()
-    
-    if selected_category == 1:
+    if exclusions_var.get():
         for key in exclusions_data.keys():
             treeview2.insert("", tk.END, text=key)
-    elif selected_category == 2:
+    if padding_var.get():
         for key in padding_data.keys():
             treeview2.insert("", tk.END, text=key)
-    elif selected_category == 3:
+    if propagate_var.get():
         for key in propagate_data.keys():
             treeview2.insert("", tk.END, text=key)
-        
-
+    
 def create_tab(notebook, data, key, label):
     tab = ttk.Frame(notebook)
     canvas = tk.Canvas(tab)
@@ -320,7 +301,6 @@ def create_tab(notebook, data, key, label):
     inner_text.insert(tk.END, test)
     canvas.create_window((0, 0), window=inner_text, anchor='nw')
     notebook.add(tab, text=label)
-
 
 def toggle_all_checkboxes():
     state = all_var.get()
@@ -338,98 +318,32 @@ def select_results_path():
         results_entry.delete(0, tk.END)
         results_entry.insert(0, path)
 
-def get_results_data():
-
+def load_results_data():
     result_path = filedialog.askdirectory()
     if not result_path:
+        messagebox.showwarning("Warning", "Please select a results path.")
         return
-    else:
-        results_entry.delete(0, tk.END)
-        results_entry.insert(0, result_path)
-    
-    load_results_data()
 
-
-def load_results_data():
-    result_path = results_entry.get()
-
-    # Initialize data dictionaries
+    # create output text dictionaries
     global bases_data, whole_seq_data
     global exclusions_data, padding_data, propagate_data
-    bases_data, whole_seq_data = {}, {}
-    exclusions_data, padding_data, propagate_data = {}, {}, {}
+    bases_data, whole_seq_data = create_output_text(result_path)
+    exclusions_data = log_data(os.path.join(result_path, 'logs/exclusions/'))
+    padding_data = log_data(os.path.join(result_path, 'logs/padding/'))
+    propagate_data = log_data(os.path.join(result_path, 'logs/propagate/'))
 
-    # Check if 'verify' directory exists and create output text dictionaries if it does
-    verify_path = os.path.join(result_path, 'verify', 'sequences')
-    if os.path.exists(verify_path):
-        bases_data, whole_seq_data = create_output_text(result_path)
-    else:
-        print(f"Directory {verify_path} does not exist")
+    # Populate Treeview with allele list
+    for allele in allele_list(os.path.join(result_path, 'verify', 'sequences')):
+        treeview1.insert("", "end", text=allele)
 
-    # Check if 'logs' directory exists and create log data dictionaries if it does
-    logs_path = os.path.join(result_path, 'logs')
-    if os.path.exists(logs_path):
-        if os.path.exists(os.path.join(logs_path, 'exclusions')):
-            exclusions_data = log_data(os.path.join(logs_path, 'exclusions'))
-        else:
-            print(f"Directory {os.path.join(logs_path, 'exclusions')} does not exist")
+    # Set checkboxes to True
+    exclusions_var.set(True)
+    padding_var.set(True)
+    propagate_var.set(True)
 
-        if os.path.exists(os.path.join(logs_path, 'padding')):
-            padding_data = log_data(os.path.join(logs_path, 'padding'))
-        else:
-            print(f"Directory {os.path.join(logs_path, 'padding')} does not exist")
-
-        if os.path.exists(os.path.join(logs_path, 'propagate')):
-            propagate_data = log_data(os.path.join(logs_path, 'propagate'))
-        else:
-            print(f"Directory {os.path.join(logs_path, 'propagate')} does not exist")
-    else:
-        print(f"Directory {logs_path} does not exist")
-
-    # Populate Treeview with allele list if 'verify' directory exists
-    if os.path.exists(verify_path):
-        for allele in allele_list(verify_path):
-            treeview1.insert("", "end", text=allele)
-    else:
-        treeview1.delete(*treeview1.get_children())
-        for tab in notebook.tabs():
-            notebook.forget(tab)
-
-    # Populate log Treeview with log list if 'logs' directory exists
-    if os.path.exists(logs_path):
-        for allele in log_list(logs_path):
-            treeview2.insert("", "end", text=allele)
-    else:
-        treeview2.delete(*treeview2.get_children())
-
-
-# Add the search functionality
-def search_logs():
-    selected_item = treeview2.selection()
-    if not selected_item:
-        return
-    
-    selected_item = selected_item[0]
-    item_text = treeview2.item(selected_item, "text")
-
-    log_text.delete('1.0', tk.END)    
-    key = item_text
-    query = search_entry.get().lower()
-    log_text.delete('1.0', tk.END)
-    if selection_var.get() == 1 and key in exclusions_data.keys():
-        full_log_content = exclusions_data[item_text].strip().splitlines()
-    
-    if selection_var.get() == 2 and key in padding_data.keys():
-        full_log_content = padding_data[item_text].strip().splitlines()
-
-    if selection_var.get() == 3 and key in propagate_data.keys():
-        full_log_content = propagate_data[item_text].strip().splitlines()
-        
-    log_text.delete('1.0', tk.END)
-
-    for line in full_log_content:
-        if query in line.lower():
-            log_text.insert(tk.END, line + '\n')
+    # Populate log Treeview with log list
+    for allele in log_list(os.path.join(result_path, 'logs')):
+        treeview2.insert("", "end", text=allele)
 
 # Create the main window
 app = tk.Tk()
@@ -447,7 +361,6 @@ tab_control.add(result_tab, text='Quality Control')
 tab_control.grid(row=0, column=0, sticky="nsew")
 log_tab = ttk.Frame(tab_control)
 tab_control.add(log_tab, text='Logs')
-
 
 # Configure the main window to use grid
 app.grid_rowconfigure(0, weight=1)
@@ -537,7 +450,7 @@ for locus in ['class_1', 'dpa', 'dpb', 'dpb1_bridge45', 'dqa', 'dqb', 'drb', 'ga
     chk.pack(anchor="w")
     checkboxes[locus] = var
 
-output_text = scrolledtext.ScrolledText(frame, height=20, wrap=tk.WORD)
+output_text = scrolledtext.ScrolledText(frame, height=20)
 output_text.grid(row=7, column=0, columnspan=5, sticky="nsew", padx=5, pady=10)
 
 # Create a frame to hold all the widgets in the result tab
@@ -572,49 +485,38 @@ l_frame.grid(padx=20, pady=20, sticky="nsew")
 logs_frame.grid_rowconfigure(0, weight=1)
 logs_frame.grid_columnconfigure(0, weight=1)
 
-selection_var = tk.IntVar()
-selection_var.set(1)
-    
+# Create BooleanVars to hold the state of the checkboxes
+exclusions_var = tk.BooleanVar()
+padding_var = tk.BooleanVar()
+propagate_var = tk.BooleanVar()
+
 # Create a frame to hold the checkboxes
-log_radio_frame = tk.Frame(logs_frame)
-log_radio_frame.grid(row=0, column=3, sticky="nsew")
+log_checkbox_frame = tk.Frame(logs_frame)
+log_checkbox_frame.grid(row=0, column=3, sticky="nsew")
 
 # Create the checkboxes
-radio_label = tk.Label(log_radio_frame, text="Category Selection:")
-radio_label.grid(row=0, column=0, sticky="nw")
+checkbox_label = tk.Label(log_checkbox_frame, text="Category Selection:")
+checkbox_label.grid(row=0, column=0, sticky="nw")
+exclusions_checkbox = tk.Checkbutton(log_checkbox_frame, text="Exclusions", variable=exclusions_var)
+padding_checkbox = tk.Checkbutton(log_checkbox_frame, text="Padding", variable=padding_var)
+propagate_checkbox = tk.Checkbutton(log_checkbox_frame, text="Propagate", variable=propagate_var)
 
-exclusions_radio = tk.Radiobutton(log_radio_frame, text="Exclusions", variable=selection_var, value=1)
-padding_radio = tk.Radiobutton(log_radio_frame, text="Padding", variable=selection_var, value=2)
-propagate_radio = tk.Radiobutton(log_radio_frame, text="Propagate", variable=selection_var, value=3)
-
-exclusions_radio.grid(row=1, column=0, sticky='nw')
-padding_radio.grid(row=2, column=0, sticky="nw")
-propagate_radio.grid(row=3, column=0, sticky="nw")
-
-# Search box
-search_label = tk.Label(log_radio_frame, text="Search:")
-search_label.grid(row=5, column=0, sticky="nw")
-search_entry = tk.Entry(log_radio_frame)
-search_entry.grid(row=6, column=0, sticky="ew")
-search_entry.bind("<KeyRelease>", lambda event: search_logs())
+exclusions_checkbox.grid(row=1, column=0, sticky='nw')
+padding_checkbox.grid(row=2, column=0, sticky="nw")
+propagate_checkbox.grid(row=3, column=0, sticky="nw")
 
 # Create Treeview for log 
-treeview2 = ttk.Treeview(l_frame, columns=("Description"))
-treeview2.heading("#0", text="Description")
+treeview2 = ttk.Treeview(l_frame, columns=("Allele"))
+treeview2.heading("#0", text="Allele")
 treeview2.grid(row=0, column=0, sticky="nsew")
-
-# Trace the selection_var to call update_log_treeview whenever its value changes
-selection_var.trace_add("write", update_log_view)
 
 treeview2.bind("<<TreeviewSelect>>", log_treeview_select)
 
 notebook = ttk.Notebook(r_frame)
 notebook.grid(row=0, column=1, sticky="nsew")
 
-
-log_text = scrolledtext.ScrolledText(l_frame, wrap=tk.WORD)
-log_text.grid(row=0, column=2, columnspan=5, sticky="nsew", padx=5, pady=10)
-
+log_notebook = ttk.Notebook(l_frame)
+log_notebook.grid(row=0, column=1, sticky="nsew")
 
 # Configure grid weight for r_frame
 r_frame.grid_rowconfigure(0, weight=1)
@@ -626,17 +528,12 @@ l_frame.grid_rowconfigure(0, weight=1)
 l_frame.grid_columnconfigure(0, minsize=150, weight=0)
 l_frame.grid_columnconfigure(1, weight=1)
 
-
-if results_entry.get():
-    load_results_data()
-    update_log_view()
-
 # Load Results button in result_tab
-load_results_button = create_fake_button(r_frame, 'Load Results', get_results_data, bg='#49be25')
+load_results_button = create_fake_button(r_frame, 'Load Results', load_results_data, bg='#49be25')
 load_results_button.grid(row=1, column=0, columnspan=2, pady=10)
 
-load_log_button = create_fake_button(l_frame, 'Load Results', get_results_data, bg='#49be25')
-load_log_button.grid(row=1, column=1, columnspan=2, pady=10)
+load_log_button = create_fake_button(log_checkbox_frame, 'Update Selection', update_log_treeview, bg='#49be25')
+load_log_button.grid(row=4, column=0, columnspan=2, pady=10)
 
 app.protocol("WM_DELETE_WINDOW", on_closing)
 

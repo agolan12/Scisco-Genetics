@@ -2,3 +2,5 @@
 *.sam
 *.fastq
 *.zip
+.DS_Store
+

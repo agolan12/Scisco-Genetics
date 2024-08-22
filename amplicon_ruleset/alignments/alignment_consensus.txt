@@ -1,0 +1,807 @@
+TGTGACCGGATCCTTCGTGTCCCCACAGCACGTTTCTTGGAGCAGGCTAAGTGTGAGTGTCATATCTTCAATGGGATGAAGCGGGTGCAGTACCTGAACAGATACATCCATAAACGGGAGGAGAACCTGCGCTTCGACAGCAACGTGGAGGAGTTCCAGGCAGTTACGGAACTGGGGCGGCCTGTCGCAGAGAACTGGAACAGCCAGAAGGGCATCCCGGAGGAGAAGCGGGACAAGATGGACGACTACTGA
+                                                                                                                                                                                                                                                           
+
+                                                                                                                                                                                                                                                           
+
+                                                                                          C                                                                                                                                                                
+
+                    A                                                                                                                                                                                                                                      
+
+                    A                                                                                                                                                                   C                                                                  
+
+                    A                                                                                                                                                                                                                                      
+
+                                                                                                                                                                                                                                                           
+
+                    A                                  G                                                                                                                                                                                           A       
+
+                    A                                                                                                                                    C                              C                                                                  
+
+                    A                                                                                                                                                                                                                                      
+
+                                                                                                                                                                                                                                                           
+
+                                                                                                                                                                                                                                                           
+
+                                                                                                                            G                            G                                                                                                 
+
+                                                                                                                                                                         G                                                                                 
+
+                                                                                                                                                                                                                                                           
+
+                                                                                                                                                                                                                                                           
+
+                                                                                                                                                                                                                                                           
+
+                    A                                                                                                                                                                                                                                      
+
+                    A                                                                                                                                                                                                                                      
+
+                    A                                                                                                                                                                                                                                      
+
+                    A                                                                                                                                                                                                                                      
+
+                    A                                                                                                                                                                                 G                                                    
+
+                    A                                                                                                                                                                                                                                      
+
+                                                                                                                                                                                                         G                                                 
+
+                    A                                                                                          G                                                                                                                                           
+
+                    A                                                                                                                                                                                                                                      
+
+                                                                                                           T                                                                                                                                               
+
+                                                   C                                                                                                                                                                                                       
+
+                                                                                                                                                                                              G                                                            
+
+                                                                                                                                  C       G  G                                                                      A    T         T                       
+
+                                                                                                                                                                                                                                                           
+
+                                                                                                                                                                                                                                                           
+
+                    A                                                                                                                                                                                                                                      
+
+                    A                                                                                                                                                                                                                                      
+
+                                                                                                                                   G                                     C                                                              G                  
+
+                                                                                                                                  C                                                                                                                        
+
+                                                                                                                                                                                                                                                           
+
+                                                                                                                 G                                                                                                                                         
+
+                                                                                                                                                                                                                                                           
+
+                                                                                                                                                                                                                                                           
+
+                                                                                                                                                                                                                                                           
+
+                    A                                                                                                                                                                                                                                    C 
+
+                                                                                                                                                                                                                                                           
+
+                    A                                                                                                                                                                                         T                                            
+
+                                                                                                                                                                                                                                                           
+
+                    A                                                                                                                                                                                                                                      
+
+                                                                                                                                A                                                                                              G                           
+
+                    A                                                                                                                                                                                     A                                                
+
+                    A                                                                                                             C          G                                                                                                             
+
+                                                                                                                                                                   C                                                                                       
+
+                                                                                                                                                                                                                                                           
+
+                                                                                                                                                                                                                                                           
+
+                                                                                                                                                                                                                                                           
+
+                                             T   C                            G            T    G                  A       G  G              G      G        G   G                          C   T                            A  C         GC               
+
+                    A                                                                                     C                              A  A    G                 G                                                                          G      A     
+
+                                                                                                                                                                                                                                                           
+
+                    A                                                                                                                                  C                                                                               T                  C
+
+                    A                                                                                                                                                                                                                                      
+
+                    A                                                                                                                                                                                                                                      
+
+                    A                                                                                                                                                                                                                                      
+
+                    A                                                                                                                                                                                                                                      
+
+                    A                                                                                                             C          G                                                                      A    T                                 
+
+                    A                                                                                                              T                                                                                                                       
+
+                    A                                                                                                      G                                                       T                                                                      T
+
+                                                                                                                                                                                                                                                           
+
+                    A                                                                                                                                                                                                                                      
+
+                    A                                                                                                             C          G                                                                                                             
+
+                                                                                                                                                                                                                                                           
+
+                    A                                                                                                                                                                                                                                      
+
+                                                                                                                                                                      T                                                                                    
+
+                                                                                                                                                                                                                                                           
+
+                    A                                                                                                                                                                                                                                      
+
+                                                                                              G                                                                                                                                                            
+
+                                                                                                                                                                            C                                G                                             
+
+                                                                                                                                  C          G                                                                      A    T                                 
+
+                    A                                                                                                             C          G                                                                                                             
+
+                                                                                                                                                                                                                                                           
+
+                                                                                                                                                                                                                                                           
+
+                    A                                                                                                                                                                                                                                      
+
+                    A                                                                                                             C          G                     C                                                                                       
+
+                    A                                                                                                                                                                                                                                      
+
+                                                                                                                                                                                                              A                                            
+
+                    A                                                                                                                                                                                                                                      
+
+                                                                                                                                                                                                                                                           
+
+                                                                                                                                                                                   T        T                                              C               
+
+                                                                                                                                                                   C                                                                                       
+
+                    A                                                                                                                                                                                 G                                                    
+
+                    A                                                                                                                                                                                                                                      
+
+                    A                                                                                                                                                                                                                                      
+
+                                                                                                                                                                                                                                                           
+
+                                    C  TG    C     A G         T            C G         G  T    G        T  T    C A       TC G              G                                                                                                             
+
+                    A                                                                                                                                                                                                                                      
+
+                                                                                                                      G                                                        A                                                                           
+
+                    A                                                                                                                                                                      A                                                               
+
+                    A                                                                                                             C          G                                        C                             A    T         T                       
+
+                    A                                                                                                                                                                                                                                      
+
+                    A                                                                                                                                                                                                                                      
+
+                    A            C                                               T        C                                                      C                                 C                               T           T      T       C      T    C
+
+                    A                                                                                                                                                                                                    T                                 
+
+                                                                                                                                                                                                                                                           
+
+                                                                                                                                                                                                                                                           
+
+                    A                                                                                                                                                                                                G                                     
+
+                    A                                                                                                                                                                                                                                      
+
+                                                                                                                                                                                                                                                           
+
+                                                                                          G                                                                                                                                                                
+
+                                                                                                                                                                                                                                                           
+
+                                                                                                                                 T                                                                                                                T        
+
+                                                                               G    AG GGA  G     A A C    A  A   AA         A  C   C       G          G G   CC    C     G  G    G    C                GA    C   A     G    G  G    A   GG    A       C   C
+
+                                                                                                                                                                                                                                                           
+
+                                                                                                                           G                                                                                                                               
+
+                    A                                                                                                                                                                                                                                      
+
+                    A                                                                                                                                                                                           G                                          
+
+                    A                                          T                          C                                                                                                                                                        AC      
+
+                                                                                                                                                                                                                                                           
+
+                    A                                                                                                                                                                                                                                      
+
+                                                                                                                                                                                                                                                           
+
+                    A                                                                                                             C          G                                                                      A    T         T                       
+
+                    A                                                                                                       G                                                               C                                           G  G               
+
+                                                                                                                                                                                                                                                           
+
+                    A                                   A                                                                                                                                                                                                  
+
+                    A                                                                                                                                                                                                                                      
+
+                    A                                                                                                                                  G                                                                                                   
+
+                                                                                                                                                                                                                                                           
+
+                                                                                                                                                                                                                                                           
+
+                    A                                                                                                                                                                                                                                      
+
+                    A                                                                                                                                                                                                                                      
+
+                                       TG    CT     T   A      T            C G         G  TG   G A    G    T    C AA      TC G              G      G     A  G   G  G     G             AT  C   T                  A                                       
+
+                                                                                                                                                                                       A                                                                   
+
+                                                                                                                                                                                                                                                           
+
+                                                                                                                                                                                                                                                           
+
+                                                                                                                                                                                                                                                           
+
+                    A                                                                                                                                                                                                                                      
+
+                    A                                                                                                     A                                                                                                                                
+
+                                                                                                          C                                                                        A                                                                       
+
+                    A                      C CA    G                         C                 C        G       C          C          T      G      CCAC A   C     A     GT     T             TCC         C      A T         T        C GG  A AC G C       
+
+                    A                                                                                                                                                                                                                                      
+
+                                                                     G                                                                                                                                                                                     
+
+                    A                                                                                                                                                                                                                                      
+
+                                                                                                                                                                                                           T                                               
+
+                                                                                                                                                                                 G    G                     A                       G         G            
+
+                                                                                                                                                                                                                                                           
+
+                                                                                                                                                                                                                                                           
+
+                    A                                                                                                                                                                                                                                      
+
+                                                                                                                                                                                                                                                           
+
+                                  G                                                                                                                                                                                                                        
+
+                    A                                                                                                                                                                                                                                      
+
+                                                                                                                                                                                                                                                           
+
+                                                                                                                                                                 G                                                    A                                 A  
+
+                    A                                                                                                                                                                                                                                      
+
+                    A                                                                                                                                                                                                                                      
+
+                    A                                                                                                                    T                                                                                                                 
+
+                                                       G                                                                                                                                                                                       A           
+
+                                                                                                                                                                                                                                                           
+
+                            T                      A                                                                                                     C                                                                                                 
+
+                                                                                                                                                                                                                                                           
+
+                                                                                                                                                                            C                                                                              
+
+                      T                                                                                                                                                                                                                                    
+
+                                          A                                                                                                                                                                                                                
+
+                                                                                                                                                                                                                                                           
+
+                                                                                                                                                                                                                                                           
+
+                                                                                                                                                                                                                                                           
+
+                                                                                                                           G                                                                                                                               
+
+                                                                                                                                                                                                                                                           
+
+                    A                                                                                                                                                                                                                                      
+
+                                                                                                                                  C          G                                                                                                       T     
+
+                                                                                                                                                                                                                                                           
+
+                                                                                                                                                                                                                                                           
+
+                    A                                             C                                                                                                                                                               G         A              
+
+                    A                                                                                                                                                                                                                                      
+
+                    A                                                                                                              T                             C C                                      C                                              CC
+
+                    A                                                                                                                                                                                                                                      
+
+                    A                                                                                                                                                                                                                                      
+
+                    A               C  TG    C     A G         T            C G         G  TG   G A    G    T    C AA      TC G              G      G     A  G   G  G     G             AT  C   T                                                          
+
+                    A                  C      A     A          T       C    C G         G  T    C     G     T    C AA      G  T              G      G     A  G   G  G     G             A   T   T                                                          
+
+                                                                                                                                                                                                                                                           
+
+                             G                                                                                                                                                                                                                             
+
+                    A                                                                                                        A                   GA                                                        A                                     G         
+
+                                                                            C                                                                             C                                                           C                                    
+
+                                                                                                                                                                                                                                                           
+
+                    A                                                                                                                                                                       C                                                              
+
+                                                         C                                                                        C          G                                                                                                             
+
+                    A                                                                                                                                                                                                                                      
+
+                                                                                                                                         T                                                                                                                 
+
+                    A                                                                                                                                                                                                                                      
+
+                        G                                                                                                                                                                  T                                                               
+
+                    A                                                                                                                                                                                                                                      
+
+                    A                                                                                                                                                                                                                                      
+
+                                                                                                                                                                                                                                                           
+
+                                                                                                   G                                                                                                                                                       
+
+                                                                                                                                                                                                                                                           
+
+                                                                                                                                                                                                                                                           
+
+                                                G                                                                                                                                                                                                          
+
+                    A                                                                                                                                                                                                                                      
+
+                    A                                                                                                             C          G                                                                                                             
+
+                    A                                                                                                                                                                                                                                      
+
+                    A                                                                                                                                                                                                                                      
+
+                    A                                                                                                                                                                                                                               G      
+
+                                                                                                                                  C          G                                                                      A    T         T                       
+
+                    A                                                                                                                                                                                   A              A                          A CA     
+
+                                                                                                                                                                                                                                                           
+
+                                                                                                                                                                                                                                                           
+
+                                                                                                                                                                                                                                                           
+
+                    A                                                                                                                                                                                                                                      
+
+                    A                                                                                                                                                                                                                                      
+
+                    A                                                      G                                                                                                                                                                               
+
+                                                                                     C                                                                                                                                                                     
+
+                    A                                                                                                                                                                                                 C                                    
+
+                               A                                                                                 G                C          G                                                                      A    T                                 
+
+                    A                                                                                                             C          G                                                                                                             
+
+                    A                                                                                                                                                                                                                                      
+
+                                       C      A     A          T       C    C G         G  T    C     G     T    C AA      G  T              G      G     A  G   G  G     G             A   T   T                                                          
+
+                    A  G                                                                                                                                                                                                                                   
+
+                                                                                                                                                                                                                                                           
+
+                    A                                                                                                                                                                                                                                      
+
+                    A                                                                                                                                                                                                                             A        
+
+                                                                      G                                                                                                                                                                                    
+
+                                                                                                 G                                                                                                                                                         
+
+                                                                                                                                                                                                                                                           
+
+                                                                                                                                  C          G                                                                                                             
+
+                                                         C                                                                                                                                                                                                 
+
+                                                                                                                                                                                                                                                           
+
+                    A                                  G                                                                                                                                                                                                   
+
+                                                                                                             G                                                                                                                                             
+
+                    A                                                                                                             C          G                                                                                       A                     
+
+                                                                                                                                                                                            C             A                              A                 
+
+                    A                                                                                                                                                                                                                                      
+
+                    A                                                                                                                                                                                                                                      
+
+                                                                                                                                                                                                                                                           
+
+                                                                                                                                                                                                                                                           
+
+                                                                                                                                                                                                                                                           
+
+                    A                                                                                                                                                                                                                                      
+
+                                                                                                                                                                                                                                                           
+
+                                                                                                                                                                                                                                                           
+
+                                                                              G                                                                                                                                                                            
+
+                    A                                    C                                                                                                                                                                                                 
+
+                    A                                                                                                                                                                                                                                      
+
+                                                                                                                                                                                                G                                                          
+
+                    A                                                                                                                                                                                                                                      
+
+                    A                                                                                                                                                                                                                                      
+
+                                                                                                                                                                                                                                                           
+
+                                                                                                                    A                                                                                                                                      
+
+                    A                                                                   G                                                                                                                                                                  
+
+                    A                                                                                                                                                    G                                                                                 
+
+                    A                                         C          T                                                                                                         T                                   A                      A            
+
+                                                                                                                                                                                                                                                           
+
+                                                                                                                                                                                                                               C                         A 
+
+                                                                                                                                                                                                                                                           
+
+                    A                                                                                                                                                                                                                                      
+
+                                                                                                                                                                                                                                                           
+
+                    A                                                                                                                                                                                                                                      
+
+                                                                                                                                                                                                                                                           
+
+                    A               C  TG    C     A G         T            C G         G  T    G        T  T    C A       TC G              G      G        G   G  G     G             A   T   T                  A     T    C  GC     C GC       AC      
+
+                    A                                                                                                                                                                                                                                      
+
+                    A                                                                                                                                                                                                                                      
+
+                                                                                                                                                                                                                                                           
+
+                                                                                                                                                                                                                       T                                   
+
+                                                                        T                                               A                           G                                                                                   T                  
+
+                    A                                                                                                                                                                                                                                      
+
+                                                                                                                                                                                                                                                           
+
+                                                                                                                                                                                                                                              C            
+
+                    A                                                                                                                                                                                                                                      
+
+                    A                                                                                                                                                                                                                                      
+
+                                                                                                                                                 C                                                                                                         
+
+                    A                                                                                                                                                                                                                                      
+
+                                                                                                                                                                                                                                                           
+
+                                                                                                                                                                                                                                                           
+
+                                                                                                                                                                                                                                                           
+
+                    A                                                                                                                                                                                                                                      
+
+                    A                                                                                                                                                                                                                                      
+
+                    A                                                                                                      G                                                                                                                               
+
+                                                                                                                                                                                                           T                                               
+
+                    A                                                                                                                                                                                                                                      
+
+                                                                                                                                                                                                                                                           
+
+                    A                                                                                                                                                                                                                                      
+
+                                                                                                                                                                                                                                                           
+
+                                                                                                                                                                                                                                                           
+
+                                                           C                                                                                                                                                                                               
+
+                    A                                                                                                             C          G                                                                                                             
+
+                                                                                                                                                                                                                                                           
+
+                    A                                                                                                                                                                                                                                      
+
+                    A                                    C                                                                                                                                                                                                 
+
+                                                                                                                                                                                                                                                           
+
+                                                                                                                                                                                                                                                           
+
+                    A                                                                                                                                                                                                                                      
+
+                                                                                                                                                                                                                                                           
+
+                                                                                                                                                                                                                                                           
+
+                                                                                                                                                                                                                                                           
+
+                                                                                                                                    C                                                                                                                      
+
+                    A                                                                                                                                                                                                                                      
+
+                    A                                                                                                                                                                                                                                      
+
+                                                                                                                                                             G                              C                                             C                
+
+                                                                                                                                                                                                                                                           
+
+                    A                                                                                                                                                                                                                                      
+
+                    A                                                                                  G                                                                                                                                                   
+
+                                                                                                                                                                                                                                                           
+
+                    A                                                                                                                                                                                                                                      
+
+                    A                                                                                                                                                                                                                                      
+
+                                                                                                                                  C          G                                                                                                             
+
+                    A                                                                                             T                                                                                                                                        
+
+                                                                                                                                                                                                                                                           
+
+                                                                                                                                                                                                         G                                                 
+
+                                                                                                                                                                                                                                                           
+
+                    A                                                                                            G                                                                                                                                         
+
+                                                                                                                                                                                                                                                         C 
+
+                                                                                                                                                                                                                                                           
+
+                    A                                                                                                                                                                                                                                      
+
+                                                                                                                                                                                                                                                           
+
+                    A                           G  A   G                                                                          C   T      G   C                     T                                  A    G               C     C  CA       G  G      
+
+                    A                                                                                                                                                                              C                                                       
+
+                                                                                                                                                                                                                                                           
+
+                                                                                                                                                                                                                                                           
+
+                                                                                                                                                                                                                                                           
+
+                                                                                                                                                                                                                                                           
+
+                                                                                                                                                                                                                                 G                         
+
+                                    C                                                                                                                                                                                                                      
+
+                                                                                                                                                                                                                                                           
+
+                                                                                                                                                                                                                                                           
+
+                    A                                                                                                                                                                                                                C                     
+
+                    A                                                                                                                                                                                                                                      
+
+                                                                                                                                                                                                                                 G                         
+
+                    A                            G GTG GTGTCATATCT CA TG  ATGA GCG  TG AG A  TGA CAGATA ATC ATA  CG  AG  GA   TGCGCT CGACAGCA CG G AG AG    AG CAG  ACG   CTG   CG C TG CG AGAGA CTG A CA C AGA G  CAT   G AG  G  GCG  AC  GA G ACGAC A  GC
+
+                                                                          T         T                                                                              C                                                                                      T
+
+                    A                              C                                                                                                                                                                                                       
+
+                                                                                                                                                                                                                                                           
+
+                                                                                                 G                                                                                                                                                         
+
+                                                                                                                                                                                                                                                           
+
+                                                                                                                                                                                                                                                           
+
+                    A                              C                                                                                                                                                                                                       
+
+                    A                                                                                                                                                                                                                                      
+
+                                                                                                                                                                                                                                                           
+
+                    A                                                                                                                                                                                                                             A        
+
+                    A                                                                                                                                                                                                                         C            
+
+                    A                                                                                                                                                                                                                                      
+
+                                                                                                                                                                                                                                                           
+
+                    A G                                                                                                                                                                                                                                    
+
+                                                                                                                                                                                                                                                           
+
+                                                                    A                     A                                                                                                                  G                 G                           
+
+                                                                                                                                                                                                                                                           
+
+                                                                                                                                                                                                                                                           
+
+                                                                                                                                                                                                                                                           
+
+                                                                                                                                                                                                                                                           
+
+                    A                                                                                                             C          G                                                                                                             
+
+                    A                              G                                                       A                                             G G                                      A                                                        
+
+                                                                                                                                                                                                                                                           
+
+                    A                                                                                                                     G                                                                                                                
+
+                    A                                                                     C                                                                                                 C                               C                              
+
+                    A                                                                                                                                                                                                                                      
+
+                                                                                                                                                                                                                                                           
+
+                                                                                                                                                                                                                                                           
+
+                                                                                                                                                                                                                                                           
+
+                    A                                                                                                                                                                                                                                      
+
+                                                                                                                                                                                                                                                           
+
+                                                                                                                                                                               T                                                                           
+
+                    A                                                                                                                                                                               A                                                      
+
+                                                                                                                                                                                                                                                           
+
+                    A                                                                                                                                                                                                                                      
+
+                    A                                                 G                                                                 G                                                                   A                            A        A        
+
+                                                                                                         G                                                                                                                                                 
+
+                                                                                                                                                                                                                                              A          C 
+
+                    A                       C    C                                                                                           G            A  G      G     G                                                               C                
+
+                                                                                                                                                                                                      G                                                    
+
+                    A                                                                                                                                                                                                                                      
+
+                                                                                                   T                                                                                                                                                       
+
+                                                                                                                                 G                                              CG C TG CG AG G   TG    A C AGA G  CA    G AG AG  GCG   CA GA G  C  CTA TG 
+
+                    A                                                                                                                                                                                                                                      
+
+                    A                                                                                                                                                                                                                                      
+
+                    A                                  G C                                                                        C          G                                                                                                             
+
+                                                                                                                                                                                                                                                           
+
+                                                                                                                                                                                                                                                           
+
+                    A                                                                                G  T                                                                                                                                          A       
+
+                                                                                                                                                                                                                                                           
+
+                                                                                                                                                                                                                                                           
+
+                                                                                                                                                                                                                                                           
+
+                                                                                                                                  C          G                                                   G                                                         
+
+                    A                                                                                                                                                                                                                                      
+
+                                                                                                                                                                                                                                        G                  
+
+                                                                                                                                                                                                                                                           
+
+                                                                                                                                                                                                                                                           
+
+                                                                                                                                                                                                                                                           
+
+                    A                                                                                                                                                                                                                                      
+
+                                                                                                                                                                                                                                                           
+
+                    A                                                                                                                                                                                                                                      
+
+                                                                                                                                                                                                                                                           
+
+                                                                                                                                                                                                                                                           
+
+                    A                                                                                                                                                                                                                                      
+
+                    A                                                                                                                                                                                                                                      
+
+                                                                                                                                                                                                                                                           
+
+                                                                                                                                                                                                                               T    T                      
+
+                                                                                                                                                                                                                                                           
+
+                                                                                                                                                                                                                                                   A       
+
+                    A                                                                                              A                                                                                                                                       
+
+                                                                                                                                                                                                                                                           
+
+                    A                                                                                   T                                                                                                                                                  
+
+                    A                                                                                                             A                                                                                                                        
+
+                                                                                                                                                                                                                                                           
+
+                                                                                                                                                                                                               C                        G                  
+
+                                                                                                                                                                                                                                                           
+
+                    A                                                                                                                                                                                                                                      
+
+                    A                                                                                                                                                                                                                         A            
+
+                                                                                                                                  C          G                                                                                                             
+
+                                                                                                                                  C          G                                                                                             G               
+
+                                                                                                                                                                                                                          T    G                           
+
+                    A                                                                                                                                                                                                                                      
+

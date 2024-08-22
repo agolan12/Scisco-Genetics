@@ -330,13 +330,19 @@ def update_log_treeview(*args):
 
 def create_tab(notebook, data, key, label):
     tab = ttk.Frame(notebook)
-    canvas = tk.Canvas(tab)
-    canvas.pack(fill=tk.BOTH, expand=True)
 
+    # Configure grid layout to make ScrolledText expand
+    tab.grid_rowconfigure(0, weight=1)
+    tab.grid_columnconfigure(0, weight=1)
+
+    notebook.add(tab, text=label)
+
+    log_text = scrolledtext.ScrolledText(tab, wrap=tk.WORD)
+    log_text.grid(row=0, column=0, sticky="nsew", padx=5, pady=10)
+    
     test = f'{data[key]}'
-    inner_text = tk.Text(canvas, width=100, height=50)
-    inner_text.insert(tk.END, test)
-    canvas.create_window((0, 0), window=inner_text, anchor='nw')
+    log_text.insert(tk.END, test)
+
     notebook.add(tab, text=label)
 
 

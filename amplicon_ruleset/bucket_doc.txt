@@ -1,0 +1,95 @@
+Variables:
+- primer: 20 bases at the start of sequence
+- data: dictionary with id's and their corresponding sequences
+- ids: set with all ids in the bucket
+- base_count: dictionary that tracks the bases at each position.
+            key -> index, value -> list [x, x, x, x]:
+                index 0 -> As 
+                index 1 -> Cs
+                index 2 -> Gs
+                index 3 -> Ts 
+
+- lowest_threshold_index: index with the most mismatches
+
+Class Bucket
+Functions:
+
+__len__(): 
+    returns number of reads in the bucket i.e. number of ids
+
+__getitem__(id):
+    returns the data for a given id
+
+__contains__(id):
+    returns true if id is in the bucket, else returns false
+
+add(id, sequence):
+    adds id, sequence pair to the bucket. updates data, ids, 
+    and base_count accordingly
+
+get_ids(): 
+    returns the set of ids in the bucket
+
+is_congruent(threshold): 
+    returns true if for every position, x / self.len > threshold w
+    where x is the most common base at the given position. else returns false. at every
+    position, it checks and updates the lowest_threshold_index
+
+count_bases(): 
+    returns a count for the number of bases at each position across all reads in 
+    the bucket. returns dict where key -> position index and value -> [x,x,x,x]
+    where:
+        index 0 -> As 
+        index 1 -> Cs
+        index 2 -> Gs
+        index 3 -> Ts 
+
+create_consensus():
+    returns string consensus for the bucket, where each base = most common base at the
+    given position across all reads in the bucket.
+
+
+
+
+
+
+
+Notes 5.19:
+
+- figure out how to add the singletons back into existing groups 
+- one way to maybe do it is when i split the buckets, i can check 
+- if the singleton has the same consensus as an existing bucket
+- if yes, then add it, if no, then don't add it
+
+
+
+Big question is whether to reintroduce the singletons before splitting or after splitting. I think that everytime
+i iterate through, if its a singleton I should try to reintroduce it to a group, else I split
+
+
+Option a:
+- sort dictionary by consensus from base 20:150, then for each sequential pair of buckets, if the consensus matches, merge.
+- Pros: fastest, uses string comparison and can quickly decrease number of options
+- Cons: doesn't merge if he strings don't match exactly
+
+Option b:
+- Same as option a, but instead of a perfect string match, merge an sequence pairs that have 90% match
+- Pros: fast
+- Cons: only compares to one other consensus
+
+Option c:
+- Same as option b, but compare with ___ amount of consensuses
+- Pros: more likely to merge 
+- Cons: slow
+
+Option d:
+- Same as c, but check every possible consensus
+- Pros: most likely to merge
+- cons: slowest
+
+
+
+Plan for today:
+    a: split by first 20 bases with 90% match
+    b: if bucket is congruent, add it to a a consensus dict, else, split the bucket
+    c: repeat until done

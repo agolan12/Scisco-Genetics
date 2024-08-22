@@ -10,6 +10,7 @@ from queue import Queue, Empty
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from src.main import main as run_hla_analysis
+from src.utils.verify import main as verify
 
 def get_config_path():
     """ Get the path to save the configuration file """
@@ -33,6 +34,16 @@ class TextRedirector:
 
     def flush(self):
         pass  # Required for compatibility with file-like objects
+
+class PopupTextRedirector:
+    def __init__(self, text_widget, tag="stdout"):
+        self.text_widget = text_widget
+        self.tag = tag
+
+    def write(self, string):
+        self.text_widget.insert("end", string, (self.tag,))
+        self.text_widget.see("end")
+
 
 def on_closing():
     print("Cleaning up resources...")
@@ -79,6 +90,8 @@ def run_analysis():
     analysis_thread = Thread(target=run_analysis_thread, args=(imgt_path, hla_path, micab_path, results_path, services, output_queue))
     analysis_thread.start()
     app.after(100, process_output_queue, output_queue)
+
+    update_log_view()
 
 def stop_analysis():
     global analysis_thread, stop_event
@@ -330,13 +343,19 @@ def update_log_treeview(*args):
 
 def create_tab(notebook, data, key, label):
     tab = ttk.Frame(notebook)
-    canvas = tk.Canvas(tab)
-    canvas.pack(fill=tk.BOTH, expand=True)
 
+    # Configure grid layout to make ScrolledText expand
+    tab.grid_rowconfigure(0, weight=1)
+    tab.grid_columnconfigure(0, weight=1)
+
+    notebook.add(tab, text=label)
+
+    log_text = scrolledtext.ScrolledText(tab, wrap=tk.WORD)
+    log_text.grid(row=0, column=0, sticky="nsew", padx=5, pady=10)
+    
     test = f'{data[key]}'
-    inner_text = tk.Text(canvas, width=100, height=50)
-    inner_text.insert(tk.END, test)
-    canvas.create_window((0, 0), window=inner_text, anchor='nw')
+    log_text.insert(tk.END, test)
+
     notebook.add(tab, text=label)
 
 
@@ -415,6 +434,7 @@ def load_results_data():
     verify_path = os.path.join(result_path, 'verify')
     # Populate Treeview with allele list if 'verify' directory exists
     if os.path.exists(verify_path):
+        treeview1.delete(*treeview1.get_children())
         for allele in allele_list(verify_path):
             treeview1.insert("", "end", text=allele)
     else:
@@ -454,9 +474,50 @@ def search_logs():
         
     log_text.delete('1.0', tk.END)
 
-    for line in full_log_content:
-        if query in line.lower():
-            log_text.insert(tk.END, line + '\n')
+    if full_log_content:
+        for line in full_log_content:
+            if query in line.lower():
+                log_text.insert(tk.END, line + '\n')
+
+
+def show_output_popup():
+    # Create popup window
+    popup = tk.Toplevel()
+    popup.title("Verification")
+
+    # Create a scrolled text widget
+    output_text = scrolledtext.ScrolledText(popup, wrap=tk.WORD)
+    output_text.pack(expand=True, fill='both')
+
+    # Redirect stdout to the Text widget
+    sys.stdout = PopupTextRedirector(output_text)
+
+    # Create a thread to run the script
+    thread = Thread(target=run_verify, args=(None,))
+    thread.start()
+
+    # Function to check if the thread is alive and close the popup if not
+    def check_thread():
+        if thread.is_alive():
+            popup.after(100, check_thread)
+        else:
+            popup.destroy()
+            sys.stdout = sys.__stdout__ # Restore original stdout
+            load_results_data()
+    
+    # Start the thread checking loop
+    check_thread()
+
+
+def run_verify(*args):
+    print(args)
+    imgt_path = os.path.dirname(imgt_entry.get())
+    hla_path = hla_entry.get()
+    micab_path = micab_entry.get()
+    results_path = os.path.join(results_entry.get(), 'fasta')
+    verify_out_path = os.path.join(results_entry.get(), 'verify')
+
+    verify(imgt_path, results_path, hla_path, micab_path, verify_out_path)
 
 # Create the main window
 app = tk.Tk()
@@ -661,6 +722,9 @@ if results_entry.get():
 # Load Results button in result_tab
 load_results_button = create_fake_button(r_frame, 'Load Results', get_results_data, bg='#49be25')
 load_results_button.grid(row=1, column=0, columnspan=2, pady=10)
+
+verify_button = create_fake_button(r_frame, 'Verify Results', show_output_popup, bg='#3457D5', fg='white')
+verify_button.grid(row=1, column=1, columnspan=2, pady=10)
 
 load_log_button = create_fake_button(l_frame, 'Load Results', get_results_data, bg='#49be25')
 load_log_button.grid(row=1, column=1, columnspan=2, pady=10)
